@@ -1,0 +1,1750 @@
+929cb100f5d743af9845be7d7630ed2c  VERSION
+c7f33986283e888892ecc98d387ab7bf  metadata.yaml
+b1abdeccea315b440b345cac85156dfc  data/tree.nwk
+929cb100f5d743af9845be7d7630ed2c  provenance/VERSION
+3d182892ae40bfdf2395b80cb2dac6b9  provenance/citations.bib
+c7f33986283e888892ecc98d387ab7bf  provenance/metadata.yaml
+5398bb430c13340a75ba10e95d501dfb  provenance/action/action.yaml
+929cb100f5d743af9845be7d7630ed2c  provenance/artifacts/6c3b8af8-77c5-4dbe-8c3b-705554216389/VERSION
+a879f89b4ac053829817c21ad1d3e6b9  provenance/artifacts/6c3b8af8-77c5-4dbe-8c3b-705554216389/citations.bib
+2c6aafaed2d75f0dbfe2d29635bbd150  provenance/artifacts/6c3b8af8-77c5-4dbe-8c3b-705554216389/metadata.yaml
+2531c81e057685a68c286b06a051b2ea  provenance/artifacts/6c3b8af8-77c5-4dbe-8c3b-705554216389/action/action.yaml
+929cb100f5d743af9845be7d7630ed2c  provenance/artifacts/6ebcb580-1555-4962-9dcc-0fe8a01277c2/VERSION
+1cb84b6e1d7143791304010ad71e7bb0  provenance/artifacts/6ebcb580-1555-4962-9dcc-0fe8a01277c2/citations.bib
+5b1e5ab0f64dccfc3e34e9acee4286ee  provenance/artifacts/6ebcb580-1555-4962-9dcc-0fe8a01277c2/metadata.yaml
+6fed40d841248abec901181001d14a79  provenance/artifacts/6ebcb580-1555-4962-9dcc-0fe8a01277c2/action/action.yaml
+929cb100f5d743af9845be7d7630ed2c  provenance/artifacts/9b85b035-315c-4f78-adf9-7383e65f4aee/VERSION
+0101fb7e87b7035d0dca1ecb4b4ff53f  provenance/artifacts/9b85b035-315c-4f78-adf9-7383e65f4aee/citations.bib
+1ef44e697131d75f8fd5fb7fd29dfa2d  provenance/artifacts/9b85b035-315c-4f78-adf9-7383e65f4aee/metadata.yaml
+988367f6d0516ba8b1f9973dcac3b67d  provenance/artifacts/9b85b035-315c-4f78-adf9-7383e65f4aee/action/action.yaml
+929cb100f5d743af9845be7d7630ed2c  provenance/artifacts/c319dbc0-5a5a-4081-880d-4593301f7752/VERSION
+f5b49b00ade0d45bc4ea5e936d14b2c1  provenance/artifacts/c319dbc0-5a5a-4081-880d-4593301f7752/citations.bib
+e45d6761069c6705bfe62e8885ae21c8  provenance/artifacts/c319dbc0-5a5a-4081-880d-4593301f7752/metadata.yaml
+13acdbd7038705802bb86eac9f2758ed  provenance/artifacts/c319dbc0-5a5a-4081-880d-4593301f7752/action/action.yaml
+929cb100f5d743af9845be7d7630ed2c  provenance/artifacts/d20dee98-812d-4ee7-867e-47929ab6f78f/VERSION
+3d182892ae40bfdf2395b80cb2dac6b9  provenance/artifacts/d20dee98-812d-4ee7-867e-47929ab6f78f/citations.bib
+c9c9042246b1a243c66a5dfe187f4c14  provenance/artifacts/d20dee98-812d-4ee7-867e-47929ab6f78f/metadata.yaml
+a7fd5256d92209e888d1d8131d027a12  provenance/artifacts/d20dee98-812d-4ee7-867e-47929ab6f78f/action/action.yaml
+929cb100f5d743af9845be7d7630ed2c  provenance/artifacts/f76b2526-ab26-4923-8308-c9a32e09c1fd/VERSION
+6dc78d31e3beaf3933503611c41a9cb4  provenance/artifacts/f76b2526-ab26-4923-8308-c9a32e09c1fd/citations.bib
+01ccccb8c83953ef0099b4ac9495dfa8  provenance/artifacts/f76b2526-ab26-4923-8308-c9a32e09c1fd/metadata.yaml
+7528facf32ff28b1921c004e574d88ef  provenance/artifacts/f76b2526-ab26-4923-8308-c9a32e09c1fd/action/action.yaml
+uuid: b5640628-14cb-4e3f-8e50-95403ba3c7d4
+type: Phylogeny[Rooted]
+format: NewickDirectoryFormat
+QIIME 2
+archive: 5
+framework: 2019.7.0
+@article{framework|qiime2:2019.7.0|0,
+ author = {Bolyen, Evan and Rideout, Jai Ram and Dillon, Matthew R. and Bokulich, Nicholas A. and Abnet, Christian C. and Al-Ghalith, Gabriel A. and Alexander, Harriet and Alm, Eric J. and Arumugam, Manimozhiyan and Asnicar, Francesco and Bai, Yang and Bisanz, Jordan E. and Bittinger, Kyle and Brejnrod, Asker and Brislawn, Colin J. and Brown, C. Titus and Callahan, Benjamin J. and Caraballo-Rodríguez, Andrés Mauricio and Chase, John and Cope, Emily K. and Da Silva, Ricardo and Diener, Christian and Dorrestein, Pieter C. and Douglas, Gavin M. and Durall, Daniel M. and Duvallet, Claire and Edwardson, Christian F. and Ernst, Madeleine and Estaki, Mehrbod and Fouquier, Jennifer and Gauglitz, Julia M. and Gibbons, Sean M. and Gibson, Deanna L. and Gonzalez, Antonio and Gorlick, Kestrel and Guo, Jiarong and Hillmann, Benjamin and Holmes, Susan and Holste, Hannes and Huttenhower, Curtis and Huttley, Gavin A. and Janssen, Stefan and Jarmusch, Alan K. and Jiang, Lingjing and Kaehler, Benjamin D. and Kang, Kyo Bin and Keefe, Christopher R. and Keim, Paul and Kelley, Scott T. and Knights, Dan and Koester, Irina and Kosciolek, Tomasz and Kreps, Jorden and Langille, Morgan G. I. and Lee, Joslynn and Ley, Ruth and Liu, Yong-Xin and Loftfield, Erikka and Lozupone, Catherine and Maher, Massoud and Marotz, Clarisse and Martin, Bryan D. and McDonald, Daniel and McIver, Lauren J. and Melnik, Alexey V. and Metcalf, Jessica L. and Morgan, Sydney C. and Morton, Jamie T. and Naimey, Ahmad Turan and Navas-Molina, Jose A. and Nothias, Louis Felix and Orchanian, Stephanie B. and Pearson, Talima and Peoples, Samuel L. and Petras, Daniel and Preuss, Mary Lai and Pruesse, Elmar and Rasmussen, Lasse Buur and Rivers, Adam and Robeson, Michael S. and Rosenthal, Patrick and Segata, Nicola and Shaffer, Michael and Shiffer, Arron and Sinha, Rashmi and Song, Se Jin and Spear, John R. and Swafford, Austin D. and Thompson, Luke R. and Torres, Pedro J. and Trinh, Pauline and Tripathi, Anupriya and Turnbaugh, Peter J. and Ul-Hasan, Sabah and van der Hooft, Justin J. J. and Vargas, Fernando and Vázquez-Baeza, Yoshiki and Vogtmann, Emily and von Hippel, Max and Walters, William and Wan, Yunhu and Wang, Mingxun and Warren, Jonathan and Weber, Kyle C. and Williamson, Charles H. D. and Willis, Amy D. and Xu, Zhenjiang Zech and Zaneveld, Jesse R. and Zhang, Yilong and Zhu, Qiyun and Knight, Rob and Caporaso, J. Gregory},
+ doi = {10.1038/s41587-019-0209-9},
+ issn = {1546-1696},
+ journal = {Nature Biotechnology},
+ title = {Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2},
+ url = {https://doi.org/10.1038/s41587-019-0209-9},
+ year = {2019}
+}
+
+QIIME 2
+archive: 5
+framework: 2019.7.0
+uuid: b5640628-14cb-4e3f-8e50-95403ba3c7d4
+type: Phylogeny[Rooted]
+format: NewickDirectoryFormat
+execution:
+    uuid: 5af10ea7-e2b2-4772-9562-a5381f13d2b1
+    runtime:
+        start: 2019-11-01T15:43:34.675398-04:00
+        end: 2019-11-01T15:43:35.011813-04:00
+        duration: 336415 microseconds
+
+action:
+    type: method
+    plugin: !ref 'environment:plugins:phylogeny'
+    action: midpoint_root
+    inputs:
+    -   tree: c319dbc0-5a5a-4081-880d-4593301f7752
+    parameters: []
+    output-name: rooted_tree
+
+transformers:
+    inputs:
+        tree:
+        -   from: NewickDirectoryFormat
+            to: skbio.tree._tree:TreeNode
+            plugin: !ref 'environment:plugins:types'
+    output:
+    -   from: skbio.tree._tree:TreeNode
+        to: NewickDirectoryFormat
+        plugin: !ref 'environment:plugins:types'
+
+environment:
+    platform: linux-x86_64
+    python: |-
+        3.6.7 | packaged by conda-forge | (default, Jul  2 2019, 02:18:42)
+        [GCC 7.3.0]
+    framework:
+        version: 2019.7.0
+        website: https://qiime2.org
+        citations:
+        - !cite 'framework|qiime2:2019.7.0|0'
+    plugins:
+        types:
+            version: 2019.7.0
+            website: https://github.com/qiime2/q2-types
+        phylogeny:
+            version: 2019.7.0
+            website: https://github.com/qiime2/q2-phylogeny
+    python-packages:
+        zipp: 0.5.1
+        xopen: 0.7.3
+        widgetsnbextension: 3.5.1
+        wheel: 0.33.4
+        webencodings: 0.5.1
+        wcwidth: 0.1.7
+        urllib3: 1.25.3
+        unifrac: 0.10.0
+        tzlocal: 2.0.0
+        traitlets: 4.3.2
+        tornado: 6.0.3
+        testpath: 0.4.2
+        terminado: 0.8.2
+        statsmodels: 0.10.1
+        six: 1.12.0
+        setuptools: 41.0.1
+        Send2Trash: 1.5.0
+        seaborn: 0.9.0
+        scipy: 1.3.0
+        scikit-learn: 0.21.2
+        scikit-bio: 0.5.5
+        requests: 2.22.0
+        qiime2: 2019.7.0
+        q2templates: 2019.7.0
+        q2cli: 2019.7.0
+        q2-vsearch: 2019.7.0
+        q2-types: 2019.7.0
+        q2-taxa: 2019.7.0
+        q2-sample-classifier: 2019.7.1
+        q2-quality-filter: 2019.7.0
+        q2-quality-control: 2019.7.0
+        q2-phylogeny: 2019.7.0
+        q2-metadata: 2019.7.0
+        q2-longitudinal: 2019.7.0
+        q2-gneiss: 2019.7.0
+        q2-fragment-insertion: 2019.7.0
+        q2-feature-table: 2019.7.0
+        q2-feature-classifier: 2019.7.0
+        q2-emperor: 2019.7.0
+        q2-diversity: 2019.7.0
+        q2-demux: 2019.7.0
+        q2-deblur: 2019.7.0
+        q2-dada2: 2019.7.0
+        q2-cutadapt: 2019.7.0
+        q2-composition: 2019.7.0
+        q2-alignment: 2019.7.0
+        pyzmq: 18.0.2
+        PyYAML: 5.1.2
+        pytz: '2019.2'
+        python-dateutil: 2.8.0
+        pytest: 5.0.1
+        PySocks: 1.7.0
+        pyrsistent: 0.15.4
+        pyparsing: 2.3.0
+        pyOpenSSL: 19.0.0
+        Pygments: 2.4.2
+        pycparser: '2.19'
+        py: 1.8.0
+        ptyprocess: 0.6.0
+        psutil: 5.6.3
+        prompt-toolkit: 2.0.9
+        prometheus-client: 0.7.1
+        pluggy: 0.12.0
+        pip: 19.2.1
+        Pillow: 6.0.0
+        pickleshare: 0.7.5
+        pexpect: 4.7.0
+        patsy: 0.5.1
+        parso: 0.5.1
+        pandocfilters: 1.4.2
+        pandas: 0.24.2
+        packaging: '19.0'
+        olefile: '0.46'
+        numpy: 1.17.0
+        notebook: 6.0.0
+        nose: 1.3.7
+        networkx: '2.3'
+        nbformat: 4.4.0
+        nbconvert: 5.5.0
+        natsort: 6.0.0
+        msgpack: 0.6.1
+        more-itertools: 7.2.0
+        mistune: 0.8.4
+        matplotlib: 3.1.1
+        MarkupSafe: 1.1.1
+        lockfile: 0.12.2
+        kiwisolver: 1.1.0
+        jupyter-core: 4.4.0
+        jupyter-client: 5.3.1
+        jsonschema: 3.0.1
+        joblib: 0.13.2
+        Jinja2: 2.10.1
+        jedi: 0.14.1
+        ipywidgets: 7.5.1
+        ipython: 7.7.0
+        ipython-genutils: 0.2.0
+        ipykernel: 5.1.1
+        importlib-metadata: '0.18'
+        ijson: '2.3'
+        idna: '2.8'
+        hdmedians: '0.13'
+        h5py: 2.9.0
+        gneiss: 0.4.5
+        future: 0.17.1
+        fastcluster: 1.1.25
+        entrypoints: '0.3'
+        emperor: 1.0.0b19
+        dnaio: '0.3'
+        defusedxml: 0.5.0
+        decorator: 4.4.0
+        deblur: 1.1.0
+        Cython: 0.29.13
+        cycler: 0.10.0
+        cutadapt: '2.4'
+        cryptography: '2.7'
+        Click: '7.0'
+        chardet: 3.0.4
+        cffi: 1.12.3
+        certifi: 2019.6.16
+        CacheControl: 0.12.5
+        bz2file: '0.98'
+        bokeh: 1.3.1
+        bleach: 3.1.0
+        biom-format: 2.1.7
+        bibtexparser: 1.1.0
+        backcall: 0.1.0
+        attrs: 19.1.0
+        atomicwrites: 1.3.0
+        asn1crypto: 0.24.0
+uuid: c319dbc0-5a5a-4081-880d-4593301f7752
+type: Phylogeny[Unrooted]
+format: NewickDirectoryFormat
+QIIME 2
+archive: 5
+framework: 2019.7.0
+@article{framework|qiime2:2019.7.0|0,
+ author = {Bolyen, Evan and Rideout, Jai Ram and Dillon, Matthew R. and Bokulich, Nicholas A. and Abnet, Christian C. and Al-Ghalith, Gabriel A. and Alexander, Harriet and Alm, Eric J. and Arumugam, Manimozhiyan and Asnicar, Francesco and Bai, Yang and Bisanz, Jordan E. and Bittinger, Kyle and Brejnrod, Asker and Brislawn, Colin J. and Brown, C. Titus and Callahan, Benjamin J. and Caraballo-Rodríguez, Andrés Mauricio and Chase, John and Cope, Emily K. and Da Silva, Ricardo and Diener, Christian and Dorrestein, Pieter C. and Douglas, Gavin M. and Durall, Daniel M. and Duvallet, Claire and Edwardson, Christian F. and Ernst, Madeleine and Estaki, Mehrbod and Fouquier, Jennifer and Gauglitz, Julia M. and Gibbons, Sean M. and Gibson, Deanna L. and Gonzalez, Antonio and Gorlick, Kestrel and Guo, Jiarong and Hillmann, Benjamin and Holmes, Susan and Holste, Hannes and Huttenhower, Curtis and Huttley, Gavin A. and Janssen, Stefan and Jarmusch, Alan K. and Jiang, Lingjing and Kaehler, Benjamin D. and Kang, Kyo Bin and Keefe, Christopher R. and Keim, Paul and Kelley, Scott T. and Knights, Dan and Koester, Irina and Kosciolek, Tomasz and Kreps, Jorden and Langille, Morgan G. I. and Lee, Joslynn and Ley, Ruth and Liu, Yong-Xin and Loftfield, Erikka and Lozupone, Catherine and Maher, Massoud and Marotz, Clarisse and Martin, Bryan D. and McDonald, Daniel and McIver, Lauren J. and Melnik, Alexey V. and Metcalf, Jessica L. and Morgan, Sydney C. and Morton, Jamie T. and Naimey, Ahmad Turan and Navas-Molina, Jose A. and Nothias, Louis Felix and Orchanian, Stephanie B. and Pearson, Talima and Peoples, Samuel L. and Petras, Daniel and Preuss, Mary Lai and Pruesse, Elmar and Rasmussen, Lasse Buur and Rivers, Adam and Robeson, Michael S. and Rosenthal, Patrick and Segata, Nicola and Shaffer, Michael and Shiffer, Arron and Sinha, Rashmi and Song, Se Jin and Spear, John R. and Swafford, Austin D. and Thompson, Luke R. and Torres, Pedro J. and Trinh, Pauline and Tripathi, Anupriya and Turnbaugh, Peter J. and Ul-Hasan, Sabah and van der Hooft, Justin J. J. and Vargas, Fernando and Vázquez-Baeza, Yoshiki and Vogtmann, Emily and von Hippel, Max and Walters, William and Wan, Yunhu and Wang, Mingxun and Warren, Jonathan and Weber, Kyle C. and Williamson, Charles H. D. and Willis, Amy D. and Xu, Zhenjiang Zech and Zaneveld, Jesse R. and Zhang, Yilong and Zhu, Qiyun and Knight, Rob and Caporaso, J. Gregory},
+ doi = {10.1038/s41587-019-0209-9},
+ issn = {1546-1696},
+ journal = {Nature Biotechnology},
+ title = {Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2},
+ url = {https://doi.org/10.1038/s41587-019-0209-9},
+ year = {2019}
+}
+
+@article{action|phylogeny:2019.7.0|method:fasttree|0,
+ author = {Price, Morgan N and Dehal, Paramvir S and Arkin, Adam P},
+ doi = {10.1371/journal.pone.0009490},
+ journal = {PloS one},
+ number = {3},
+ pages = {e9490},
+ publisher = {Public Library of Science},
+ title = {FastTree 2--approximately maximum-likelihood trees for large alignments},
+ volume = {5},
+ year = {2010}
+}
+
+execution:
+    uuid: 6f87cd59-a9a2-4b51-8a8b-3f83c3afc567
+    runtime:
+        start: 2019-11-01T15:42:28.746088-04:00
+        end: 2019-11-01T15:43:25.990799-04:00
+        duration: 57 seconds, and 244711 microseconds
+
+action:
+    type: method
+    plugin: !ref 'environment:plugins:phylogeny'
+    action: fasttree
+    inputs:
+    -   alignment: f76b2526-ab26-4923-8308-c9a32e09c1fd
+    parameters:
+    -   n_threads: 1
+    output-name: tree
+    citations:
+    - !cite 'action|phylogeny:2019.7.0|method:fasttree|0'
+
+transformers:
+    inputs:
+        alignment:
+        -   from: AlignedDNASequencesDirectoryFormat
+            to: AlignedDNAFASTAFormat
+    output:
+    -   from: NewickFormat
+        to: NewickDirectoryFormat
+
+environment:
+    platform: linux-x86_64
+    python: |-
+        3.6.7 | packaged by conda-forge | (default, Jul  2 2019, 02:18:42)
+        [GCC 7.3.0]
+    framework:
+        version: 2019.7.0
+        website: https://qiime2.org
+        citations:
+        - !cite 'framework|qiime2:2019.7.0|0'
+    plugins:
+        types:
+            version: 2019.7.0
+            website: https://github.com/qiime2/q2-types
+        phylogeny:
+            version: 2019.7.0
+            website: https://github.com/qiime2/q2-phylogeny
+    python-packages:
+        zipp: 0.5.1
+        xopen: 0.7.3
+        widgetsnbextension: 3.5.1
+        wheel: 0.33.4
+        webencodings: 0.5.1
+        wcwidth: 0.1.7
+        urllib3: 1.25.3
+        unifrac: 0.10.0
+        tzlocal: 2.0.0
+        traitlets: 4.3.2
+        tornado: 6.0.3
+        testpath: 0.4.2
+        terminado: 0.8.2
+        statsmodels: 0.10.1
+        six: 1.12.0
+        setuptools: 41.0.1
+        Send2Trash: 1.5.0
+        seaborn: 0.9.0
+        scipy: 1.3.0
+        scikit-learn: 0.21.2
+        scikit-bio: 0.5.5
+        requests: 2.22.0
+        qiime2: 2019.7.0
+        q2templates: 2019.7.0
+        q2cli: 2019.7.0
+        q2-vsearch: 2019.7.0
+        q2-types: 2019.7.0
+        q2-taxa: 2019.7.0
+        q2-sample-classifier: 2019.7.1
+        q2-quality-filter: 2019.7.0
+        q2-quality-control: 2019.7.0
+        q2-phylogeny: 2019.7.0
+        q2-metadata: 2019.7.0
+        q2-longitudinal: 2019.7.0
+        q2-gneiss: 2019.7.0
+        q2-fragment-insertion: 2019.7.0
+        q2-feature-table: 2019.7.0
+        q2-feature-classifier: 2019.7.0
+        q2-emperor: 2019.7.0
+        q2-diversity: 2019.7.0
+        q2-demux: 2019.7.0
+        q2-deblur: 2019.7.0
+        q2-dada2: 2019.7.0
+        q2-cutadapt: 2019.7.0
+        q2-composition: 2019.7.0
+        q2-alignment: 2019.7.0
+        pyzmq: 18.0.2
+        PyYAML: 5.1.2
+        pytz: '2019.2'
+        python-dateutil: 2.8.0
+        pytest: 5.0.1
+        PySocks: 1.7.0
+        pyrsistent: 0.15.4
+        pyparsing: 2.3.0
+        pyOpenSSL: 19.0.0
+        Pygments: 2.4.2
+        pycparser: '2.19'
+        py: 1.8.0
+        ptyprocess: 0.6.0
+        psutil: 5.6.3
+        prompt-toolkit: 2.0.9
+        prometheus-client: 0.7.1
+        pluggy: 0.12.0
+        pip: 19.2.1
+        Pillow: 6.0.0
+        pickleshare: 0.7.5
+        pexpect: 4.7.0
+        patsy: 0.5.1
+        parso: 0.5.1
+        pandocfilters: 1.4.2
+        pandas: 0.24.2
+        packaging: '19.0'
+        olefile: '0.46'
+        numpy: 1.17.0
+        notebook: 6.0.0
+        nose: 1.3.7
+        networkx: '2.3'
+        nbformat: 4.4.0
+        nbconvert: 5.5.0
+        natsort: 6.0.0
+        msgpack: 0.6.1
+        more-itertools: 7.2.0
+        mistune: 0.8.4
+        matplotlib: 3.1.1
+        MarkupSafe: 1.1.1
+        lockfile: 0.12.2
+        kiwisolver: 1.1.0
+        jupyter-core: 4.4.0
+        jupyter-client: 5.3.1
+        jsonschema: 3.0.1
+        joblib: 0.13.2
+        Jinja2: 2.10.1
+        jedi: 0.14.1
+        ipywidgets: 7.5.1
+        ipython: 7.7.0
+        ipython-genutils: 0.2.0
+        ipykernel: 5.1.1
+        importlib-metadata: '0.18'
+        ijson: '2.3'
+        idna: '2.8'
+        hdmedians: '0.13'
+        h5py: 2.9.0
+        gneiss: 0.4.5
+        future: 0.17.1
+        fastcluster: 1.1.25
+        entrypoints: '0.3'
+        emperor: 1.0.0b19
+        dnaio: '0.3'
+        defusedxml: 0.5.0
+        decorator: 4.4.0
+        deblur: 1.1.0
+        Cython: 0.29.13
+        cycler: 0.10.0
+        cutadapt: '2.4'
+        cryptography: '2.7'
+        Click: '7.0'
+        chardet: 3.0.4
+        cffi: 1.12.3
+        certifi: 2019.6.16
+        CacheControl: 0.12.5
+        bz2file: '0.98'
+        bokeh: 1.3.1
+        bleach: 3.1.0
+        biom-format: 2.1.7
+        bibtexparser: 1.1.0
+        backcall: 0.1.0
+        attrs: 19.1.0
+        atomicwrites: 1.3.0
+        asn1crypto: 0.24.0
+uuid: 6c3b8af8-77c5-4dbe-8c3b-705554216389
+type: FeatureData[AlignedSequence]
+format: AlignedDNASequencesDirectoryFormat
+QIIME 2
+archive: 5
+framework: 2019.7.0
+@article{framework|qiime2:2019.7.0|0,
+ author = {Bolyen, Evan and Rideout, Jai Ram and Dillon, Matthew R. and Bokulich, Nicholas A. and Abnet, Christian C. and Al-Ghalith, Gabriel A. and Alexander, Harriet and Alm, Eric J. and Arumugam, Manimozhiyan and Asnicar, Francesco and Bai, Yang and Bisanz, Jordan E. and Bittinger, Kyle and Brejnrod, Asker and Brislawn, Colin J. and Brown, C. Titus and Callahan, Benjamin J. and Caraballo-Rodríguez, Andrés Mauricio and Chase, John and Cope, Emily K. and Da Silva, Ricardo and Diener, Christian and Dorrestein, Pieter C. and Douglas, Gavin M. and Durall, Daniel M. and Duvallet, Claire and Edwardson, Christian F. and Ernst, Madeleine and Estaki, Mehrbod and Fouquier, Jennifer and Gauglitz, Julia M. and Gibbons, Sean M. and Gibson, Deanna L. and Gonzalez, Antonio and Gorlick, Kestrel and Guo, Jiarong and Hillmann, Benjamin and Holmes, Susan and Holste, Hannes and Huttenhower, Curtis and Huttley, Gavin A. and Janssen, Stefan and Jarmusch, Alan K. and Jiang, Lingjing and Kaehler, Benjamin D. and Kang, Kyo Bin and Keefe, Christopher R. and Keim, Paul and Kelley, Scott T. and Knights, Dan and Koester, Irina and Kosciolek, Tomasz and Kreps, Jorden and Langille, Morgan G. I. and Lee, Joslynn and Ley, Ruth and Liu, Yong-Xin and Loftfield, Erikka and Lozupone, Catherine and Maher, Massoud and Marotz, Clarisse and Martin, Bryan D. and McDonald, Daniel and McIver, Lauren J. and Melnik, Alexey V. and Metcalf, Jessica L. and Morgan, Sydney C. and Morton, Jamie T. and Naimey, Ahmad Turan and Navas-Molina, Jose A. and Nothias, Louis Felix and Orchanian, Stephanie B. and Pearson, Talima and Peoples, Samuel L. and Petras, Daniel and Preuss, Mary Lai and Pruesse, Elmar and Rasmussen, Lasse Buur and Rivers, Adam and Robeson, Michael S. and Rosenthal, Patrick and Segata, Nicola and Shaffer, Michael and Shiffer, Arron and Sinha, Rashmi and Song, Se Jin and Spear, John R. and Swafford, Austin D. and Thompson, Luke R. and Torres, Pedro J. and Trinh, Pauline and Tripathi, Anupriya and Turnbaugh, Peter J. and Ul-Hasan, Sabah and van der Hooft, Justin J. J. and Vargas, Fernando and Vázquez-Baeza, Yoshiki and Vogtmann, Emily and von Hippel, Max and Walters, William and Wan, Yunhu and Wang, Mingxun and Warren, Jonathan and Weber, Kyle C. and Williamson, Charles H. D. and Willis, Amy D. and Xu, Zhenjiang Zech and Zaneveld, Jesse R. and Zhang, Yilong and Zhu, Qiyun and Knight, Rob and Caporaso, J. Gregory},
+ doi = {10.1038/s41587-019-0209-9},
+ issn = {1546-1696},
+ journal = {Nature Biotechnology},
+ title = {Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2},
+ url = {https://doi.org/10.1038/s41587-019-0209-9},
+ year = {2019}
+}
+
+@article{action|alignment:2019.7.0|method:mafft|0,
+ author = {Katoh, Kazutaka and Standley, Daron M},
+ doi = {10.1093/molbev/mst010},
+ journal = {Molecular biology and evolution},
+ number = {4},
+ pages = {772--780},
+ publisher = {Society for Molecular Biology and Evolution},
+ title = {MAFFT multiple sequence alignment software version 7: improvements in performance and usability},
+ volume = {30},
+ year = {2013}
+}
+
+execution:
+    uuid: cfd94569-cd49-44ef-917f-a89018e9da36
+    runtime:
+        start: 2019-11-01T15:41:19.952302-04:00
+        end: 2019-11-01T15:41:31.836713-04:00
+        duration: 11 seconds, and 884411 microseconds
+
+action:
+    type: method
+    plugin: !ref 'environment:plugins:alignment'
+    action: mafft
+    inputs:
+    -   sequences: 6ebcb580-1555-4962-9dcc-0fe8a01277c2
+    parameters:
+    -   n_threads: 1
+    -   parttree: false
+    output-name: alignment
+    citations:
+    - !cite 'action|alignment:2019.7.0|method:mafft|0'
+
+transformers:
+    inputs:
+        sequences:
+        -   from: DNASequencesDirectoryFormat
+            to: DNAFASTAFormat
+    output:
+    -   from: AlignedDNAFASTAFormat
+        to: AlignedDNASequencesDirectoryFormat
+
+environment:
+    platform: linux-x86_64
+    python: |-
+        3.6.7 | packaged by conda-forge | (default, Jul  2 2019, 02:18:42)
+        [GCC 7.3.0]
+    framework:
+        version: 2019.7.0
+        website: https://qiime2.org
+        citations:
+        - !cite 'framework|qiime2:2019.7.0|0'
+    plugins:
+        types:
+            version: 2019.7.0
+            website: https://github.com/qiime2/q2-types
+        alignment:
+            version: 2019.7.0
+            website: https://github.com/qiime2/q2-alignment
+    python-packages:
+        zipp: 0.5.1
+        xopen: 0.7.3
+        widgetsnbextension: 3.5.1
+        wheel: 0.33.4
+        webencodings: 0.5.1
+        wcwidth: 0.1.7
+        urllib3: 1.25.3
+        unifrac: 0.10.0
+        tzlocal: 2.0.0
+        traitlets: 4.3.2
+        tornado: 6.0.3
+        testpath: 0.4.2
+        terminado: 0.8.2
+        statsmodels: 0.10.1
+        six: 1.12.0
+        setuptools: 41.0.1
+        Send2Trash: 1.5.0
+        seaborn: 0.9.0
+        scipy: 1.3.0
+        scikit-learn: 0.21.2
+        scikit-bio: 0.5.5
+        requests: 2.22.0
+        qiime2: 2019.7.0
+        q2templates: 2019.7.0
+        q2cli: 2019.7.0
+        q2-vsearch: 2019.7.0
+        q2-types: 2019.7.0
+        q2-taxa: 2019.7.0
+        q2-sample-classifier: 2019.7.1
+        q2-quality-filter: 2019.7.0
+        q2-quality-control: 2019.7.0
+        q2-phylogeny: 2019.7.0
+        q2-metadata: 2019.7.0
+        q2-longitudinal: 2019.7.0
+        q2-gneiss: 2019.7.0
+        q2-fragment-insertion: 2019.7.0
+        q2-feature-table: 2019.7.0
+        q2-feature-classifier: 2019.7.0
+        q2-emperor: 2019.7.0
+        q2-diversity: 2019.7.0
+        q2-demux: 2019.7.0
+        q2-deblur: 2019.7.0
+        q2-dada2: 2019.7.0
+        q2-cutadapt: 2019.7.0
+        q2-composition: 2019.7.0
+        q2-alignment: 2019.7.0
+        pyzmq: 18.0.2
+        PyYAML: 5.1.2
+        pytz: '2019.2'
+        python-dateutil: 2.8.0
+        pytest: 5.0.1
+        PySocks: 1.7.0
+        pyrsistent: 0.15.4
+        pyparsing: 2.3.0
+        pyOpenSSL: 19.0.0
+        Pygments: 2.4.2
+        pycparser: '2.19'
+        py: 1.8.0
+        ptyprocess: 0.6.0
+        psutil: 5.6.3
+        prompt-toolkit: 2.0.9
+        prometheus-client: 0.7.1
+        pluggy: 0.12.0
+        pip: 19.2.1
+        Pillow: 6.0.0
+        pickleshare: 0.7.5
+        pexpect: 4.7.0
+        patsy: 0.5.1
+        parso: 0.5.1
+        pandocfilters: 1.4.2
+        pandas: 0.24.2
+        packaging: '19.0'
+        olefile: '0.46'
+        numpy: 1.17.0
+        notebook: 6.0.0
+        nose: 1.3.7
+        networkx: '2.3'
+        nbformat: 4.4.0
+        nbconvert: 5.5.0
+        natsort: 6.0.0
+        msgpack: 0.6.1
+        more-itertools: 7.2.0
+        mistune: 0.8.4
+        matplotlib: 3.1.1
+        MarkupSafe: 1.1.1
+        lockfile: 0.12.2
+        kiwisolver: 1.1.0
+        jupyter-core: 4.4.0
+        jupyter-client: 5.3.1
+        jsonschema: 3.0.1
+        joblib: 0.13.2
+        Jinja2: 2.10.1
+        jedi: 0.14.1
+        ipywidgets: 7.5.1
+        ipython: 7.7.0
+        ipython-genutils: 0.2.0
+        ipykernel: 5.1.1
+        importlib-metadata: '0.18'
+        ijson: '2.3'
+        idna: '2.8'
+        hdmedians: '0.13'
+        h5py: 2.9.0
+        gneiss: 0.4.5
+        future: 0.17.1
+        fastcluster: 1.1.25
+        entrypoints: '0.3'
+        emperor: 1.0.0b19
+        dnaio: '0.3'
+        defusedxml: 0.5.0
+        decorator: 4.4.0
+        deblur: 1.1.0
+        Cython: 0.29.13
+        cycler: 0.10.0
+        cutadapt: '2.4'
+        cryptography: '2.7'
+        Click: '7.0'
+        chardet: 3.0.4
+        cffi: 1.12.3
+        certifi: 2019.6.16
+        CacheControl: 0.12.5
+        bz2file: '0.98'
+        bokeh: 1.3.1
+        bleach: 3.1.0
+        biom-format: 2.1.7
+        bibtexparser: 1.1.0
+        backcall: 0.1.0
+        attrs: 19.1.0
+        atomicwrites: 1.3.0
+        asn1crypto: 0.24.0
+uuid: 9b85b035-315c-4f78-adf9-7383e65f4aee
+type: SampleData[PairedEndSequencesWithQuality]
+format: SingleLanePerSamplePairedEndFastqDirFmt
+QIIME 2
+archive: 5
+framework: 2019.7.0
+@article{framework|qiime2:2019.7.0|0,
+ author = {Bolyen, Evan and Rideout, Jai Ram and Dillon, Matthew R. and Bokulich, Nicholas A. and Abnet, Christian C. and Al-Ghalith, Gabriel A. and Alexander, Harriet and Alm, Eric J. and Arumugam, Manimozhiyan and Asnicar, Francesco and Bai, Yang and Bisanz, Jordan E. and Bittinger, Kyle and Brejnrod, Asker and Brislawn, Colin J. and Brown, C. Titus and Callahan, Benjamin J. and Caraballo-Rodríguez, Andrés Mauricio and Chase, John and Cope, Emily K. and Da Silva, Ricardo and Diener, Christian and Dorrestein, Pieter C. and Douglas, Gavin M. and Durall, Daniel M. and Duvallet, Claire and Edwardson, Christian F. and Ernst, Madeleine and Estaki, Mehrbod and Fouquier, Jennifer and Gauglitz, Julia M. and Gibbons, Sean M. and Gibson, Deanna L. and Gonzalez, Antonio and Gorlick, Kestrel and Guo, Jiarong and Hillmann, Benjamin and Holmes, Susan and Holste, Hannes and Huttenhower, Curtis and Huttley, Gavin A. and Janssen, Stefan and Jarmusch, Alan K. and Jiang, Lingjing and Kaehler, Benjamin D. and Kang, Kyo Bin and Keefe, Christopher R. and Keim, Paul and Kelley, Scott T. and Knights, Dan and Koester, Irina and Kosciolek, Tomasz and Kreps, Jorden and Langille, Morgan G. I. and Lee, Joslynn and Ley, Ruth and Liu, Yong-Xin and Loftfield, Erikka and Lozupone, Catherine and Maher, Massoud and Marotz, Clarisse and Martin, Bryan D. and McDonald, Daniel and McIver, Lauren J. and Melnik, Alexey V. and Metcalf, Jessica L. and Morgan, Sydney C. and Morton, Jamie T. and Naimey, Ahmad Turan and Navas-Molina, Jose A. and Nothias, Louis Felix and Orchanian, Stephanie B. and Pearson, Talima and Peoples, Samuel L. and Petras, Daniel and Preuss, Mary Lai and Pruesse, Elmar and Rasmussen, Lasse Buur and Rivers, Adam and Robeson, Michael S. and Rosenthal, Patrick and Segata, Nicola and Shaffer, Michael and Shiffer, Arron and Sinha, Rashmi and Song, Se Jin and Spear, John R. and Swafford, Austin D. and Thompson, Luke R. and Torres, Pedro J. and Trinh, Pauline and Tripathi, Anupriya and Turnbaugh, Peter J. and Ul-Hasan, Sabah and van der Hooft, Justin J. J. and Vargas, Fernando and Vázquez-Baeza, Yoshiki and Vogtmann, Emily and von Hippel, Max and Walters, William and Wan, Yunhu and Wang, Mingxun and Warren, Jonathan and Weber, Kyle C. and Williamson, Charles H. D. and Willis, Amy D. and Xu, Zhenjiang Zech and Zaneveld, Jesse R. and Zhang, Yilong and Zhu, Qiyun and Knight, Rob and Caporaso, J. Gregory},
+ doi = {10.1038/s41587-019-0209-9},
+ issn = {1546-1696},
+ journal = {Nature Biotechnology},
+ title = {Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2},
+ url = {https://doi.org/10.1038/s41587-019-0209-9},
+ year = {2019}
+}
+
+@article{plugin|cutadapt:2019.7.0|0,
+ author = {Martin, Marcel},
+ doi = {10.14806/ej.17.1.200},
+ journal = {EMBnet. journal},
+ number = {1},
+ pages = {pp--10},
+ title = {Cutadapt removes adapter sequences from high-throughput sequencing reads},
+ volume = {17},
+ year = {2011}
+}
+
+execution:
+    uuid: 2705bd70-ef3e-4392-9686-8cb56321da87
+    runtime:
+        start: 2019-11-01T11:59:52.902433-04:00
+        end: 2019-11-01T12:06:05.739616-04:00
+        duration: 6 minutes, 12 seconds, and 837183 microseconds
+
+action:
+    type: method
+    plugin: !ref 'environment:plugins:cutadapt'
+    action: trim_paired
+    inputs:
+    -   demultiplexed_sequences: d20dee98-812d-4ee7-867e-47929ab6f78f
+    parameters:
+    -   cores: 1
+    -   adapter_f:
+        - AATGATACGGCGACCACCGAGATCTACAC
+    -   front_f:
+        - CTTGGTCATTTAGAGGAAGTAA
+    -   anywhere_f: null
+    -   adapter_r:
+        - CAAGCAGAAGACGGCATACGAGAT
+    -   front_r:
+        - GCTGCGTTCTTCATCGATGC
+    -   anywhere_r: null
+    -   error_rate: 0.1
+    -   indels: true
+    -   times: 1
+    -   overlap: 3
+    -   match_read_wildcards: false
+    -   match_adapter_wildcards: true
+    -   minimum_length: 1
+    -   discard_untrimmed: false
+    output-name: trimmed_sequences
+
+transformers:
+    inputs:
+        demultiplexed_sequences:
+        -   from: SingleLanePerSamplePairedEndFastqDirFmt
+            to: SingleLanePerSamplePairedEndFastqDirFmt
+    output:
+    -   from: CasavaOneEightSingleLanePerSampleDirFmt
+        to: SingleLanePerSamplePairedEndFastqDirFmt
+        plugin: !ref 'environment:plugins:types'
+
+environment:
+    platform: linux-x86_64
+    python: |-
+        3.6.7 | packaged by conda-forge | (default, Jul  2 2019, 02:18:42)
+        [GCC 7.3.0]
+    framework:
+        version: 2019.7.0
+        website: https://qiime2.org
+        citations:
+        - !cite 'framework|qiime2:2019.7.0|0'
+    plugins:
+        types:
+            version: 2019.7.0
+            website: https://github.com/qiime2/q2-types
+        cutadapt:
+            version: 2019.7.0
+            website: https://github.com/qiime2/q2-cutadapt
+            citations:
+            - !cite 'plugin|cutadapt:2019.7.0|0'
+    python-packages:
+        zipp: 0.5.1
+        xopen: 0.7.3
+        widgetsnbextension: 3.5.1
+        wheel: 0.33.4
+        webencodings: 0.5.1
+        wcwidth: 0.1.7
+        urllib3: 1.25.3
+        unifrac: 0.10.0
+        tzlocal: 2.0.0
+        traitlets: 4.3.2
+        tornado: 6.0.3
+        testpath: 0.4.2
+        terminado: 0.8.2
+        statsmodels: 0.10.1
+        six: 1.12.0
+        setuptools: 41.0.1
+        Send2Trash: 1.5.0
+        seaborn: 0.9.0
+        scipy: 1.3.0
+        scikit-learn: 0.21.2
+        scikit-bio: 0.5.5
+        requests: 2.22.0
+        qiime2: 2019.7.0
+        q2templates: 2019.7.0
+        q2cli: 2019.7.0
+        q2-vsearch: 2019.7.0
+        q2-types: 2019.7.0
+        q2-taxa: 2019.7.0
+        q2-sample-classifier: 2019.7.1
+        q2-quality-filter: 2019.7.0
+        q2-quality-control: 2019.7.0
+        q2-phylogeny: 2019.7.0
+        q2-metadata: 2019.7.0
+        q2-longitudinal: 2019.7.0
+        q2-gneiss: 2019.7.0
+        q2-fragment-insertion: 2019.7.0
+        q2-feature-table: 2019.7.0
+        q2-feature-classifier: 2019.7.0
+        q2-emperor: 2019.7.0
+        q2-diversity: 2019.7.0
+        q2-demux: 2019.7.0
+        q2-deblur: 2019.7.0
+        q2-dada2: 2019.7.0
+        q2-cutadapt: 2019.7.0
+        q2-composition: 2019.7.0
+        q2-alignment: 2019.7.0
+        pyzmq: 18.0.2
+        PyYAML: 5.1.2
+        pytz: '2019.2'
+        python-dateutil: 2.8.0
+        pytest: 5.0.1
+        PySocks: 1.7.0
+        pyrsistent: 0.15.4
+        pyparsing: 2.3.0
+        pyOpenSSL: 19.0.0
+        Pygments: 2.4.2
+        pycparser: '2.19'
+        py: 1.8.0
+        ptyprocess: 0.6.0
+        psutil: 5.6.3
+        prompt-toolkit: 2.0.9
+        prometheus-client: 0.7.1
+        pluggy: 0.12.0
+        pip: 19.2.1
+        Pillow: 6.0.0
+        pickleshare: 0.7.5
+        pexpect: 4.7.0
+        patsy: 0.5.1
+        parso: 0.5.1
+        pandocfilters: 1.4.2
+        pandas: 0.24.2
+        packaging: '19.0'
+        olefile: '0.46'
+        numpy: 1.17.0
+        notebook: 6.0.0
+        nose: 1.3.7
+        networkx: '2.3'
+        nbformat: 4.4.0
+        nbconvert: 5.5.0
+        natsort: 6.0.0
+        msgpack: 0.6.1
+        more-itertools: 7.2.0
+        mistune: 0.8.4
+        matplotlib: 3.1.1
+        MarkupSafe: 1.1.1
+        lockfile: 0.12.2
+        kiwisolver: 1.1.0
+        jupyter-core: 4.4.0
+        jupyter-client: 5.3.1
+        jsonschema: 3.0.1
+        joblib: 0.13.2
+        Jinja2: 2.10.1
+        jedi: 0.14.1
+        ipywidgets: 7.5.1
+        ipython: 7.7.0
+        ipython-genutils: 0.2.0
+        ipykernel: 5.1.1
+        importlib-metadata: '0.18'
+        ijson: '2.3'
+        idna: '2.8'
+        hdmedians: '0.13'
+        h5py: 2.9.0
+        gneiss: 0.4.5
+        future: 0.17.1
+        fastcluster: 1.1.25
+        entrypoints: '0.3'
+        emperor: 1.0.0b19
+        dnaio: '0.3'
+        defusedxml: 0.5.0
+        decorator: 4.4.0
+        deblur: 1.1.0
+        Cython: 0.29.13
+        cycler: 0.10.0
+        cutadapt: '2.4'
+        cryptography: '2.7'
+        Click: '7.0'
+        chardet: 3.0.4
+        cffi: 1.12.3
+        certifi: 2019.6.16
+        CacheControl: 0.12.5
+        bz2file: '0.98'
+        bokeh: 1.3.1
+        bleach: 3.1.0
+        biom-format: 2.1.7
+        bibtexparser: 1.1.0
+        backcall: 0.1.0
+        attrs: 19.1.0
+        atomicwrites: 1.3.0
+        asn1crypto: 0.24.0
+@article{framework|qiime2:2019.7.0|0,
+ author = {Bolyen, Evan and Rideout, Jai Ram and Dillon, Matthew R. and Bokulich, Nicholas A. and Abnet, Christian C. and Al-Ghalith, Gabriel A. and Alexander, Harriet and Alm, Eric J. and Arumugam, Manimozhiyan and Asnicar, Francesco and Bai, Yang and Bisanz, Jordan E. and Bittinger, Kyle and Brejnrod, Asker and Brislawn, Colin J. and Brown, C. Titus and Callahan, Benjamin J. and Caraballo-Rodríguez, Andrés Mauricio and Chase, John and Cope, Emily K. and Da Silva, Ricardo and Diener, Christian and Dorrestein, Pieter C. and Douglas, Gavin M. and Durall, Daniel M. and Duvallet, Claire and Edwardson, Christian F. and Ernst, Madeleine and Estaki, Mehrbod and Fouquier, Jennifer and Gauglitz, Julia M. and Gibbons, Sean M. and Gibson, Deanna L. and Gonzalez, Antonio and Gorlick, Kestrel and Guo, Jiarong and Hillmann, Benjamin and Holmes, Susan and Holste, Hannes and Huttenhower, Curtis and Huttley, Gavin A. and Janssen, Stefan and Jarmusch, Alan K. and Jiang, Lingjing and Kaehler, Benjamin D. and Kang, Kyo Bin and Keefe, Christopher R. and Keim, Paul and Kelley, Scott T. and Knights, Dan and Koester, Irina and Kosciolek, Tomasz and Kreps, Jorden and Langille, Morgan G. I. and Lee, Joslynn and Ley, Ruth and Liu, Yong-Xin and Loftfield, Erikka and Lozupone, Catherine and Maher, Massoud and Marotz, Clarisse and Martin, Bryan D. and McDonald, Daniel and McIver, Lauren J. and Melnik, Alexey V. and Metcalf, Jessica L. and Morgan, Sydney C. and Morton, Jamie T. and Naimey, Ahmad Turan and Navas-Molina, Jose A. and Nothias, Louis Felix and Orchanian, Stephanie B. and Pearson, Talima and Peoples, Samuel L. and Petras, Daniel and Preuss, Mary Lai and Pruesse, Elmar and Rasmussen, Lasse Buur and Rivers, Adam and Robeson, Michael S. and Rosenthal, Patrick and Segata, Nicola and Shaffer, Michael and Shiffer, Arron and Sinha, Rashmi and Song, Se Jin and Spear, John R. and Swafford, Austin D. and Thompson, Luke R. and Torres, Pedro J. and Trinh, Pauline and Tripathi, Anupriya and Turnbaugh, Peter J. and Ul-Hasan, Sabah and van der Hooft, Justin J. J. and Vargas, Fernando and Vázquez-Baeza, Yoshiki and Vogtmann, Emily and von Hippel, Max and Walters, William and Wan, Yunhu and Wang, Mingxun and Warren, Jonathan and Weber, Kyle C. and Williamson, Charles H. D. and Willis, Amy D. and Xu, Zhenjiang Zech and Zaneveld, Jesse R. and Zhang, Yilong and Zhu, Qiyun and Knight, Rob and Caporaso, J. Gregory},
+ doi = {10.1038/s41587-019-0209-9},
+ issn = {1546-1696},
+ journal = {Nature Biotechnology},
+ title = {Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2},
+ url = {https://doi.org/10.1038/s41587-019-0209-9},
+ year = {2019}
+}
+
+QIIME 2
+archive: 5
+framework: 2019.7.0
+uuid: d20dee98-812d-4ee7-867e-47929ab6f78f
+type: SampleData[PairedEndSequencesWithQuality]
+format: SingleLanePerSamplePairedEndFastqDirFmt
+execution:
+    uuid: 39ff4ec7-9ab0-4893-b43e-e9b9368d9f3c
+    runtime:
+        start: 2019-11-01T11:57:16.488724-04:00
+        end: 2019-11-01T11:58:44.673560-04:00
+        duration: 1 minute, 28 seconds, and 184836 microseconds
+
+action:
+    type: import
+    format: CasavaOneEightSingleLanePerSampleDirFmt
+    manifest:
+    -   name: LEM59ITS-01_S221_L001_R1_001.fastq.gz
+        md5sum: 79468a1ffdf77fae02be9c53f6313633
+    -   name: LEM59ITS-01_S221_L001_R2_001.fastq.gz
+        md5sum: 5ce60aea7212358b0a1ab5a8dfaf105a
+    -   name: LEM59ITS-02_S222_L001_R1_001.fastq.gz
+        md5sum: 1a0842f1dcf980e3953999cdea1b38ff
+    -   name: LEM59ITS-02_S222_L001_R2_001.fastq.gz
+        md5sum: c8124dddc40505bc5a6dd408d4099118
+    -   name: LEM59ITS-03_S223_L001_R1_001.fastq.gz
+        md5sum: 0f53a13b77f28509c9ac31f6085a2407
+    -   name: LEM59ITS-03_S223_L001_R2_001.fastq.gz
+        md5sum: cfa7c6c802fe9627937af0724b40e0e4
+    -   name: LEM59ITS-04_S224_L001_R1_001.fastq.gz
+        md5sum: 7661b8fc5a56f9a270a6ed17fab808f4
+    -   name: LEM59ITS-04_S224_L001_R2_001.fastq.gz
+        md5sum: 9e360172a9c126533f3e1901e0a3cfa5
+    -   name: LEM59ITS-05_S225_L001_R1_001.fastq.gz
+        md5sum: cd9863d4d5568fab616ce7acae0efa6d
+    -   name: LEM59ITS-05_S225_L001_R2_001.fastq.gz
+        md5sum: 4357e0988f849ce9326a14390b57d32d
+    -   name: LEM59ITS-06_S226_L001_R1_001.fastq.gz
+        md5sum: 690fc8bf58516443c26d2f0184809d4f
+    -   name: LEM59ITS-06_S226_L001_R2_001.fastq.gz
+        md5sum: be280cd1f57e567bcc6f9d49f4c062d5
+    -   name: LEM59ITS-07_S227_L001_R1_001.fastq.gz
+        md5sum: 014e03b4c856161a2c893a9a37def92c
+    -   name: LEM59ITS-07_S227_L001_R2_001.fastq.gz
+        md5sum: 320129b4185b0949efdffbc703a824fc
+    -   name: LEM59ITS-08_S228_L001_R1_001.fastq.gz
+        md5sum: 749183078d50eeeb15bd6eacf01d815f
+    -   name: LEM59ITS-08_S228_L001_R2_001.fastq.gz
+        md5sum: 1997463f392a9d5800dd2c0778c9b343
+    -   name: LEM59ITS-09_S229_L001_R1_001.fastq.gz
+        md5sum: e840080cba6d2c01e278492ac530bdff
+    -   name: LEM59ITS-09_S229_L001_R2_001.fastq.gz
+        md5sum: b357371dd8b5b74c449d9e71f99b1327
+    -   name: LEM59ITS-10_S230_L001_R1_001.fastq.gz
+        md5sum: 2dbec3fd53532e9b78d2e6ff160886d6
+    -   name: LEM59ITS-10_S230_L001_R2_001.fastq.gz
+        md5sum: f2e0138ef5ff1c97658ec751be8b620f
+    -   name: LEM59ITS-11_S231_L001_R1_001.fastq.gz
+        md5sum: fcd65ddec68c865be188b3a59941bf43
+    -   name: LEM59ITS-11_S231_L001_R2_001.fastq.gz
+        md5sum: 403210ea2d618e6fbb2744186cb4a054
+    -   name: LEM59ITS-12_S232_L001_R1_001.fastq.gz
+        md5sum: f3f7d999907bf57d819cd7cefe1acbdb
+    -   name: LEM59ITS-12_S232_L001_R2_001.fastq.gz
+        md5sum: 899c98f49de735626f021cf7ff5ae2f7
+    -   name: LEM59ITS-13_S233_L001_R1_001.fastq.gz
+        md5sum: 8844d34c84cd708e5252aa18c8f84134
+    -   name: LEM59ITS-13_S233_L001_R2_001.fastq.gz
+        md5sum: 4f181ff6bff5e5ed5101d251bc0e69fb
+    -   name: LEM59ITS-14_S234_L001_R1_001.fastq.gz
+        md5sum: 8fee8108dc8e770e923991af3400bb89
+    -   name: LEM59ITS-14_S234_L001_R2_001.fastq.gz
+        md5sum: 960a1b02883eb65dc58854d35a3d9831
+    -   name: LEM59ITS-15_S235_L001_R1_001.fastq.gz
+        md5sum: 23094147f94cd075915eebd1885dd57f
+    -   name: LEM59ITS-15_S235_L001_R2_001.fastq.gz
+        md5sum: dcd88f506be5a7166a81693aa27c419e
+    -   name: LEM59ITS-16_S236_L001_R1_001.fastq.gz
+        md5sum: 0dcdbce7242b54ccc1ffbb439ef620fe
+    -   name: LEM59ITS-16_S236_L001_R2_001.fastq.gz
+        md5sum: cd628cd3c9a0b42789231545d2a00316
+    -   name: LEM59ITS-17_S237_L001_R1_001.fastq.gz
+        md5sum: 2bfc5945dc5a64acfb876e85c7970fb7
+    -   name: LEM59ITS-17_S237_L001_R2_001.fastq.gz
+        md5sum: da0094411e55a8743c82229d55144cc8
+    -   name: LEM59ITS-18_S238_L001_R1_001.fastq.gz
+        md5sum: 18540352bc1126dbaf25dee0dabe5123
+    -   name: LEM59ITS-18_S238_L001_R2_001.fastq.gz
+        md5sum: 7d8141689dc19c1afe3775760fea29ab
+    -   name: LEM59ITS-19_S239_L001_R1_001.fastq.gz
+        md5sum: fba0db814dc2f663cb321dddf57ffbe7
+    -   name: LEM59ITS-19_S239_L001_R2_001.fastq.gz
+        md5sum: b3f0ddeffcd4763816b233449205aac8
+    -   name: LEM59ITS-20_S240_L001_R1_001.fastq.gz
+        md5sum: a939ef9a767c34eec3df9c1820a4134e
+    -   name: LEM59ITS-20_S240_L001_R2_001.fastq.gz
+        md5sum: 3826a6976e291453a77b4aba07a59d63
+    -   name: LEM59ITS-21_S124_L001_R1_001.fastq.gz
+        md5sum: e8eced7455081c817a735ca00a884285
+    -   name: LEM59ITS-21_S124_L001_R2_001.fastq.gz
+        md5sum: 1ad565b49bb4d0953ef7399bdb74806e
+    -   name: LEM59ITS-22_S241_L001_R1_001.fastq.gz
+        md5sum: a6b16e33233dd6b24656eadca532861f
+    -   name: LEM59ITS-22_S241_L001_R2_001.fastq.gz
+        md5sum: 9a0e6cb6904f180aebcded7df1214e9a
+    -   name: LEM59ITS-23_S242_L001_R1_001.fastq.gz
+        md5sum: c6fad7befdd808ec3a14c2a0ae172a3c
+    -   name: LEM59ITS-23_S242_L001_R2_001.fastq.gz
+        md5sum: 071ea4f7968ea990f309526b9362a609
+    -   name: LEM59ITS-24_S243_L001_R1_001.fastq.gz
+        md5sum: 0574e08b86023c75ec7e0975fc48b33f
+    -   name: LEM59ITS-24_S243_L001_R2_001.fastq.gz
+        md5sum: 7774d9103f6c3f4a94fed5156b6ccb6b
+    -   name: LEM59ITS-25_S244_L001_R1_001.fastq.gz
+        md5sum: 4c72000d74d4d149dc59d8fec5c9fd74
+    -   name: LEM59ITS-25_S244_L001_R2_001.fastq.gz
+        md5sum: ab4056a42e7c683d08bfbfdc9ae3f3d9
+    -   name: LEM59ITS-26_S245_L001_R1_001.fastq.gz
+        md5sum: 9e487778a959cece213c56d0bf796ea9
+    -   name: LEM59ITS-26_S245_L001_R2_001.fastq.gz
+        md5sum: 1200c5d72b91cc18d4cf6b3c2e184e2d
+    -   name: LEM59ITS-27_S246_L001_R1_001.fastq.gz
+        md5sum: a9f4c87fe0025b23e3f2717507f30100
+    -   name: LEM59ITS-27_S246_L001_R2_001.fastq.gz
+        md5sum: 3be04cd36515c069f527e1be59ebfdfd
+    -   name: LEM59ITS-28_S247_L001_R1_001.fastq.gz
+        md5sum: 9c5d87b4961d865d487956da16c76c63
+    -   name: LEM59ITS-28_S247_L001_R2_001.fastq.gz
+        md5sum: d6faa56c29b08abdb040fe4217b48afd
+    -   name: LEM59ITS-29_S248_L001_R1_001.fastq.gz
+        md5sum: 15567913f86d9ba0ba4343904e190da6
+    -   name: LEM59ITS-29_S248_L001_R2_001.fastq.gz
+        md5sum: 15afd3a54ec2b90cfed2dfc23716597c
+    -   name: LEM59ITS-30_S249_L001_R1_001.fastq.gz
+        md5sum: 2fbe961cac10b277451f5e916f1631c0
+    -   name: LEM59ITS-30_S249_L001_R2_001.fastq.gz
+        md5sum: 1aef0ce7bb0c73b699d586e7fa4c9b41
+    -   name: LEM59ITS-31_S250_L001_R1_001.fastq.gz
+        md5sum: c111d86b5d483ab97a06d884a3d5d966
+    -   name: LEM59ITS-31_S250_L001_R2_001.fastq.gz
+        md5sum: b7f52523b9de43f5135083d0048245fa
+    -   name: LEM59ITS-32_S251_L001_R1_001.fastq.gz
+        md5sum: fffafe48565a3cafa1be0a615f9cc683
+    -   name: LEM59ITS-32_S251_L001_R2_001.fastq.gz
+        md5sum: 264d13089754bda29c1cb0d9d281fc17
+    -   name: LEM59ITS-33_S252_L001_R1_001.fastq.gz
+        md5sum: f0f1ce98d9fbea6a292978db4eca9e38
+    -   name: LEM59ITS-33_S252_L001_R2_001.fastq.gz
+        md5sum: 791bb587d7e6c1e15e3940bf5e3a5c01
+    -   name: LEM59ITS-34_S253_L001_R1_001.fastq.gz
+        md5sum: 1ca1eb5d262714a5dd80203fbc5c58d4
+    -   name: LEM59ITS-34_S253_L001_R2_001.fastq.gz
+        md5sum: 14e435c1613b7c2796a7425e39bd5cd1
+    -   name: LEM59ITS-35_S254_L001_R1_001.fastq.gz
+        md5sum: d80c657d20fe6cd5c537f99966d54fc2
+    -   name: LEM59ITS-35_S254_L001_R2_001.fastq.gz
+        md5sum: 9430bda9580b506ef004ac49cf305241
+    -   name: LEM59ITS-36_S255_L001_R1_001.fastq.gz
+        md5sum: 9e12613a26ed695ab2d4201d209cbded
+    -   name: LEM59ITS-36_S255_L001_R2_001.fastq.gz
+        md5sum: dff2b4ae3cf7bb6c8e57fd8040e513e2
+    -   name: LEM59ITS-37_S256_L001_R1_001.fastq.gz
+        md5sum: 24e7f026de21ec94bf492d88dd5b287f
+    -   name: LEM59ITS-37_S256_L001_R2_001.fastq.gz
+        md5sum: a049d99e624a63f639b5ee93469c085c
+    -   name: LEM59ITS-38_S257_L001_R1_001.fastq.gz
+        md5sum: c9a8f2e1750137adeaf59ca7c76da297
+    -   name: LEM59ITS-38_S257_L001_R2_001.fastq.gz
+        md5sum: c89baade40a19eadc250b9b40a1030e2
+    -   name: LEM59ITS-39_S258_L001_R1_001.fastq.gz
+        md5sum: 13d191f766f60f3e20a1913a5bc57e1f
+    -   name: LEM59ITS-39_S258_L001_R2_001.fastq.gz
+        md5sum: bd618e3ca0c5f4a74f4119cfd34d5aa1
+    -   name: LEM59ITS-40_S259_L001_R1_001.fastq.gz
+        md5sum: 9ae68991915bbc3c2d40834414a8f975
+    -   name: LEM59ITS-40_S259_L001_R2_001.fastq.gz
+        md5sum: dcea5c37cd248a4d9cb6ab2d75dde785
+    -   name: LEM59ITS-41_S260_L001_R1_001.fastq.gz
+        md5sum: 320cd2c482a76f1667a424937149ee92
+    -   name: LEM59ITS-41_S260_L001_R2_001.fastq.gz
+        md5sum: 904282499dccbf6bc4995d7bc298a85e
+    -   name: LEM59ITS-42_S261_L001_R1_001.fastq.gz
+        md5sum: 986a7aaae29066c533d9cd6ec60cfcf0
+    -   name: LEM59ITS-42_S261_L001_R2_001.fastq.gz
+        md5sum: 57aeb8c84cddcc1d7aa4ccb0f9671404
+    -   name: LEM59ITS-43_S262_L001_R1_001.fastq.gz
+        md5sum: c28831c3d82b353789cccef078974d0a
+    -   name: LEM59ITS-43_S262_L001_R2_001.fastq.gz
+        md5sum: f29d13650e41266faba2da091bd555ec
+    -   name: LEM59ITS-44_S263_L001_R1_001.fastq.gz
+        md5sum: 56e0e387858c55da6b8826c6d273ea60
+    -   name: LEM59ITS-44_S263_L001_R2_001.fastq.gz
+        md5sum: c27cbb1f2581abf6678f1695b59f1562
+    -   name: LEM59ITS-45_S264_L001_R1_001.fastq.gz
+        md5sum: ac867cc5d94cd69f89b87a0b54d0ab38
+    -   name: LEM59ITS-45_S264_L001_R2_001.fastq.gz
+        md5sum: b78411b7df1565d2f4ba9ee4d26caa83
+    -   name: LEM59ITS-46_S265_L001_R1_001.fastq.gz
+        md5sum: b289fd001dcc48b31b8a681ddab0ebc2
+    -   name: LEM59ITS-46_S265_L001_R2_001.fastq.gz
+        md5sum: 4b1f606c8e93c016b34f4013685e5a55
+    -   name: LEM59ITS-47_S266_L001_R1_001.fastq.gz
+        md5sum: afb5115e26c7400648cb48868181106b
+    -   name: LEM59ITS-47_S266_L001_R2_001.fastq.gz
+        md5sum: 08496fed2c9e41b141efe9b0131f5ed1
+    -   name: LEM59ITS-48_S267_L001_R1_001.fastq.gz
+        md5sum: 8e7e101a385b9775be60a9d16a5b9fc1
+    -   name: LEM59ITS-48_S267_L001_R2_001.fastq.gz
+        md5sum: 70f83cf35fad292bb3cf25795ed290f3
+    -   name: LEM59ITS-49_S268_L001_R1_001.fastq.gz
+        md5sum: 930e8b8503de340307b16fdc492d8e6a
+    -   name: LEM59ITS-49_S268_L001_R2_001.fastq.gz
+        md5sum: a776406d3b517b52ed7d0fc21e3c0519
+    -   name: LEM59ITS-50_S269_L001_R1_001.fastq.gz
+        md5sum: b6f0d0d3eb5654942e1e6560ad032df8
+    -   name: LEM59ITS-50_S269_L001_R2_001.fastq.gz
+        md5sum: 187e8517068bbae3dca0b5b67b6d0b48
+    -   name: LEM59ITS-51_S270_L001_R1_001.fastq.gz
+        md5sum: b8455e8cc7d33d43c60452acf21f5acf
+    -   name: LEM59ITS-51_S270_L001_R2_001.fastq.gz
+        md5sum: b1241fdbe34d5a116714f8396500f0c6
+    -   name: LEM59ITS-52_S271_L001_R1_001.fastq.gz
+        md5sum: 7a045ed9fad5abbd951828b98a9f07ea
+    -   name: LEM59ITS-52_S271_L001_R2_001.fastq.gz
+        md5sum: d3712c482c590ade2c64348b6739e610
+    -   name: LEM59ITS-53_S272_L001_R1_001.fastq.gz
+        md5sum: 9535254d0f68e2ad35931d8a417a4c3f
+    -   name: LEM59ITS-53_S272_L001_R2_001.fastq.gz
+        md5sum: 72ea637ccd5ce1dfbf4ca15a796ec059
+    -   name: LEM59ITS-54_S273_L001_R1_001.fastq.gz
+        md5sum: a9d11c5b8f3e3207a37f74e85017596b
+    -   name: LEM59ITS-54_S273_L001_R2_001.fastq.gz
+        md5sum: 3bd6aa5baf52443b15e0b84a8c2d8f44
+    -   name: LEM59ITS-55_S274_L001_R1_001.fastq.gz
+        md5sum: 0526d2735f9c29d16cd897c1ecf54f09
+    -   name: LEM59ITS-55_S274_L001_R2_001.fastq.gz
+        md5sum: fbadd20164af6003a38f1846c03e66d4
+    -   name: LEM59ITS-56_S125_L001_R1_001.fastq.gz
+        md5sum: beba6d5f29079f7f7e576897c9797494
+    -   name: LEM59ITS-56_S125_L001_R2_001.fastq.gz
+        md5sum: 093a2ebf8da6894431410ad045c5eb35
+    -   name: LEM59ITS-57_S275_L001_R1_001.fastq.gz
+        md5sum: 860d732993d5f8b709fbc36d8e35dc2f
+    -   name: LEM59ITS-57_S275_L001_R2_001.fastq.gz
+        md5sum: f1287ab69d3a902f1f90b3eac58cc124
+    -   name: LEM59ITS-58_S276_L001_R1_001.fastq.gz
+        md5sum: e03adb1f283d0afe2b11d9e8018c23c0
+    -   name: LEM59ITS-58_S276_L001_R2_001.fastq.gz
+        md5sum: b2659e2679c63793383b2cace7ce54af
+    -   name: LEM59ITS-59_S126_L001_R1_001.fastq.gz
+        md5sum: a41c1c6a34c532dd5c3b1e46569293a8
+    -   name: LEM59ITS-59_S126_L001_R2_001.fastq.gz
+        md5sum: 8b7f483ea4ae26ee3a15417b7385618b
+    -   name: LEM59ITS-60_S277_L001_R1_001.fastq.gz
+        md5sum: 1cf4cff5830de7ea3233e8da4fc2ad6e
+    -   name: LEM59ITS-60_S277_L001_R2_001.fastq.gz
+        md5sum: 3c2239c5133a62b7f22194c751b7af1d
+    -   name: LEM59ITS-61_S278_L001_R1_001.fastq.gz
+        md5sum: d36ed02f5fc2475b1519c0d3a7c174dd
+    -   name: LEM59ITS-61_S278_L001_R2_001.fastq.gz
+        md5sum: 227b8f4662693047ab0f7d76161adad1
+    -   name: LEM59ITS-62_S279_L001_R1_001.fastq.gz
+        md5sum: 538f63e0b5011504d783cbce567f91a0
+    -   name: LEM59ITS-62_S279_L001_R2_001.fastq.gz
+        md5sum: 680015d19e68915a321b2f2215b98bef
+    -   name: LEM59ITS-63_S280_L001_R1_001.fastq.gz
+        md5sum: 13c49eeb5fef923a4babb18b8c1cd320
+    -   name: LEM59ITS-63_S280_L001_R2_001.fastq.gz
+        md5sum: 63507b8c869db75d86eb3a7ed0468b4e
+    -   name: LEM59ITS-64_S281_L001_R1_001.fastq.gz
+        md5sum: ad19149e8d94a4d51da169cda14a9761
+    -   name: LEM59ITS-64_S281_L001_R2_001.fastq.gz
+        md5sum: 8fee1db7b99456c8658c5892dee324a5
+    -   name: LEM59ITS-65_S282_L001_R1_001.fastq.gz
+        md5sum: a41817158e5643e66d57ef4193326a87
+    -   name: LEM59ITS-65_S282_L001_R2_001.fastq.gz
+        md5sum: cb20622a4db7b9f9d8c132049467c639
+    -   name: LEM59ITS-66_S283_L001_R1_001.fastq.gz
+        md5sum: 0793061f24ced1fa336f35021b6cfe89
+    -   name: LEM59ITS-66_S283_L001_R2_001.fastq.gz
+        md5sum: c9753367cd117cbe012262dea50cd122
+    -   name: LEM59ITS-67_S284_L001_R1_001.fastq.gz
+        md5sum: a9cad39bc8eb692f0d4be7a514bfa67b
+    -   name: LEM59ITS-67_S284_L001_R2_001.fastq.gz
+        md5sum: 90eae36147769e5337490cebb925a8cb
+    -   name: LEM59ITS-68_S127_L001_R1_001.fastq.gz
+        md5sum: d92909ac938fec9e6f4eb8c8e6fa2bcd
+    -   name: LEM59ITS-68_S127_L001_R2_001.fastq.gz
+        md5sum: b182e1cf24d619ddd7b44e0f58f42c71
+    -   name: LEM59ITS-69_S285_L001_R1_001.fastq.gz
+        md5sum: 95177652df0c03530560bb661ab9fe28
+    -   name: LEM59ITS-69_S285_L001_R2_001.fastq.gz
+        md5sum: 61bdb4ab2a527ea9aea2f58d87da97c8
+    -   name: LEM59ITS-70_S286_L001_R1_001.fastq.gz
+        md5sum: 8f346ffd4e013f4cd72b67952945b03c
+    -   name: LEM59ITS-70_S286_L001_R2_001.fastq.gz
+        md5sum: db6271be09dacad3af3c5a5785b62204
+    -   name: LEM59ITS-71_S287_L001_R1_001.fastq.gz
+        md5sum: cd5abb21544321b328daeb269fc213fe
+    -   name: LEM59ITS-71_S287_L001_R2_001.fastq.gz
+        md5sum: 5dad8c3ce6f889cfd3877087e38f6d8c
+    -   name: LEM59ITS-72_S128_L001_R1_001.fastq.gz
+        md5sum: 7e34308ecf8cc638767e982149469b93
+    -   name: LEM59ITS-72_S128_L001_R2_001.fastq.gz
+        md5sum: 46cbd0463e2af386fd9867f82232d9cd
+    -   name: LEM59ITS-73_S288_L001_R1_001.fastq.gz
+        md5sum: 889b0899f362a441445e7b0663246f3c
+    -   name: LEM59ITS-73_S288_L001_R2_001.fastq.gz
+        md5sum: 75064ad3d7ecaa6f771a95f09ce28f73
+    -   name: LEM59ITS-74_S289_L001_R1_001.fastq.gz
+        md5sum: eb1b425b03a083cfe81d5f0b0e556994
+    -   name: LEM59ITS-74_S289_L001_R2_001.fastq.gz
+        md5sum: 5b33e80d1ca1f1d1dcc4c0f7ef3d2279
+
+transformers:
+    output:
+    -   from: CasavaOneEightSingleLanePerSampleDirFmt
+        to: SingleLanePerSamplePairedEndFastqDirFmt
+        plugin: !ref 'environment:plugins:types'
+
+environment:
+    platform: linux-x86_64
+    python: |-
+        3.6.7 | packaged by conda-forge | (default, Jul  2 2019, 02:18:42)
+        [GCC 7.3.0]
+    framework:
+        version: 2019.7.0
+        website: https://qiime2.org
+        citations:
+        - !cite 'framework|qiime2:2019.7.0|0'
+    plugins:
+        types:
+            version: 2019.7.0
+            website: https://github.com/qiime2/q2-types
+    python-packages:
+        zipp: 0.5.1
+        xopen: 0.7.3
+        widgetsnbextension: 3.5.1
+        wheel: 0.33.4
+        webencodings: 0.5.1
+        wcwidth: 0.1.7
+        urllib3: 1.25.3
+        unifrac: 0.10.0
+        tzlocal: 2.0.0
+        traitlets: 4.3.2
+        tornado: 6.0.3
+        testpath: 0.4.2
+        terminado: 0.8.2
+        statsmodels: 0.10.1
+        six: 1.12.0
+        setuptools: 41.0.1
+        Send2Trash: 1.5.0
+        seaborn: 0.9.0
+        scipy: 1.3.0
+        scikit-learn: 0.21.2
+        scikit-bio: 0.5.5
+        requests: 2.22.0
+        qiime2: 2019.7.0
+        q2templates: 2019.7.0
+        q2cli: 2019.7.0
+        q2-vsearch: 2019.7.0
+        q2-types: 2019.7.0
+        q2-taxa: 2019.7.0
+        q2-sample-classifier: 2019.7.1
+        q2-quality-filter: 2019.7.0
+        q2-quality-control: 2019.7.0
+        q2-phylogeny: 2019.7.0
+        q2-metadata: 2019.7.0
+        q2-longitudinal: 2019.7.0
+        q2-gneiss: 2019.7.0
+        q2-fragment-insertion: 2019.7.0
+        q2-feature-table: 2019.7.0
+        q2-feature-classifier: 2019.7.0
+        q2-emperor: 2019.7.0
+        q2-diversity: 2019.7.0
+        q2-demux: 2019.7.0
+        q2-deblur: 2019.7.0
+        q2-dada2: 2019.7.0
+        q2-cutadapt: 2019.7.0
+        q2-composition: 2019.7.0
+        q2-alignment: 2019.7.0
+        pyzmq: 18.0.2
+        PyYAML: 5.1.2
+        pytz: '2019.2'
+        python-dateutil: 2.8.0
+        pytest: 5.0.1
+        PySocks: 1.7.0
+        pyrsistent: 0.15.4
+        pyparsing: 2.3.0
+        pyOpenSSL: 19.0.0
+        Pygments: 2.4.2
+        pycparser: '2.19'
+        py: 1.8.0
+        ptyprocess: 0.6.0
+        psutil: 5.6.3
+        prompt-toolkit: 2.0.9
+        prometheus-client: 0.7.1
+        pluggy: 0.12.0
+        pip: 19.2.1
+        Pillow: 6.0.0
+        pickleshare: 0.7.5
+        pexpect: 4.7.0
+        patsy: 0.5.1
+        parso: 0.5.1
+        pandocfilters: 1.4.2
+        pandas: 0.24.2
+        packaging: '19.0'
+        olefile: '0.46'
+        numpy: 1.17.0
+        notebook: 6.0.0
+        nose: 1.3.7
+        networkx: '2.3'
+        nbformat: 4.4.0
+        nbconvert: 5.5.0
+        natsort: 6.0.0
+        msgpack: 0.6.1
+        more-itertools: 7.2.0
+        mistune: 0.8.4
+        matplotlib: 3.1.1
+        MarkupSafe: 1.1.1
+        lockfile: 0.12.2
+        kiwisolver: 1.1.0
+        jupyter-core: 4.4.0
+        jupyter-client: 5.3.1
+        jsonschema: 3.0.1
+        joblib: 0.13.2
+        Jinja2: 2.10.1
+        jedi: 0.14.1
+        ipywidgets: 7.5.1
+        ipython: 7.7.0
+        ipython-genutils: 0.2.0
+        ipykernel: 5.1.1
+        importlib-metadata: '0.18'
+        ijson: '2.3'
+        idna: '2.8'
+        hdmedians: '0.13'
+        h5py: 2.9.0
+        gneiss: 0.4.5
+        future: 0.17.1
+        fastcluster: 1.1.25
+        entrypoints: '0.3'
+        emperor: 1.0.0b19
+        dnaio: '0.3'
+        defusedxml: 0.5.0
+        decorator: 4.4.0
+        deblur: 1.1.0
+        Cython: 0.29.13
+        cycler: 0.10.0
+        cutadapt: '2.4'
+        cryptography: '2.7'
+        Click: '7.0'
+        chardet: 3.0.4
+        cffi: 1.12.3
+        certifi: 2019.6.16
+        CacheControl: 0.12.5
+        bz2file: '0.98'
+        bokeh: 1.3.1
+        bleach: 3.1.0
+        biom-format: 2.1.7
+        bibtexparser: 1.1.0
+        backcall: 0.1.0
+        attrs: 19.1.0
+        atomicwrites: 1.3.0
+        asn1crypto: 0.24.0
+@article{framework|qiime2:2019.7.0|0,
+ author = {Bolyen, Evan and Rideout, Jai Ram and Dillon, Matthew R. and Bokulich, Nicholas A. and Abnet, Christian C. and Al-Ghalith, Gabriel A. and Alexander, Harriet and Alm, Eric J. and Arumugam, Manimozhiyan and Asnicar, Francesco and Bai, Yang and Bisanz, Jordan E. and Bittinger, Kyle and Brejnrod, Asker and Brislawn, Colin J. and Brown, C. Titus and Callahan, Benjamin J. and Caraballo-Rodríguez, Andrés Mauricio and Chase, John and Cope, Emily K. and Da Silva, Ricardo and Diener, Christian and Dorrestein, Pieter C. and Douglas, Gavin M. and Durall, Daniel M. and Duvallet, Claire and Edwardson, Christian F. and Ernst, Madeleine and Estaki, Mehrbod and Fouquier, Jennifer and Gauglitz, Julia M. and Gibbons, Sean M. and Gibson, Deanna L. and Gonzalez, Antonio and Gorlick, Kestrel and Guo, Jiarong and Hillmann, Benjamin and Holmes, Susan and Holste, Hannes and Huttenhower, Curtis and Huttley, Gavin A. and Janssen, Stefan and Jarmusch, Alan K. and Jiang, Lingjing and Kaehler, Benjamin D. and Kang, Kyo Bin and Keefe, Christopher R. and Keim, Paul and Kelley, Scott T. and Knights, Dan and Koester, Irina and Kosciolek, Tomasz and Kreps, Jorden and Langille, Morgan G. I. and Lee, Joslynn and Ley, Ruth and Liu, Yong-Xin and Loftfield, Erikka and Lozupone, Catherine and Maher, Massoud and Marotz, Clarisse and Martin, Bryan D. and McDonald, Daniel and McIver, Lauren J. and Melnik, Alexey V. and Metcalf, Jessica L. and Morgan, Sydney C. and Morton, Jamie T. and Naimey, Ahmad Turan and Navas-Molina, Jose A. and Nothias, Louis Felix and Orchanian, Stephanie B. and Pearson, Talima and Peoples, Samuel L. and Petras, Daniel and Preuss, Mary Lai and Pruesse, Elmar and Rasmussen, Lasse Buur and Rivers, Adam and Robeson, Michael S. and Rosenthal, Patrick and Segata, Nicola and Shaffer, Michael and Shiffer, Arron and Sinha, Rashmi and Song, Se Jin and Spear, John R. and Swafford, Austin D. and Thompson, Luke R. and Torres, Pedro J. and Trinh, Pauline and Tripathi, Anupriya and Turnbaugh, Peter J. and Ul-Hasan, Sabah and van der Hooft, Justin J. J. and Vargas, Fernando and Vázquez-Baeza, Yoshiki and Vogtmann, Emily and von Hippel, Max and Walters, William and Wan, Yunhu and Wang, Mingxun and Warren, Jonathan and Weber, Kyle C. and Williamson, Charles H. D. and Willis, Amy D. and Xu, Zhenjiang Zech and Zaneveld, Jesse R. and Zhang, Yilong and Zhu, Qiyun and Knight, Rob and Caporaso, J. Gregory},
+ doi = {10.1038/s41587-019-0209-9},
+ issn = {1546-1696},
+ journal = {Nature Biotechnology},
+ title = {Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2},
+ url = {https://doi.org/10.1038/s41587-019-0209-9},
+ year = {2019}
+}
+
+@article{plugin|dada2:2019.7.0|0,
+ author = {Callahan, Benjamin J and McMurdie, Paul J and Rosen, Michael J and Han, Andrew W and Johnson, Amy Jo A and Holmes, Susan P},
+ doi = {10.1038/nmeth.3869},
+ journal = {Nature methods},
+ number = {7},
+ pages = {581},
+ publisher = {Nature Publishing Group},
+ title = {DADA2: high-resolution sample inference from Illumina amplicon data},
+ volume = {13},
+ year = {2016}
+}
+
+QIIME 2
+archive: 5
+framework: 2019.7.0
+uuid: 6ebcb580-1555-4962-9dcc-0fe8a01277c2
+type: FeatureData[Sequence]
+format: DNASequencesDirectoryFormat
+execution:
+    uuid: 5b5ffcdf-8d68-4aa4-8d0d-155cac1a260f
+    runtime:
+        start: 2019-11-01T15:33:00.474120-04:00
+        end: 2019-11-01T15:41:02.667117-04:00
+        duration: 8 minutes, 2 seconds, and 192997 microseconds
+
+action:
+    type: method
+    plugin: !ref 'environment:plugins:dada2'
+    action: denoise_paired
+    inputs:
+    -   demultiplexed_seqs: 9b85b035-315c-4f78-adf9-7383e65f4aee
+    parameters:
+    -   trunc_len_f: 200
+    -   trunc_len_r: 200
+    -   trim_left_f: 36
+    -   trim_left_r: 36
+    -   max_ee_f: 2.0
+    -   max_ee_r: 2.0
+    -   trunc_q: 2
+    -   chimera_method: consensus
+    -   min_fold_parent_over_abundance: 1.0
+    -   n_threads: 12
+    -   n_reads_learn: 1000000
+    -   hashed_feature_ids: true
+    output-name: representative_sequences
+
+transformers:
+    inputs:
+        demultiplexed_seqs:
+        -   from: SingleLanePerSamplePairedEndFastqDirFmt
+            to: SingleLanePerSamplePairedEndFastqDirFmt
+    output:
+    -   from: q2_types.feature_data._transformer:DNAIterator
+        to: DNASequencesDirectoryFormat
+        plugin: !ref 'environment:plugins:types'
+
+environment:
+    platform: linux-x86_64
+    python: |-
+        3.6.7 | packaged by conda-forge | (default, Jul  2 2019, 02:18:42)
+        [GCC 7.3.0]
+    framework:
+        version: 2019.7.0
+        website: https://qiime2.org
+        citations:
+        - !cite 'framework|qiime2:2019.7.0|0'
+    plugins:
+        types:
+            version: 2019.7.0
+            website: https://github.com/qiime2/q2-types
+        dada2:
+            version: 2019.7.0
+            website: http://benjjneb.github.io/dada2/
+            citations:
+            - !cite 'plugin|dada2:2019.7.0|0'
+    python-packages:
+        zipp: 0.5.1
+        xopen: 0.7.3
+        widgetsnbextension: 3.5.1
+        wheel: 0.33.4
+        webencodings: 0.5.1
+        wcwidth: 0.1.7
+        urllib3: 1.25.3
+        unifrac: 0.10.0
+        tzlocal: 2.0.0
+        traitlets: 4.3.2
+        tornado: 6.0.3
+        testpath: 0.4.2
+        terminado: 0.8.2
+        statsmodels: 0.10.1
+        six: 1.12.0
+        setuptools: 41.0.1
+        Send2Trash: 1.5.0
+        seaborn: 0.9.0
+        scipy: 1.3.0
+        scikit-learn: 0.21.2
+        scikit-bio: 0.5.5
+        requests: 2.22.0
+        qiime2: 2019.7.0
+        q2templates: 2019.7.0
+        q2cli: 2019.7.0
+        q2-vsearch: 2019.7.0
+        q2-types: 2019.7.0
+        q2-taxa: 2019.7.0
+        q2-sample-classifier: 2019.7.1
+        q2-quality-filter: 2019.7.0
+        q2-quality-control: 2019.7.0
+        q2-phylogeny: 2019.7.0
+        q2-metadata: 2019.7.0
+        q2-longitudinal: 2019.7.0
+        q2-gneiss: 2019.7.0
+        q2-fragment-insertion: 2019.7.0
+        q2-feature-table: 2019.7.0
+        q2-feature-classifier: 2019.7.0
+        q2-emperor: 2019.7.0
+        q2-diversity: 2019.7.0
+        q2-demux: 2019.7.0
+        q2-deblur: 2019.7.0
+        q2-dada2: 2019.7.0
+        q2-cutadapt: 2019.7.0
+        q2-composition: 2019.7.0
+        q2-alignment: 2019.7.0
+        pyzmq: 18.0.2
+        PyYAML: 5.1.2
+        pytz: '2019.2'
+        python-dateutil: 2.8.0
+        pytest: 5.0.1
+        PySocks: 1.7.0
+        pyrsistent: 0.15.4
+        pyparsing: 2.3.0
+        pyOpenSSL: 19.0.0
+        Pygments: 2.4.2
+        pycparser: '2.19'
+        py: 1.8.0
+        ptyprocess: 0.6.0
+        psutil: 5.6.3
+        prompt-toolkit: 2.0.9
+        prometheus-client: 0.7.1
+        pluggy: 0.12.0
+        pip: 19.2.1
+        Pillow: 6.0.0
+        pickleshare: 0.7.5
+        pexpect: 4.7.0
+        patsy: 0.5.1
+        parso: 0.5.1
+        pandocfilters: 1.4.2
+        pandas: 0.24.2
+        packaging: '19.0'
+        olefile: '0.46'
+        numpy: 1.17.0
+        notebook: 6.0.0
+        nose: 1.3.7
+        networkx: '2.3'
+        nbformat: 4.4.0
+        nbconvert: 5.5.0
+        natsort: 6.0.0
+        msgpack: 0.6.1
+        more-itertools: 7.2.0
+        mistune: 0.8.4
+        matplotlib: 3.1.1
+        MarkupSafe: 1.1.1
+        lockfile: 0.12.2
+        kiwisolver: 1.1.0
+        jupyter-core: 4.4.0
+        jupyter-client: 5.3.1
+        jsonschema: 3.0.1
+        joblib: 0.13.2
+        Jinja2: 2.10.1
+        jedi: 0.14.1
+        ipywidgets: 7.5.1
+        ipython: 7.7.0
+        ipython-genutils: 0.2.0
+        ipykernel: 5.1.1
+        importlib-metadata: '0.18'
+        ijson: '2.3'
+        idna: '2.8'
+        hdmedians: '0.13'
+        h5py: 2.9.0
+        gneiss: 0.4.5
+        future: 0.17.1
+        fastcluster: 1.1.25
+        entrypoints: '0.3'
+        emperor: 1.0.0b19
+        dnaio: '0.3'
+        defusedxml: 0.5.0
+        decorator: 4.4.0
+        deblur: 1.1.0
+        Cython: 0.29.13
+        cycler: 0.10.0
+        cutadapt: '2.4'
+        cryptography: '2.7'
+        Click: '7.0'
+        chardet: 3.0.4
+        cffi: 1.12.3
+        certifi: 2019.6.16
+        CacheControl: 0.12.5
+        bz2file: '0.98'
+        bokeh: 1.3.1
+        bleach: 3.1.0
+        biom-format: 2.1.7
+        bibtexparser: 1.1.0
+        backcall: 0.1.0
+        attrs: 19.1.0
+        atomicwrites: 1.3.0
+        asn1crypto: 0.24.0
+@article{framework|qiime2:2019.7.0|0,
+ author = {Bolyen, Evan and Rideout, Jai Ram and Dillon, Matthew R. and Bokulich, Nicholas A. and Abnet, Christian C. and Al-Ghalith, Gabriel A. and Alexander, Harriet and Alm, Eric J. and Arumugam, Manimozhiyan and Asnicar, Francesco and Bai, Yang and Bisanz, Jordan E. and Bittinger, Kyle and Brejnrod, Asker and Brislawn, Colin J. and Brown, C. Titus and Callahan, Benjamin J. and Caraballo-Rodríguez, Andrés Mauricio and Chase, John and Cope, Emily K. and Da Silva, Ricardo and Diener, Christian and Dorrestein, Pieter C. and Douglas, Gavin M. and Durall, Daniel M. and Duvallet, Claire and Edwardson, Christian F. and Ernst, Madeleine and Estaki, Mehrbod and Fouquier, Jennifer and Gauglitz, Julia M. and Gibbons, Sean M. and Gibson, Deanna L. and Gonzalez, Antonio and Gorlick, Kestrel and Guo, Jiarong and Hillmann, Benjamin and Holmes, Susan and Holste, Hannes and Huttenhower, Curtis and Huttley, Gavin A. and Janssen, Stefan and Jarmusch, Alan K. and Jiang, Lingjing and Kaehler, Benjamin D. and Kang, Kyo Bin and Keefe, Christopher R. and Keim, Paul and Kelley, Scott T. and Knights, Dan and Koester, Irina and Kosciolek, Tomasz and Kreps, Jorden and Langille, Morgan G. I. and Lee, Joslynn and Ley, Ruth and Liu, Yong-Xin and Loftfield, Erikka and Lozupone, Catherine and Maher, Massoud and Marotz, Clarisse and Martin, Bryan D. and McDonald, Daniel and McIver, Lauren J. and Melnik, Alexey V. and Metcalf, Jessica L. and Morgan, Sydney C. and Morton, Jamie T. and Naimey, Ahmad Turan and Navas-Molina, Jose A. and Nothias, Louis Felix and Orchanian, Stephanie B. and Pearson, Talima and Peoples, Samuel L. and Petras, Daniel and Preuss, Mary Lai and Pruesse, Elmar and Rasmussen, Lasse Buur and Rivers, Adam and Robeson, Michael S. and Rosenthal, Patrick and Segata, Nicola and Shaffer, Michael and Shiffer, Arron and Sinha, Rashmi and Song, Se Jin and Spear, John R. and Swafford, Austin D. and Thompson, Luke R. and Torres, Pedro J. and Trinh, Pauline and Tripathi, Anupriya and Turnbaugh, Peter J. and Ul-Hasan, Sabah and van der Hooft, Justin J. J. and Vargas, Fernando and Vázquez-Baeza, Yoshiki and Vogtmann, Emily and von Hippel, Max and Walters, William and Wan, Yunhu and Wang, Mingxun and Warren, Jonathan and Weber, Kyle C. and Williamson, Charles H. D. and Willis, Amy D. and Xu, Zhenjiang Zech and Zaneveld, Jesse R. and Zhang, Yilong and Zhu, Qiyun and Knight, Rob and Caporaso, J. Gregory},
+ doi = {10.1038/s41587-019-0209-9},
+ issn = {1546-1696},
+ journal = {Nature Biotechnology},
+ title = {Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2},
+ url = {https://doi.org/10.1038/s41587-019-0209-9},
+ year = {2019}
+}
+
+@incollection{action|alignment:2019.7.0|method:mask|0,
+ address = {New York},
+ author = {Lane, DJ},
+ booktitle = {Nucleic Acid Techniques in Bacterial Systematics},
+ editor = {Stackebrandt, E and Goodfellow, M},
+ pages = {115--175},
+ publisher = {John Wiley and Sons},
+ title = {16S/23S rRNA sequencing},
+ year = {1991}
+}
+
+QIIME 2
+archive: 5
+framework: 2019.7.0
+uuid: f76b2526-ab26-4923-8308-c9a32e09c1fd
+type: FeatureData[AlignedSequence]
+format: AlignedDNASequencesDirectoryFormat
+execution:
+    uuid: 3833ea4a-f515-49a5-aa65-5e86dcf38231
+    runtime:
+        start: 2019-11-01T15:41:39.191698-04:00
+        end: 2019-11-01T15:42:20.214069-04:00
+        duration: 41 seconds, and 22371 microseconds
+
+action:
+    type: method
+    plugin: !ref 'environment:plugins:alignment'
+    action: mask
+    inputs:
+    -   alignment: 6c3b8af8-77c5-4dbe-8c3b-705554216389
+    parameters:
+    -   max_gap_frequency: 1.0
+    -   min_conservation: 0.4
+    output-name: masked_alignment
+    citations:
+    - !cite 'action|alignment:2019.7.0|method:mask|0'
+
+transformers:
+    inputs:
+        alignment:
+        -   from: AlignedDNASequencesDirectoryFormat
+            to: skbio.alignment._tabular_msa:TabularMSA
+            plugin: !ref 'environment:plugins:types'
+    output:
+    -   from: skbio.alignment._tabular_msa:TabularMSA
+        to: AlignedDNASequencesDirectoryFormat
+        plugin: !ref 'environment:plugins:types'
+
+environment:
+    platform: linux-x86_64
+    python: |-
+        3.6.7 | packaged by conda-forge | (default, Jul  2 2019, 02:18:42)
+        [GCC 7.3.0]
+    framework:
+        version: 2019.7.0
+        website: https://qiime2.org
+        citations:
+        - !cite 'framework|qiime2:2019.7.0|0'
+    plugins:
+        types:
+            version: 2019.7.0
+            website: https://github.com/qiime2/q2-types
+        alignment:
+            version: 2019.7.0
+            website: https://github.com/qiime2/q2-alignment
+    python-packages:
+        zipp: 0.5.1
+        xopen: 0.7.3
+        widgetsnbextension: 3.5.1
+        wheel: 0.33.4
+        webencodings: 0.5.1
+        wcwidth: 0.1.7
+        urllib3: 1.25.3
+        unifrac: 0.10.0
+        tzlocal: 2.0.0
+        traitlets: 4.3.2
+        tornado: 6.0.3
+        testpath: 0.4.2
+        terminado: 0.8.2
+        statsmodels: 0.10.1
+        six: 1.12.0
+        setuptools: 41.0.1
+        Send2Trash: 1.5.0
+        seaborn: 0.9.0
+        scipy: 1.3.0
+        scikit-learn: 0.21.2
+        scikit-bio: 0.5.5
+        requests: 2.22.0
+        qiime2: 2019.7.0
+        q2templates: 2019.7.0
+        q2cli: 2019.7.0
+        q2-vsearch: 2019.7.0
+        q2-types: 2019.7.0
+        q2-taxa: 2019.7.0
+        q2-sample-classifier: 2019.7.1
+        q2-quality-filter: 2019.7.0
+        q2-quality-control: 2019.7.0
+        q2-phylogeny: 2019.7.0
+        q2-metadata: 2019.7.0
+        q2-longitudinal: 2019.7.0
+        q2-gneiss: 2019.7.0
+        q2-fragment-insertion: 2019.7.0
+        q2-feature-table: 2019.7.0
+        q2-feature-classifier: 2019.7.0
+        q2-emperor: 2019.7.0
+        q2-diversity: 2019.7.0
+        q2-demux: 2019.7.0
+        q2-deblur: 2019.7.0
+        q2-dada2: 2019.7.0
+        q2-cutadapt: 2019.7.0
+        q2-composition: 2019.7.0
+        q2-alignment: 2019.7.0
+        pyzmq: 18.0.2
+        PyYAML: 5.1.2
+        pytz: '2019.2'
+        python-dateutil: 2.8.0
+        pytest: 5.0.1
+        PySocks: 1.7.0
+        pyrsistent: 0.15.4
+        pyparsing: 2.3.0
+        pyOpenSSL: 19.0.0
+        Pygments: 2.4.2
+        pycparser: '2.19'
+        py: 1.8.0
+        ptyprocess: 0.6.0
+        psutil: 5.6.3
+        prompt-toolkit: 2.0.9
+        prometheus-client: 0.7.1
+        pluggy: 0.12.0
+        pip: 19.2.1
+        Pillow: 6.0.0
+        pickleshare: 0.7.5
+        pexpect: 4.7.0
+        patsy: 0.5.1
+        parso: 0.5.1
+        pandocfilters: 1.4.2
+        pandas: 0.24.2
+        packaging: '19.0'
+        olefile: '0.46'
+        numpy: 1.17.0
+        notebook: 6.0.0
+        nose: 1.3.7
+        networkx: '2.3'
+        nbformat: 4.4.0
+        nbconvert: 5.5.0
+        natsort: 6.0.0
+        msgpack: 0.6.1
+        more-itertools: 7.2.0
+        mistune: 0.8.4
+        matplotlib: 3.1.1
+        MarkupSafe: 1.1.1
+        lockfile: 0.12.2
+        kiwisolver: 1.1.0
+        jupyter-core: 4.4.0
+        jupyter-client: 5.3.1
+        jsonschema: 3.0.1
+        joblib: 0.13.2
+        Jinja2: 2.10.1
+        jedi: 0.14.1
+        ipywidgets: 7.5.1
+        ipython: 7.7.0
+        ipython-genutils: 0.2.0
+        ipykernel: 5.1.1
+        importlib-metadata: '0.18'
+        ijson: '2.3'
+        idna: '2.8'
+        hdmedians: '0.13'
+        h5py: 2.9.0
+        gneiss: 0.4.5
+        future: 0.17.1
+        fastcluster: 1.1.25
+        entrypoints: '0.3'
+        emperor: 1.0.0b19
+        dnaio: '0.3'
+        defusedxml: 0.5.0
+        decorator: 4.4.0
+        deblur: 1.1.0
+        Cython: 0.29.13
+        cycler: 0.10.0
+        cutadapt: '2.4'
+        cryptography: '2.7'
+        Click: '7.0'
+        chardet: 3.0.4
+        cffi: 1.12.3
+        certifi: 2019.6.16
+        CacheControl: 0.12.5
+        bz2file: '0.98'
+        bokeh: 1.3.1
+        bleach: 3.1.0
+        biom-format: 2.1.7
+        bibtexparser: 1.1.0
+        backcall: 0.1.0
+        attrs: 19.1.0
+        atomicwrites: 1.3.0
+        asn1crypto: 0.24.0
+((((((((2c6a594cc613f8dfe8d43f451c4bfbdf:0.487971331,834dab9c5b1ba3202b822229ffbc0061:0.174585988)0.768:0.159823764,(838c20f61c23537465601051114d7274:0.239080371,(7ed5f4067c599d093d033dfaf8a033a3:0.162917757,(64d2244b95dd0a3f2e0dee2eb9520c48:0.109744241,(82102c971146f2d95ae8e4dca0be5ff9:5e-09,9eecbf6646aeb03be6ef3c4388b9cede:5e-09)0.940:0.073572447)0.980:0.141112463)0.254:0.037575416)0.984:0.250749704)0.079:0.002466594,(((((f9c24b2050f7a1ab2c57b7037ab8a4ef:0.104400622,58577113cc67fcf85245b002af0c0ecb:0.064322122)0.990:0.198999022,(59a2e20ae1d89531323f86330a091acf:0.239288537,(a3c9bbe8884469640805dc1852c2dba5:0.005017078,(b27d0163782340b2cbdf02050af24c22:0.005605056,(91846fada6e8a10ca2662e5dac8f9e44:5e-09,4352f00653e45d1b69aeb57168f5ecf5:5e-09)0.000:5e-09)0.999:0.404191942)0.831:0.162952261)0.864:0.078888522)0.383:0.051916382,((3fd1112706d8f0ef892975e5728b8d70:0.0,14a16e97b875e14124fa268cefb025f1:0.0):5e-09,ae240093c81b69b931ba770d3607a8c0:5e-09)1.000:0.803714898)0.509:0.060871074,(((((9713093897a207cc40f56931014182ac:0.0,adfe8c199ad2fe846b2f3ddaafc69b30:0.0):0.282930432,(((0ef24bfb59d34eccf44a8d0673e559cc:0.159863535,37fb597b9983a9c30508a6e466e97ace:0.461366953)0.800:0.249382781,ecb28c93bc696ec613eb43792977b851:0.225707738)0.686:0.062622283,(ebea53556d89f87fb018728be0e00953:0.0,16dee17809d90188c7d3c7b1aef715c2:0.0):0.192935289)0.814:0.096495194)0.928:0.143155782,(7df632a6f6be708b8ba9678271d0c685:0.16542096,(((((b59b81c155b1c6c5e674162983faae53:0.08553659,4a16887f4f355f4b60d6bb2265ad6645:0.032595206)0.994:0.145303085,311eaafe203e5d895de0205b753b6087:0.048652397)0.740:0.015015209,((f07f132ce0ad4de8ac749ad63c03c753:0.026659931,48ff7bf54a2d84745fe053245dd9ca1f:5e-09)0.999:0.193305566,(509b22f90f6ab33cb9cb53e6c5d2ab5d:0.098611025,3bc508633cb55805166e608040a7e1bb:0.115464289)0.825:0.071161673)0.897:0.050225132)0.327:0.023004389,(((ba9f216761558945ce1bf6f7d2189584:0.0,4741947453b3a663a6f4dc64646aec61:0.0,520456873da921974c81be6342fda433:0.0):0.054221411,(9eecd1042e7e41c39ccda54434150141:0.039046126,((2f8470393901acada9419b62e065aadf:0.00261479,(0c434cd4536cae8de0aaf89f5de83ac7:0.004793763,7b8b7b1cd809a4819a8ff4fb0ad596bb:5e-09)0.755:0.002546504)0.913:0.015479545,(e87153bc66178e3cfe65856a739f9fef:0.001959071,(0980a95580a8bbfcacb311f107946d04:5e-09,(4b137775f944c577cc5481628478e2b7:5e-09,c56cb88d89bdeb774f2e45a7cb39984d:5e-09)0.845:0.005101153)0.768:0.003299943)0.939:0.020375981)0.740:0.006504135)0.948:0.050667131)0.988:0.090205381,f110a6686382b56c3975f8f108f6ace3:0.062939266)0.855:0.038009677)0.198:0.024961301,4695475e87c61fd2b2d814c1a8be4ce5:0.009722526)0.754:0.030854884)0.842:0.065440309)0.858:0.059973943,(9c89142ac1bc8f5d55258f7271d6f2f1:0.151932239,(b2a414ac41c77d62fc9a82f5f34cb2a4:0.007020964,5ffc146dd526d878b7d6fcd0c60d8c66:5e-09)0.900:0.064670515)0.975:0.115188356)0.692:0.03904294,((((30a1c3b086f39cc14e79bf1dec8ebf31:0.170675311,eb4b89c9a460feb14455bf7238fb15e6:0.261133828)0.646:0.052675961,(21599569bc34bf8e69d8fff50c3468c2:0.162351348,d4b1ff7e5cbd4005126f026ae897314a:0.006637857)0.988:0.2802908)0.765:0.049506273,(abd7809b21b3c98ea7e57f4b94276522:0.130306,(98e9a2a46401ac4cfc1bf8d5ba54fe71:0.138591028,c82261ed15b422f92774367b2270a979:0.092077462)0.567:0.105686797)0.990:0.173477755)0.592:0.028923589,97e1dcb495b70e002bc7041b0b73f3b6:0.229319556)0.908:0.082726412)0.843:0.039520862)0.836:0.041365198,((((865727938eaf9dc24d710c119a95186e:0.016447221,((7368e3478daef846d199bc913af3b455:0.0,a9e018d035adc1e3b60252ac924c16fe:0.0):5e-09,9b9b8778add6a2698d52bce580b0ff64:5e-09)0.909:0.059429468)0.974:0.15621556,(5a6e5c681fe152fbe3701b13a36d616e:0.281421861,((30d6c9cd301fb0223467027004348652:0.018080765,83a81daaf4c2d280c57d5c2ab5642916:0.021245354)0.809:0.024663534,((6a9004e9f037948b27093130357bc0fe:0.006365766,(12a9be840fbdc423896cd275cf7300b3:6e-09,0b75d27d6b610a00e991dd98842c2902:0.00638375)0.797:0.006433253)0.773:0.016477106,d60bace193801714e89bf04f2d8c6142:0.068015618)0.659:0.032896135)0.902:0.105370798)0.852:0.087530136)0.912:0.108974156,((((9a32da3ef8b8b979b2947d3272f1cebd:0.005754423,(d2ce96138268c8125cab587c7b63403b:5e-09,(f53d4dedad4915392edfecffc50afb79:0.0,f135e398ea54633dbfe323e7cea9c4b2:0.0):0.005745612)0.000:5e-09)0.892:0.021096921,(36f148c160be6f31fc7d0c4fb4c2a6d8:0.005837574,(9d6d5f4044f754ed565921f20da4b814:0.005837562,(9f479180eb57a50a6a8ba6b39f62fa15:5e-09,7d729703dc8f0825b9b73d37a909bf0d:5e-09)0.451:5e-09)0.000:6e-09)0.839:0.015022547)0.845:0.041109862,(912fd50910db246a7ec6c306c3716aba:0.034319214,((f382118772c1fa32e4d6ebf2b300e1a2:5e-09,eca572afde84a947101c43425b6bafdb:5e-09)0.775:0.005435646,(08cd897f395a6f36de1684f1d09ec3ce:5e-09,1096dac697e4285ecd0832552c709f8f:5e-09)0.882:0.012439817)0.918:0.02985007)0.768:0.034426081)0.987:0.252469285,(24e95bd363fd5df8edcd606e374cbc7e:0.063821278,((ed1b63d50c4c10afa07e6b3a2260c3a4:0.017635335,3bd2d1ca9c02be8b08641a35c8cf3a23:0.010359167)0.996:0.082284806,(950bac7b9ca67c13080bf2f77db33b9f:0.035370659,(7b8ea9954327364cae037668c77033db:5e-09,(bbdc82f57eb5ea548c61e6bc4129e048:5e-09,f8c93baa5ec49bf9082907067d1cbaee:0.005563248)0.862:0.005558492)0.468:0.022600319)0.840:0.020430825)0.783:0.021823229)0.966:0.140183082)0.802:0.075562269)0.905:0.087728429,((530c13f8ab90fca1c27617b882bb0a86:0.184565065,fd7367184a8b078e77562f0ee495bda6:0.143184825)0.936:0.081191392,(350768746824b7ba83fcfcd7a825072e:0.290044625,((((((7f60e6cd27367cd4ad8d497f52cd6546:0.0,e48f48c4edeeeffe2314b0acde852009:0.0):0.005967825,(a408159c2c162e3f7b5018b7a6cb0a69:5e-09,(d7e35ae878dd550a564007671fcc592b:6e-09,((a695e1943044e5ead9ce24bf9d031132:0.0,3ea321300bc33a13d298b43b1e4fe018:0.0,4fcf2a1d316d44e6c89b0540eb289ecb:0.0,fdb225f5f513f0bf64dcdd850c3fa074:0.0,6c14fa4ccb81c27de38eac2df46309f4:0.0,32af6ad0e8c225d035b097a2b4d6e59f:0.0):5e-09,(9e9b7e0c9bf4a9acee305891c65564c5:0.005911437,(e715e968b984c6222b1e0f13339faca2:5e-09,(61d8f6bf51bcbb9416e19253b6266038:0.0,5abce68881f384be685fbedd2c0f87c0:0.0):5e-09)0.962:6e-09)0.000:5e-09)0.398:5e-09)0.949:0.013078806)0.843:5e-09)0.920:0.029880281,(34b6658093f82d7eba5d879deecc6364:0.006097797,37195d3ec2496f81d0d2983b9c4ae43b:0.012344601)0.855:0.015999817)0.636:0.028127547,((f6ce9196e3c0b7f630d64fe5b9f5dbc4:0.0,3f394d280e7d376119cc36b0e24497e6:0.0):0.005852343,77c9daae6ce34531c8de1e6534a1d3c1:6e-09)0.887:0.02647596)0.520:0.018206708,a59a83394f85cc139ea25f72bd9a4e98:0.017088678)0.823:0.056506577,((c7fc7793d6a39b4e424553a6c669f50d:0.013026879,(7cb95b5f82ab83d7d812f85d2dec00ce:0.010939643,((6a2b439cbf97005328b2cb1469d7d5c4:0.0,39026f4a44b3355787d885fdd67f4f49:0.0):0.00540477,2fd58a0eb1365748ee713c7849b44296:5e-09)0.769:0.005371351)0.813:0.014636596)0.669:0.033800481,7ad75688daf9357b91ebeeed78838097:0.267581149)0.397:0.06683373)0.998:0.239621605)0.166:0.001866027)0.603:0.054703168)0.728:0.025669057)0.954:0.113581771)0.946:0.136919347,(d870deab612f66a0b0e7f6e770c30b3c:0.298414101,(f34214fc5790d113f81cd4f7d1c30d12:0.107205967,(f2d5deca0a2ee8c9c21bfdb401672bc3:0.005479589,2abab2135dcb2e1c18d41ce048bbba8e:5e-09)0.633:0.026794405)0.981:0.411017032)0.843:0.226937091)0.583:0.012468438,(((((((d29514861c39b9f4b9ab89e414f16e62:0.277781561,(17ee4781d93a1f922253f6c3ef26e2b2:0.339166367,c3fd227c42b3ed6a04c0304870d3e0aa:0.188735258)0.181:0.031955811)0.955:0.174911811,(88d52f146f3f2b35f263d934f16759ae:0.168728556,(2386525113e7ef4d0b4ada3913ae5911:5e-09,de221c28e84ba0ce3e81b685b2e1a65f:5e-09)0.998:0.337362119)0.847:0.103826041)0.560:0.073627379,(d19d2e69547f93df51551a5a12aeff8f:0.443251775,((((ae9a4a8c9118850c480cc53779cab395:0.063415671,(8b007dfa7c12b3569fc3123144c7ee22:5e-09,7c01385cd832f017f5b936a09378bf35:5e-09)0.990:0.117544791)0.887:0.056586442,(7d89dc518ad8ed97bdddfe00f03145f4:0.101355972,0ddb7244bb98c7328b4270e54a67b0a4:0.117651588)0.953:0.09272034)0.442:0.035760083,(c3a9b203ce3813ce75ed3dadd5499084:0.016593225,((034a966e427cca1f797946ed6c5ad901:5e-09,02e9be79d59877d98da35d17dfb88566:0.006780264)0.000:6e-09,(a38db862267b730e568387b2696a9014:5e-09,((9a6d23623fe534733208baced08ebdc8:0.048864836,(22b3592641dba211446bb521e06b33c8:0.032622372,(((a4819619282a5506b1e73568669c713b:5e-09,(74975f8f6c22e0ba361c30ad1a24687d:0.005836431,c6d2daf2cc1e593ca12cdd95391be6d4:0.014884832)0.998:0.073210794)0.964:0.027348243,(128ef4bab496f19cdef495796ede8bdc:5e-09,((d0886f081121f23ae2c66dbee6208be0:0.532737881,5928815df569bc28c121c52acf1ab0d8:5e-09)0.999:0.115128367,b3a02bf803f37a1bf7772617c1c06517:0.01093324)0.775:0.009804505)0.771:0.00673761)0.760:0.006533682,((291fcb0de8b341a0a548958ff0ff2f7d:0.013732502,4a417464b8d6c496e96566d009635a0f:5e-09)0.954:0.02847174,0e8ad49e52e728f7307a43c73c4dcb18:0.05047427)0.665:0.006661886)0.812:0.01716555)0.983:0.084574863)0.912:0.054949326,((((2c68c6783853da5cd82ec4534eab0872:0.0,d4f540eb54b9d31e3fede77c1537151b:0.0):5e-09,(99231c77c947fd9e8c2a80b6e34785a1:5e-09,f4f64c696702245868fe3bf993b54014:5e-09)0.767:5e-09)1.000:5e-09,(7f4fea7ce4de06bd4694b91133ca7a24:0.006870265,(ea2e5e2bb16ad0cb18e006e98a3c3202:0.0,de964b5872b50d00c3a34822705e90e6:0.0):5e-09)0.951:5e-09)0.800:5e-09,(f3292a23d00995d7e7605d61dbc7a261:5e-09,3a49f0f43338ab29d19aa4c7e7dab4ff:5e-09)0.993:5e-09)0.973:0.057664755)0.882:0.034574276)0.975:0.031475551)0.867:0.025883794)0.850:0.048072169)0.839:0.044073633,((9e628da4bb050d1c61726084923c653f:0.053644302,((42e768e2da3e08d67c74ca01e8b89f35:5e-09,9e52698c07ef0b04770746ef4157ccb7:0.006985404)1.000:0.088828917,(c9bf9ae9b0116bbbf863649d0c61f693:0.021210506,d125ed52398195153268b6979c6b03e1:5e-09)0.000:6e-09)0.759:0.007866182)0.742:0.026342188,(a76bce6115a8230b9f20cd945b108a33:0.003401371,e29453f9aaaf5e407c7dcc75cfeb24a5:0.010388688)1.000:0.151682525)0.516:0.057021258)0.758:0.069855932)0.751:0.078037753)0.891:0.090597872,(((((5eaa5a67b59e6cfa1c671abcb7141733:0.04075054,d96b52c8fef7e6644bff3615ba8c73a4:0.06746298)0.991:0.342937587,(3357eb4d8a175ad601f36203b66ca979:0.06543094,(60077901313a6c4469f93f3a59eb5770:0.005084373,32a6e7930d34963ad225f1be9b263f1a:5e-09)0.907:0.061843126)0.996:0.370658839)0.581:0.031570523,(((ea9cfff237af6ab7e12da74c33033bf3:0.076215085,8696cdfbf129c39c566a65419bc33a3e:0.041364845)0.948:0.167791312,(fdceabf00c17e29f2a22dcef5d08db3d:0.307505118,b0687a3dfecb3006367a2a04a366b455:0.237021234)0.944:0.189929216)0.865:0.114266348,d7f3c9abcbbcc74d98e1b25d323389dd:0.518979264)0.074:0.027765751)0.913:0.255415213,((d0a7de05b88ff96e97e4afca262dd5f2:0.229227129,(b8a753308b023dedd1ab0f51bf0d2d5b:0.0,75b3d362747c12e0a10c96ddd0fbdc97:0.0):0.129986973)0.953:0.337452008,(e6f6c4233ba567cb79d0d798dc3d75cc:0.264657692,94ff7eec71fbe65c3da5997491b5e65f:0.242115649)0.969:0.421404388)0.837:0.209448314)0.769:0.147089332,((((((cbccd8edf8861d847ccacf31bb28b9f2:5e-09,49bad0fcf2b10bc19d42fcf1f37fbea6:0.003742922)1.000:0.154820618,(27d8b94910feecbd0887df79b6c89438:0.031985842,(0a22b49e220827c1494a7322a83d6fbf:5e-09,58c9dc144b08df0bd9316c4891f86c68:6e-09)1.000:0.087249621)0.843:0.038096754)0.880:0.114915918,(64521a6a7a3a224bcc72331b7cf0b5f5:0.227948007,(c35ee1154c6b887d9c149e624965f4c0:0.147079373,(cfd038e1c34c6be6d3a0f27dfe39eded:0.08223878,(57d9e2679aa55f6ff1783c605a580683:0.006453717,(214f3040465d542f86b19fad7a60132f:5e-09,177272893ee687053912096d699dd2bd:0.007637333)0.746:0.005415933)0.883:0.02383025)0.931:0.070911388)0.693:0.068369811)0.997:0.285457945)0.869:0.094475671,((6145ac94775ee51e4ddc9044a2e83883:0.0,31d5a7c397f644ed2d3f433df65ad56e:0.0):0.024738293,962a3dc3b7ea5ed06c04e0f63cebbb0e:0.097396878)0.999:0.234589709)0.445:0.040042244,(9edc010bc9a1856c026958a6f9eaa359:0.029827185,(5785034e8ec286cab336c4a7ea46d24f:0.013656809,(52929954dc0a8d4b5bf6bd4a9c74b9dd:0.013601997,(816e216e6f7e6c9d4edcc6b72fb89264:0.003372148,1cd0ec012aa6c69acd59eff8558c901a:5e-09)0.771:6e-09)0.907:5e-09)0.975:0.116080636)0.998:0.266575303)0.859:0.070465791,(((efca33eba56422c55a36176525394c27:0.102464793,(76b4208f442a0a05456c48263fc3519b:0.027906406,0162990d16268f0f780eedc02f0f479a:0.045433491)0.980:0.099950901)0.827:0.075456273,(60fb020ea3428d525b178caf652c9f03:0.035089294,149d808116fd1fa000791d1786e82857:0.936836774)0.622:0.209235187)0.950:0.120949383,(bc29dde0ecfe2b5534ee39b332b8c33b:0.250734888,((21df4a56729fa97f10f19221cb632304:0.114748185,((3db14676cf5c086a2761116b134f8d91:0.004282345,(c37b19017ef347455629df8f2f191cba:0.003475625,(70f851cd9d221fd21fbc9c3bec740d2d:5e-09,53f1cfd0ebd4abbbf9e8c22b919d76e8:0.003473767)0.262:5e-09)0.900:0.013445813)0.989:0.069386744,(d16dc96c403c773ae0559cc26579fae2:0.016248414,((03dc7fb5922a1a90879f381e60bbb2cd:0.015911459,(3bdbda773bb061e62dce3a5689b36c07:5e-09,d99132de43102d1ed20849c15ca5a490:0.00342904)0.836:0.009426)0.957:0.032061193,23b2daf5b557a8472b66272a9ab478c5:0.043572165)0.855:0.02289433)0.877:0.041584389)0.830:0.044478834)0.502:0.135520599,f688a5e4b7799742f34b81dfd9767f99:0.546738259)0.047:0.011730034)0.533:0.071641443)0.854:0.064076292)0.801:0.048738049)0.248:0.041752655)0.902:0.098595141,(((25ff076d63ed597ba7dca793656eb1e5:0.336188242,(1afcb1e68a834aa2b3d5280ac365958a:0.003306031,adfec6cc2c2497a92fa638ad627c16c5:0.007303888)0.972:0.337881764)0.978:0.337805724,(((((6a47ccccba4cded77e94042c97fbfba7:0.015864203,(47a20e1a873d4d87f2407deb31afb823:0.012497923,c0c5c7f255c486e6e5913e8e100cba78:0.058807321)0.957:0.20620548)0.959:0.336282543,(d42febbe0ec3d6794820b93b371df4c6:0.18057138,(4c7297f4a920efda56e4da775be03e4c:5e-09,4dc443032f514256a08d5a7ce7673963:0.067011094)0.401:0.124544804)0.986:0.447095492)0.483:0.062228105,(222d3631da4b624473e5e71734ad7491:0.216508662,(5a1a226cef8dbc21c9c49e1d8ebc2ea4:0.01769878,970552846528fa99e7fd5b8d1b14b667:0.010348779)0.182:0.066002761)0.952:0.295878516)0.404:0.052087266,(0c9f49505599ab38561846f9c02068e9:0.464600525,(7422342aac24655d7eeb3a22ade95c39:0.053424629,(aab33f50162e2888ff3e00feb6669806:0.033211333,21cb7d8d940c71d47a79922f5b615aee:0.013087596)0.000:5e-09)0.984:0.385385577)0.706:0.224231688)0.434:0.093970955,(a2efb51dd64b6ca8211cff16e35b13e5:5e-09,(f94ac41407f1339a3334ce64d6e5c71e:0.034065978,8948a6fd629a7102d2947a19068cd67b:0.028814484)0.547:0.032292818)0.984:0.276504219)0.670:0.055332517)0.287:0.077044458,((4c78dad7ca33b744a19c041d028c7923:0.08624345,6139a93b135b21dec7216ae96abfcbf6:0.162829991)0.953:0.280723196,(72bf12636878c0973151317be8637eb8:0.37575136,e9f1c3163143231a7e0d5bf8062ea23e:0.241679205)0.756:0.070583723)0.897:0.171427277)0.794:0.144496023)0.683:0.054576517,(ebd963b328536e9ea9a6e96d395afe83:5e-09,8fdf01c6852ff84dda5164078b0cc2fd:0.004157789)1.000:0.484999789)0.701:0.053656874,(((3501ccb3bc4f135902e5130a672e3ddd:5e-09,a5f8fb96e01787f6d7ecc4dacdae770d:0.042634148)1.000:0.428321129,(((3bb92b068001f9f0299997f75f5df8aa:5e-09,01a9df1ee098ef01d6e02487ac8fd030:0.040469495)0.984:0.438533472,(04e47b2bb94868a4a98865187df003c6:0.567991459,(3104ad517e94228cfb54581728cef86f:0.080071896,(86503553165c040b3682b047f5399b58:5e-09,4865da1aa3e094d385a438ecd5afae57:0.004163143)0.906:0.103334928)0.954:0.46540041)0.412:0.03831455)0.843:0.210234535,((((de1cc44ce5113d884c9aa540b949ddcc:0.013979389,(c98fffa5296fc49b4133267c1294314f:5e-09,6e8761a87eeeb7a188e805fc1b5ad5b1:0.434991976)0.866:0.051071603)0.867:0.140562707,950687a08c0d296c3db07a748c179677:0.235354161)0.933:0.216923725,((((7ce6b96dabd3ac34f285cb919cee6cfc:0.0,6557ac11cd0792ce0617ec140fc25878:0.0):6e-09,9eb4dc1a286dcbef70087f1f6f372850:0.007052645)0.983:0.572446115,(94a592a76324c65db81c16a9409d5696:0.032235087,(082d9acddc1d278570da15a65b3e7a18:0.006684804,db97bcc91638b174ea24e456e928164a:0.006484893)0.618:0.009037662)0.877:0.230554835)0.660:0.174303485,((9c973ad07c412918c61b845b56c84ab9:0.17322221,(025f4a160456e673b30643e17746083b:0.006546998,a0432ec1f4cb4eaeca66de2be218508c:5e-09)0.837:0.073825515)0.885:0.132323418,(1be43d9a75d30e5173637dd54238e8be:0.341526355,(e21acc2d51ce5e7067820539f7abd6b2:0.004577938,4359147c92fb3256a2925cb2c58e0fbf:0.006091294)0.888:0.206729941)0.983:0.427769848)0.716:0.089256223)0.777:0.119586957)0.142:0.04995497,(937af8a5be1ec652d64a020f9aa9e333:0.141928363,((e640714fa319f063fd1508e108569d39:5e-09,b4e394495d31626dfc7f8ada0ca38952:0.006789961)0.886:0.040367064,(e9f9f96c0ecd6fdbfeddd9d92bf5bca3:0.013328236,((4881f1a333b543427beba5382d9a4d3e:0.006139806,3dbc8d26243a65f0b172285555f23bf6:0.000785946)0.993:0.035071778,(458f1a7a56af572fbd50cc08c36d325d:5e-09,c2eb1e1189d8a9dfc5343bd1591e67d9:0.006579329)0.809:5e-09)0.491:0.006590616)0.750:0.020145661)0.731:0.04332917)0.983:0.275050846)0.727:0.079647336)0.465:0.022032246)0.817:0.121036971,(((eaaa2215512790a63fce6e08bdd3f578:0.409434475,(d4fb4b901598f297da17bf86a7deee47:0.118735199,(63af7ad701e6c43ebd071ab6dc1071a7:0.137749137,af7d52e529e2fdf8384a7a67a140384e:0.210781194)0.985:0.457642906)0.413:0.109156575)0.862:0.196068113,((5ecad7fcf9598e03c0d50dfcee01fb36:0.097522229,((e50746193a537b7f94336330ea1bbbb4:0.005647621,3661252402500fcdd9e3e71aa09f61dc:5e-09)0.000:5e-09,(b5ca61de8fce8cbfba21846df5405f56:5e-09,e3a2139dfb8c2a3e8a0947752cb733de:0.00565122)0.973:0.017104906)0.728:0.028949828)0.926:0.226845499,((1f4e05960bb18b3db2a3bb789fe91d86:0.568264315,((c41ed7d6d18308c971e10e5958ef01bc:0.322811785,(1ab2dd630cf791df4e9e336ffbe9c3a5:0.021925736,(281376f2a3330c85d0417382b3527785:0.017128493,5cd213d3234ad4fe79e8d8a1f4ef656c:5e-09)0.868:0.026992658)0.949:0.185709542)0.834:0.099247457,(b74f94a8e8c5f741dc257bd365b98e7e:5e-09,5c0fd280a3f9c155314be8e304d366b6:0.008800932)0.993:0.41207494)0.439:0.071189644)0.727:0.104936885,(352d082155021f08abf741a857ec4a4c:0.208338673,(ca7939abbff1cca940d06957766ea4a4:0.008406046,(8ade92b0c8ae7ecb53abf4f06e0d6341:5e-09,(74851a6f9caaf95acfb9ab6ca2291607:0.004133419,a40f1dba49c825586467e1bf12701fb7:5e-09)0.921:0.004245609)0.851:5e-09)0.946:0.222338735)0.899:0.187685601)0.931:0.198631039)0.715:0.23904621)0.428:0.149739276,((bfcbb05a3493bd63bdcc27dc58fcfb55:0.14676988,((79eab2d6731d31db8281f7c7d2745e2a:5e-09,e8cc3ccadc92425136418cd7ee3e8c77:0.007097717)0.849:0.15981678,(61611f6fdbb6436c173b3eabc4e05ef8:0.00694583,662835aeefe3cf46c0fbf40ece32c115:5e-09)0.854:0.137079684)0.981:0.528586521)0.722:0.39724298,(((((e0c2ba0d3b5518e71eb1a86952cd8ff6:5e-09,ff51d474cebb1afc01eed0285d9f00e2:0.00484537)0.999:0.259509639,(d5085725f5182ad439538c4fb17c87e3:5e-09,99a1513acaed5f9177690550350d0b07:0.005461647)0.943:0.125215093)0.863:0.097413007,(5ccd9c60196f3cb13bb37775a64edda5:5e-09,((efb3e83372b92346b7220ebb14a440b0:5e-09,(72ae0fc849a4ec990cb709f064ca2092:0.049187479,9bd2313a9a33bca17a729f9a7694a829:0.013864249)0.784:0.007267122)0.975:0.035033375,cf3c0ea2626cde01b303728e4e7cfe10:0.013712592)0.202:0.00676492)0.995:0.237716786)0.657:0.018770131,755ef72e8c5e1eb2091b6ad2289f39a4:0.423457614)0.777:0.065024902,(addf8fe5d43866ad6face71a8e7c4188:0.203196895,(((a9a1baeb6ee14e8efd3d4dbeaf9dd830:0.35197368,2cd8a7557b57f59e88bdfe966ecd4b50:0.291258841)0.266:0.083897505,((d726c439e378f465d11e7af988720d9f:5e-09,(b847afedf83f865234ada610ee3a9345:5e-09,09dba9ba62c182afc63b8e22cb62ff32:5e-09)0.894:5e-09)0.998:0.17380998,(ad760804214cc6f39f0de7f2982d020e:0.121810266,(ad4d68041644e8364ceb5cebcc235be4:0.059185093,f852fe4ce5f9dc39f7384ee59a7aabe4:0.02977035)0.904:0.060325834)0.729:0.054356199)0.887:0.068748065)0.770:0.04817613,(((1bde1579db9bc9ccbb0433f22879b2d0:0.150381809,(e56de558426c48c5873496b4dbdf9126:0.343096069,c6d57eb09a392c9833b3da59c0308eef:0.121851722)0.743:0.08659031)0.973:0.206849578,(4873c9b56ee3cebda6b8c9db3160fd78:0.258188339,(3476b6a7b5d11e534281dff9d05afe10:0.0194173,ad508bf31e2f5aae726a29222aa27bf8:0.004222499)0.928:0.129616566)0.854:0.108826995)0.401:0.066289107,(4cad60b527a5214252444804042dcb03:0.231713554,563c9aa7dfa416ca07c2ba3eda669804:0.349293744)0.870:0.155024434)0.737:0.041233627)0.283:0.069388624)0.752:0.053306769)0.252:0.072427433)0.836:0.118728045)0.410:0.044488495)0.826:0.06838308)0.836:0.041993179)0.766:0.036704087,(2e290eb36a4b2b1f58099d238ca30a40:0.027300898,68ed42f9a273b7a26868ce0746f29f9c:0.070528541)1.000:0.400294063)0.796:0.044642936,((((((e8398e410f72939372f54175c44a3372:0.31135024,((951fe94a411624aa975d27c46926b2ef:0.001994919,(96ed6c716669a25304110aa24ef17f5f:0.023970484,782324f6367dec9c69689ad102d967a5:0.009509479)0.538:0.002692839)0.997:0.468645699,(cf805b0d2b9ff80aab02b39f7a44205e:0.568307617,(4aaea7483f81dd979f0c4099cf7c7423:0.131621449,(6c9b6286c55497b2fdc82478aac78f1d:0.16710277,((4302df8aa2eed5b4e9d42be414e7ed31:0.0,7c577ec354493d526685a2e5e13c1f2c:0.0):0.006710632,4629c1258e4086c7adf26b573fe92a3d:5e-09)0.955:0.225803336)0.836:0.180749547)0.173:0.124707638)0.200:0.018955832)0.111:0.046405253)0.893:0.156179127,((1b705d2ce01c6527d8d4d8b8455389cd:0.432584485,d6233a809a3c5c54bf028591fb9e68aa:0.215309697)0.770:0.177659969,(((9af1a414de585bbc8420c625d299f3cc:0.013931255,21ec7bc947764edd252d780aaa88f108:5e-09)0.958:0.140913879,(bb2669267bfa08ed1fb0f105eb49b970:0.165518073,((dc311e8339591df54fe27506218a18e1:0.030519772,d968372d2cd7763bbbdfb6c80df1117d:0.003675451)0.991:0.429564267,(f8d3605c416ba6a9d02e5f7779896df6:0.241727951,(b6780c92cec28216c213b5784ae595f7:0.098497591,d9bbba8a2ac5080ff7bc08e41e9a1575:0.776758176)0.682:0.293708204)0.654:0.075451637)0.767:0.127603765)0.875:0.167451753)0.000:5e-09,c4e0e5d41d53e411b678ccfd40d9e9fc:0.556319396)0.883:0.100016704)0.637:0.042966622)0.666:0.1381213,(6a0fddd807364356205242295faefd46:0.142221317,(01bbdf51963d09f37001869f3a0dd3a5:0.446295748,05b0fac7eb801a932ebc72b51e64d6dc:0.21338618)0.436:0.106449609)0.999:0.421189321)0.750:0.068470646,(7ce16a78cebd8bcbfeaa938c736cc091:0.610199608,((0577dbbf7b2bac3da4cc24e10a6a9c90:0.207481074,d03b4437713bfe2d96bbc45e0cc286e8:0.399031325)0.945:0.267614954,((((c78d462bc1150f85bcbca376e775d473:0.165002667,fa4754e2d77f877700e03b2d05c18702:0.189258827)0.986:0.766738135,(e925158baf7f7f47f41dba01049609a7:0.258253096,(69a3057d5062ae02df64184fff4f90ff:5e-09,(70b13e378db1fbc13c0a819dfbfd2b2f:5e-09,e153ef05466ad5d1a6c43fad9e2e57e9:5e-09)0.922:0.02001809)0.940:0.227918829)0.446:0.121879051)0.707:0.116718782,(7eebb81e90b9bce14054b237131b3ec4:0.077601629,7da30e02fff980fef8c82dba32d25583:0.2168627)0.747:0.098766886)0.816:0.126790811,(ad0a1fbeb188de3bdc7c41d7b474d8f9:0.293992659,((2ee9527bef88e8091980700ededc0abc:0.267265065,0864f7e392d6a491ccbfcb9f3d87994a:0.371756635)0.118:0.091261545,(483326e7343210ecfda22055f4c00ce9:0.293814717,((351560d2f35574c02dbf528c49e14b86:5e-09,83fa97dc8198f3f40fe3d8582678f8e7:0.006753635)0.987:0.343026775,((2094828e4926a14564c4e630fb5d4362:5e-09,ad97af2c379bce46bb932691818d01da:5e-09)0.810:0.028143376,(f0a83b7a593663d84abf390f6c259268:0.187327751,(3e4cf92201ff0b59873e6afd40de5363:5e-09,f1608057e69c86349305647a10cecb84:5e-09)0.957:0.041970174)0.730:0.010954755)0.822:0.140512467)0.876:0.178474255)0.878:0.229542285)0.851:0.196530878)0.645:0.135437657)0.596:0.094961017)0.748:0.095862808)0.001:0.055898812)0.795:0.055095783,((((8814923b7e777c1d6dae665f4a555f1d:0.118432918,(47368b548ea851702cb8c75d52a02a3e:0.241528388,e4d02bde5d4fe5de7808583322596658:0.407316639)0.987:0.580044642)0.803:0.193129526,(bab355136c5783450d9c8fa2eadc8cf4:0.39509661,7f3098533544a5c6ed3103133e2cc396:0.269857251)0.585:0.065013391)0.887:0.201321865,(((eea24c375450af795e0242b4f622c63c:0.0,155a72d8a45542b6999268bbc91ea862:0.0):0.007667066,0f0a12bcc1b50f11525120410fd24b22:5e-09)0.973:0.280911768,(d9b360620c2a4301b8a0a065bbc69ff7:0.010142355,(9d2191e2ee5a8b65f1a9f80450f89b66:0.016089803,b2a77af2bfa6a51ecb8ceb29f964bf3e:0.011937974)0.902:0.040100767)0.980:0.26506476)0.823:0.146100886)0.871:0.179569304,(((3c5855139f007e33910c87abf12545d9:0.005751313,510f27e39a02d682b0c28172b6f39ac1:5e-09)0.799:0.113947888,((974ed5f2c45b22eacd58b53b0cfa19d4:5e-09,cd4ae52f8eeee9461e914d995f9d262b:5e-09)0.787:0.025677184,((9743fb0d175c665ed1709b4fdb3dd627:0.006789653,(0d1d33b6ea08c57733bddd389eddbaf1:0.026553406,011c3daeafec5945c1c3cb0e6fe53cac:0.006726244)0.218:0.013555759)0.986:0.054444889,(44661b6ac86eaaa1cb5244087c6c327a:5e-09,(e93052e24be60bd7d258e21eecce5cad:5e-09,3be7068643d440a4a2e9eacdbae263d2:0.012504435)0.800:0.006218268)0.747:0.00968315)0.844:0.033459791)0.938:0.253874027)0.992:0.484101576,(7175e91e4df6ae110994a6388f45097f:0.323378443,((ccd927c73cd131f4135e6ab779eed806:0.295941615,(a3aa4da202604ba6e1f513a5021127a8:0.138532124,(a4057d4f181ca8e5016467c71aad96c1:5e-09,ffa9d81f11b565ed40c15bb64425a917:5e-09)0.876:0.028847764)0.876:0.072297299)0.999:0.211907644,911f1fdd60b15c4dc3e18d29754076a3:5e-09)0.000:0.011139949)0.930:0.222821979)0.611:0.059847202)0.829:0.109810419)0.728:0.04480356,((37b1bb0e33a15fa050250be87f200ce9:0.16122625,(b74ae3c3d712b39a8a411e4cb7987984:0.28913653,((efe369742683c1ec2ba8f756baabbe18:5e-09,17de5f45d9f533c9b6a6d6990b1eb257:5e-09)0.883:0.088035612,(5d7fd252019416123ae6027f174f0f04:0.054131263,106d85cf395b70168ad6e6c3c8cd5301:0.057365052)0.952:0.12673511)0.882:0.177694853)0.811:0.115560429)0.764:0.093311874,40fdd01b9bfbca8b5ca5d78d83a21d0c:0.240464515)0.803:0.084280965)0.669:0.020273437)0.573:0.03001445600000041,(((bb089371774e063853f56d2a3c572c64:0.196781285,95b36e912af677d2e56c08e822ca9f99:0.317584542)0.130:0.137396092,((((d860b6c37c857b873134f08cb5d6c77f:0.369393229,(3e12463e68564db25d0d84946030eb09:0.246360026,15d9de2c150dc60a072d8ec902752951:0.393551025)0.424:0.032102563)0.793:0.068755327,9702747e126eb3668d92a073fa8acaba:1.220363018)0.000:5e-09,(bbf18486a1ef5d97d595f69fa6a8c0f8:0.0055876,0aeaccfcf58b03778f211f49bb0f6d22:5e-09)0.953:0.184909819)0.691:0.091297235,(c26bc86a764718eef5bd300f5a826335:5e-09,(6cfe709c7dd1b7ee6d6def6d47464a47:5e-09,a1b676ba78ea71c06985826bcf849184:0.005071309)0.472:0.005385644)0.995:0.506296572)0.123:0.152448378)0.877:0.133845844,((((((a71b44c9fbc90da1347f393417a3632e:0.006215626,((4b080a0338f3f712cf1379290761b3ba:0.006469874,(9c234e3c37e57cafabe0215c8f05c6ea:5e-09,fa7a2f4a56182ebb551911b00aba42d6:5e-09)0.444:5e-09)0.000:5e-09,(951cecb8176fe95219a761ef0ab8c260:5e-09,(7eda1b2b6178c1d9943dd165457ffb6d:5e-09,14250d3d989942f728a0d7b1054cadaf:5e-09)0.846:0.006524489)0.836:0.006540016)0.921:0.058426754)0.995:0.338036625,f1b38c0be6a4956347356fb3d2243281:0.245857346)0.694:0.058249782,(((184c4117bb35c8a128b8027d1bfccba6:0.013376076,9d6998cdec815661495ef43625fa2855:0.07687544)1.000:0.237508081,(81106e4e44489c0556caf769461a9410:0.058591763,(3a0b036fe414810bda25be9838ce6737:0.053984,1f624908e488d983de92171e190b3446:0.013675286)0.855:0.038987021)0.966:0.085213437)0.608:0.006222711,(((((7accf0da8b3ae10cea2c4189d90983f2:0.090417062,(0a607c71894750551f1104277745aadd:0.02386576,27e4b3608759d34ca29ee4fc98d91e68:0.08690559)0.828:0.036062424)0.834:0.046836222,e915354c7fd9c912a380bb5969267ad2:0.180939126)0.651:0.044717738,77ed60488f482cbbcbe20b44558cb6f9:0.276799635)0.662:0.014720269,6789ecc814638299ca590a5dea3f6061:0.172420423)0.974:0.128021632,(((199a136b6ae6cd72fc72a7ad01077ec5:5e-09,((((((10338b5f46d4db2c6d3888355c28bf0e:5e-09,8776e51d3522a123c6179128588b517a:5e-09)0.944:0.006106234,(caf3df12c8f4bf9d0df93163f785a874:5e-09,1c037da4f66dbfa6d734cb48e27a8e2a:0.006140011)0.832:5e-09)0.973:5e-09,66a63d2398108334fd547e63758d2e8d:5e-09)0.000:5e-09,(2dc2dc3da522e623258025e0d81a74b4:0.056076948,(ef6b45bd32c67dde0c798ba4223d7adf:0.057777483,(c665eee53bc0bafd247e93da1bcb063a:0.149551413,(ad76bf27476f066bbedfd086cd31ebcd:0.00590811,4695884e8f0acc4516990d2f31883ac6:5e-09)0.819:0.041512851)0.958:0.070271702)0.972:0.09148094)0.898:0.044620287)0.002:0.012153666,df5382ff16d9a4823c4ae7f36f62c5ca:5e-09)0.193:5e-09,dd5bf484926b5693abbd45055b922909:5e-09)0.288:5e-09)0.244:5e-09,44b4a6a98163ced1968ccbbb3f4ed26e:5e-09)0.000:5e-09,2c24fcaccb34be09ca0867310ecc0121:5e-09)0.945:0.079627879)0.759:0.025206786)0.877:0.069526437)0.599:0.037374347,((759f8a6db67056ccfc46b92432582f54:0.119456971,((0c9778e3cbaded02a21427476dda0784:0.056663253,((8169bcfb6ca6fb2dd77051b6dd512fc3:0.0,d4c35b9749b8086616ee190de1f7d143:0.0):5e-09,fa49a0fb6014bdc209cde9675acf0bb2:0.007394323)0.886:0.055700677)0.985:0.151635104,((((729b6387324159b0375ea7e274f239d7:5e-09,(ed2035867589137e481e6c4a3c9eae99:5e-09,06f91b43516813e1d04ad85646f15050:0.007324385)0.862:0.007324384)0.781:0.001264519,2dec23aa4ca96c9502f6f78f57e74f26:0.006241634)0.972:0.10833903,(e58b30e9722fa228dbdf7afb2a0be674:0.007184027,(9bc57337164f288a12bb9450454011db:5e-09,(d40ba527a508587a52d131a3538e3f0e:5e-09,19dca76752a8e851bd7bac390a42a7e6:0.007201577)0.756:5e-09)0.000:5e-09)0.773:0.029013091)0.995:0.185307998,((6598f8bb065d4e06cd0eefdfea48bb00:0.006861767,4ae3dd1de520c605d97b63ba70f0d6a7:5e-09)0.961:0.091296678,((cb6da53ccba186a5ba265a4f363f7645:0.0067728,((2b7cee15f66135ee548deb4ed67374b6:0.0,3fa5455b64ac8101a4738df3ffe55608:0.0):5e-09,179a418cf6943bbd51bb45301192ca7a:0.006767666)0.423:5e-09)0.986:0.121289323,(((0bfb4fce0221250d83f2d7bf1da8f9ca:0.006630151,(d99ba786540d6e8936b8d286dfcc8136:5e-09,f3fb082e099f70c811935938b254350a:0.006646189)0.906:0.013448315)0.754:0.007262122,7aee9538d143e368d8ddea7c9967b080:0.01352677)0.892:0.014399132,6024788fe20f0c24316f762253063e6d:5e-09)0.927:0.07531581)0.088:0.031114094)0.703:0.070934002)0.735:0.030275598)0.703:0.036709993)0.993:0.213538947,((818bd122b566fc3889ca2d41fdc96172:0.18203742,(((4e1507f8bc3f43cacc9e364fdc11c60f:0.0089779,38bf511f5a7677c71e9cb26c32e95830:5e-09)0.872:0.160804919,(((33d185840d6f56c3d6fffc749f1d2047:0.056002382,(4878022ec81fa6eed4b79c345cb6290f:0.007704679,169c6c0b285c6882d0695327c4829bcc:0.010574938)0.997:0.238939819)0.453:0.060928163,((6ade207189f43d3bfb231758f30dd567:0.046983702,((3263aaddc00aa94a8278cd27a999277e:0.013807719,e4517de054c27f1570251ad08821eba3:0.008996153)0.999:0.239399572,e1e0090fd5c51053cd2a04fdd83f3916:0.095368135)0.677:0.081808209)0.955:0.135954752,((((5b257a159ba2ff72c6fa63329b02b9aa:5e-09,05620c213cb49285f0496e430a35822c:0.01536513)0.857:0.007587827,e719b61c52053a4d3042317aaa75fc05:5e-09)0.849:0.007587837,3fa16100092f3a772e284b31f0fe7297:5e-09)0.875:0.047794596,(4b74658fa938a3791cc7ca1f5221b145:0.05088647,da30b7ceb7faf86fbc60b115698a1508:0.39945515)0.544:0.034757036)0.977:0.174412806)0.895:0.088742294)0.241:0.033137107,((808eec87377356f325500e20369095d0:0.124393892,83b220843dd56dd55a815af2261b5086:0.073856102)0.996:0.248371435,(58d4c8b3db3b9f51561951907cb9fe5b:0.222948861,(3c42a240add228e0308192987e6f9abf:5e-09,(a1ea8a92e27569f8b4eab50894c9cce5:0.010734662,9921132349ea6355c63ce02ca400d346:5e-09)0.242:0.005350306)0.996:0.273499687)0.241:0.031591543)0.528:0.043246526)0.998:0.456469345)0.890:0.183679625,6e7056819cd743a7cf8568a98b46e1ef:0.163748289)0.699:0.04252303)0.668:0.060804176,79ebba6a41feff7add5b1b646023a920:0.230879424)0.751:0.044880619)0.407:0.039824202)0.861:0.094170509,((10cba2d2e753d259f5a7b4863e5c3f39:5e-09,111ef0315b8213d3481d24ca35293e76:0.011437837)0.988:0.419320755,e649a1092e30ec2dc3134e25ed4df52b:0.158254475)0.975:0.314271969)0.764:0.052329929,((((((((((083c5e3660701e41a0dd049c2e930d2a:0.081901299,(b7f1340cc378ced865aa31c866ac6229:0.441030535,(84d91c6e567023e03301c8a82f24e237:0.015740838,f58c47e9841bc9c376f2a64f6ed7a8b8:0.012978009)0.886:0.074947222)0.000:5e-09)0.894:0.092096933,((d6dce24cf1896de6712434e18f9f2060:5e-09,fbbdf501dbb4d01cb65fb315517d4f73:5e-09)0.000:5e-09,(7285bc789ab624dc14e7394f601efe11:0.006846039,(68a34ec8ec76800ed369831128635a36:5e-09,(8d2808bfdad07467cfca014c45edeb99:0.006833216,(691e5c73b3b298166a5ee42239428b8b:5e-09,(b98b29d91baf4f688087b0bcbfe20482:0.006851387,((36af9737975e0753c36ea74f18caa212:6e-09,53f7b9ead25946c651430448470bda74:5e-09)0.186:5e-09,(ac5f015cd1283078f4dce63d18d7e3a3:5e-09,8a16821c96556db7544be4bdb1132483:5e-09)0.868:5e-09)0.948:0.015682764)0.505:5e-09)0.201:5e-09)0.515:5e-09)0.507:5e-09)0.930:0.032753946)1.000:0.242827054)0.845:0.055660139,((373dee456b5d42c1b464d4eb7f7c2df4:0.134516886,(e35090a9172d932fbce926d6ab4a760f:0.31092624,(3d8f703995ef7f11aab5f0f1d1a15b7f:0.214612289,4ec991f31fa5a7c7fbe6910f7d4bab28:0.199472909)0.856:0.151249182)0.466:0.032993423)0.845:0.081321156,(dbba9f0ddf906324d05d2d379de56932:0.159057027,f7e083d563308e2edf826e443253b8e9:0.14210833)0.868:0.064556329)0.756:0.037282782)0.934:0.083929329,(((((90af54044967a21b87cfea6b2c39bf05:0.125545992,(7d1a8e0f79c4816ab2acf23210aaa5ac:6e-09,7dcc4a7c31dd0dc4585f4abeb488410e:5e-09)0.988:0.159804261)0.427:0.039994475,(c908e10c678de14437623b853e06a48f:0.344159746,(122c48dc5423778fd0be60d19f3837f0:0.043381444,966385c01076104b25aa0d5704335eb0:0.076250451)0.956:0.243168456)0.867:0.156228684)0.871:0.09344486,((d5863f4d8494b66e488efa4d55faa469:5e-09,a879976aeeebeec6dea0b7240c0426f8:0.006589126)0.998:0.259271772,((ba850857b726a0a2ffd0cb0d2bf816ca:5e-09,0e647e11ea10f29c506b9ed428d476d1:5e-09)0.997:0.260968088,7c2826ca45826b7f46dd597ddc20d36a:0.18606255)0.764:0.070509636)0.000:5e-09)0.767:0.05748127,(f6d63745f8cd4c221bec65a359ea85bb:0.015043088,((9d62d6b9be230dc57d63151fb54c9bb6:5e-09,(798ff1135c9aa4750e9d3ed4c06b32c7:5e-09,(32a110d99df630f1ce47caa5f0cbdc5d:0.006543207,(((05db9dc9b8784e5fa926c759923056f9:0.0,b5a63835d9e7d2c7be826a5fe101560e:0.0):5e-09,169f1bccfdfb45e5b4873ce1fe88a079:5e-09)0.854:0.006489706,(5d052917b77e8ffbce6cbf7ad4ecc094:5e-09,(faa88b4c9675ce1045d5def3ac2e3d68:0.0,679b03250f344e77bb6607fa6859f9ef:0.0):5e-09)0.950:5e-09)0.890:0.01975559)0.027:5e-09)0.923:0.006492387)0.000:5e-09,(af9f84d4e94cf65ad18e9fb13a52a049:5e-09,(6b4430b296bcc1c257ab8155082127bc:5e-09,(509a5856f3727475f74885f7214ccce5:0.006641822,5082dd6bd42080b024ef5882fbc9891a:5e-09)0.904:5e-09)0.501:5e-09)0.822:0.006514763)0.690:0.025966244)0.995:0.151285129)0.885:0.064744981,(((24654ff40b68348bd975164bbec7a915:0.314300622,((b6d403c1ed89e331c28fb12d147c361f:0.006590549,5464f03b048582d3d3ee009aaaeea320:5e-09)0.446:0.148721504,(fe2771a02869c4ad2e5ae7f3508d5e47:0.069719797,((60dcb1d3babdd108d6382670378e06ce:0.013537981,05414cb6a4360aae267a30226bb9be78:5e-09)0.976:0.081372035,(431d68b9a0a3327a3c8050e5cadd1292:0.049963548,(a203685fb3b5e1df27e31b68bdc1fb8b:0.042520407,(f593806c299c2fc5f7662460738219d0:5e-09,7d8f3f7ed2f8c9c9d288c9831df2674f:0.013263443)0.959:0.067155009)0.237:0.023048991)0.727:0.05850739)0.198:0.03435738)0.963:0.154762923)0.897:0.16476507)0.830:0.118433294,(59f24ea682c8b2ffa2dc8f19e21fb57c:0.007612318,(62a10dd2f9a8685a4278b9bc1cfbb9ab:5e-09,cb0e11e1871341ed41813944c4d8cdd1:5e-09)0.813:0.013400289)0.851:0.056988191)0.762:0.060314816,((((((829c4426db434ea9b9641e969111b72f:5e-09,b794b6e93e3573deb128a41565f71890:0.006516593)0.770:6e-09,(c8e96a2d882c1931f5cd0acd66838160:5e-09,a77589a41eed3f01d6a525b343a14f22:0.006543206)0.916:0.013182362)0.728:0.01306296,132b85fe5f04d79a59df56e151b1d991:0.013380479)0.346:0.013040693,3450548d1a2d8ba2843188e8843f0c19:5e-09)0.963:0.056477183,((((bda7cf11af20cbe6d333f3b04f6d6c02:0.0,03bdad0ce91f1c470c10d9ec03f50f66:0.0):5e-09,(2a4730c6bfe2d3dee778045aca680294:0.006719718,aa755c511aef59b413a9057b73069a37:0.006712112)0.787:0.006716563)0.000:6e-09,((((6429437d39e5963d23172e4cf4dbf8e6:0.0,139f855c211449e825d94a0381183d91:0.0):5e-09,04853b51aab1f5e040ca57c60ea35e21:0.006714191)0.799:0.006718849,(34e119be07f826e7bd7f502388dcb954:5e-09,590db905d98018a3b39551e9e335c9b5:0.020369042)0.807:0.00671191)0.791:0.006717786,(75c863a6af4bef995fcf60d48c378f97:0.013576963,23589497ea382353698ef9e6f39c6609:5e-09)0.726:5e-09)0.900:0.020369518)0.847:0.025442056,(7853398d33d1938d1a56328441813470:0.034676415,(e14eafb0e1d2b48e3967d42f3effbcee:0.006518626,(5915d8041736d5126909b29f87b3b50f:5e-09,b055cb9e8bba665c0f5d79579443622b:5e-09)0.648:5e-09)0.964:0.043164248)0.434:0.014952031)0.892:0.032187492)0.942:0.060441201,((43fd8c2c697c39e141dd1b61fb8b6dd1:0.09338709,(6d32ebb06421b6765aa24f51a6b73021:0.099920491,(f826dd8ecfd7f252fb1be6d9fb7daccd:5e-09,(f3fc4bbbe40fe950fe99e1aafc4accb2:5e-09,(3a3aaf4ba82a7d899bb00d03053648e4:5e-09,((94cb47b1081216d67c868e23b46bc45e:0.0,e1ab04ca51c7be86b57fe9798496e895:0.0):5e-09,(b33508e04122e793468ef4287d416000:0.006925053,(b1d12ed3d9ba130924125947062c6717:5e-09,e68cce5a42eba32e49387ff241c713b0:5e-09)0.492:5e-09)0.249:5e-09)0.000:5e-09)0.937:0.015237286)0.000:5e-09)0.892:0.037529971)0.921:0.07206651)0.858:0.059828611,(6cec0f8f4567dd7639b54668c686c716:0.092763405,(cf440c2ce36504655562ecabe8953c4b:5e-09,((d8749e96cd0516ee776f7702bd94bbb9:5e-09,fbc08744b441bc7f0f2b58297f01a9ce:0.006736174)0.000:5e-09,((((9cfd1506d40b9b940865422550d4d0c8:0.0,d71d360c32d61a47728f856c8e8de414:0.0):5e-09,2ba5a03ae865d0ea0edfa230b3069f4d:0.01357781)0.589:5e-09,e9cf288dc62a608007952afae4ff98a3:5e-09)0.441:6e-09,e3372297d89f0642de7a2206eb110120:5e-09)0.867:0.00665837)0.946:0.013966809)0.992:0.128218778)0.857:0.054261411)0.742:0.054466528)0.354:0.012333323)0.867:0.055164097)0.733:0.027021904)0.000:0.007955443,(1aaa58f463d66745517582ed5eca547d:5e-09,97d89cf8ae9efe335461087e841488fe:0.006873244)0.999:0.170169686)0.713:0.078385427,(((fa8768e71f102e22fa018e5199d43c8e:0.190867129,c8d8ae2d6930636ab26cb77b9772ec16:0.186761453)0.555:0.036936858,(891aa8130afe026db556c5991c69fa9c:0.006330291,22fb3ba2bfd9f427d06e45c69d48baf9:5e-09)0.999:0.47715619)0.535:0.061590758,(1389c073e74a4c630214b7476c2fb1ae:0.141169893,a4a8c971c3574e41a7e785e815238e4a:0.081995963)0.948:0.183390932)0.863:0.076330111)0.604:0.052593777,(((feb2381cb123c2bb6cb62ab7d4f3a97c:0.198890975,(98b59391247c4b0da439011b4a8cec14:0.494580319,211d3c4878fffcd145dfa75fcc07e999:0.318235797)0.242:0.042032451)0.688:0.053558499,bb0812e7667f78427dc1e8c9c84b0c05:0.353619668)0.793:0.132150938,(((8acca8c68f9723f3dbbd82a99df043eb:5e-09,(22f51c5e1315935b368f606a5eb8fc5e:5e-09,996078ba7d20c54dcfcbe1feaf6cff73:5e-09)0.000:5e-09)1.000:0.372256004,(((69607d165afc3b23998eab51567d1887:6e-09,(f7f47017d869cf6db3e202ae0fc1ce7d:5e-09,bec3b15006ca84f67135ffe47a70670f:0.0071709)0.572:0.007170893)0.929:0.20089965,(159ea810493b0443f69046568c70bcd9:0.054225089,(e0a1e873ccfbbc53181014bfc316790a:0.012450096,cc7306ed0a84e93d1923a230fa0d5832:0.015817988)0.258:0.049973674)0.988:0.277861001)0.174:0.071980661,(((96b7474a7e94ae2c06941a37f75bddce:0.006858816,(05d11ff9981c3b930cd13a915f530664:5e-09,36c6676d9738be41f927b7c7a14d6977:5e-09)0.000:5e-09)0.915:0.371775108,(d9046afc93031d7813f94a9508ee95ad:0.188611905,(44a3e4328d0731633a897dc640cfeb26:5e-09,(2565c56e87c982adbea8ec46ec9462ed:5e-09,7ff2850d341fef52b9021dc3c3bf70df:5e-09)0.000:5e-09)0.834:0.089582863)0.717:0.163422891)0.998:0.652155973,(0026aba0e55e6bc25cf892ba18ec64c7:0.152559762,(820a5a7f4acc8c3722e31157f6b6e4cb:0.076267962,(439dd413eae27134e705075cbb5aa5d1:0.006946842,((1dfa2d83b2913022a60b3fa14f039edf:0.0,ce254e2265d2b576e6b7485436e5de59:0.0):5e-09,28206651601be27495b1d9d726d777fe:5e-09)0.000:5e-09)0.855:0.101668013)0.901:0.114948272)0.680:0.043649646)0.746:0.137207609)0.524:0.07425364)0.608:0.05173891,((((((7af7c548fe5586232bf17087c0dcae3a:5e-09,3164834cc0a543f9ca333b90ed0dab30:0.007044921)0.953:0.063808602,((1c97123e2abe556593e0383c00197ddb:5e-09,((((c6d2c5cba0491c37a83d38663937f103:0.005628968,e384e5efe6a2c84ab9cd0405aae1151b:0.05252879)0.901:0.022289047,(afdd41a92dd0e17ad4d51cb0d3719f66:0.016217956,(54b6949c62518b4d3b101872e9d3c6e6:0.006170301,(e748f3af02bae9086ec36c77c5e28c04:5e-09,14db3e652c7d0c8db305fad169d9e15b:0.006157476)0.797:5e-09)0.789:0.00904537)0.629:0.012384532)0.000:5e-09,(((ea513f3a3d4d5942f4fb417c91171376:5e-09,d7a03e68d97d0d8301c146568f5c664d:0.006243561)0.933:0.018294036,((a635ff62d41611df8459c166c2653656:0.025453874,(b0b7f4114068dd668de6958353ffaddc:5e-09,d0741d53e334d5aeced2b8fed123bf4e:0.006273948)0.689:5e-09)0.870:0.007016648,((bcab0ea0ff5d15369d94e4f7fe9cc562:0.045000596,fb9b806b604fa0fe62aa4952d16ab861:0.019414052)0.880:5e-09,06f23c377859ae26bcf54a6d1c48bee9:0.006976058)0.728:0.006033885)0.900:5e-09)0.904:0.042400315,((d4744803fd548d4a51f658445944c509:0.006252714,8b8746845a559f89509420952d0d2c3c:0.006263972)0.907:0.03815126,(acb62e21c468d57b63813528572e6fdf:0.017289332,(3b7df102c75ffc0848dbd1c6e5d571b9:0.018151029,(1aa2167277516adb79b9eb453fb18efe:5e-09,21b5f3ee26ee8ce0087be018bd50e66d:0.019347971)0.539:0.016070136)0.791:0.016475849)0.881:0.047566769)0.877:0.060523868)0.878:0.027236356)0.877:0.015578717,(ecd4b0fac792aaddfb946aef2e671599:0.030282847,(44d204c0672aba9ad5243f81bf113b3a:6e-09,(71d9ddf9ed4015584e27e06a4c6c990b:0.018645817,55e76ff74a50673ad65b09aec8c260e9:6e-09)0.873:0.006135817)0.894:0.014552083)0.717:0.006321111)0.517:0.018745391)0.983:0.095006458,(2427dd3c2a101b0943f66d3f3ba27f7c:0.131649906,67549e5eefa847feef8aeb24966249aa:0.08293786)0.512:0.025867719)0.861:0.046492537)0.810:0.044567983,(((22769108365fedfcb95e3458b2b584c7:0.224911113,(2a8032038ce6836018b3c569f32b4567:0.200674218,adc94d0fb52769ac93cd688fe9fa901c:0.175654722)0.434:0.06061171)0.690:0.025270678,((0470270e071b26c5acfb7dc6915d84e2:5e-09,(((c82e1370960cb02d4603c05fbaca2f79:0.004470484,b3a560940174b7109232f3c202324bf8:0.00462806)0.810:0.004475435,48c36d65b4e31436a2a4ed189a83f8da:0.008956875)0.960:5e-09,(90a1c674cfc6771796d1d96576843130:5e-09,d2ca2f8f7f75dd89476a608946c37838:0.004610162)0.911:5e-09)0.835:0.004514141)0.780:0.035879538,(0edcceeda5bc49beef40f83c7d67d7d4:5e-09,b5c052d0a112203270f5a1728d115a09:0.014248886)0.884:0.051819267)0.998:0.205808236)0.811:0.063479478,(c0a542ed9636b80b0dd57def7725a783:0.089921318,(((bb4f1e2644a6457313c37958fdc57308:5e-09,1dbab6976ad4081a0289e6e9eda71b7f:0.017376896)0.878:0.044041608,(97b8ff150e9eb307cbdb8580aa88d41c:0.018884079,e727d41cc996c599a16170d32bc6d3d3:0.079344672)0.186:0.020539609)0.922:0.111607666,(60a71c03e8d78f54c2844866955eb090:0.08924409,((8b1956c52ee5e9b555da83424b20ba65:5e-09,(b8d6067e0c33e1a1e208a11fcab93a3a:5e-09,e0143f184749f5b0a572939ee1258301:6e-09)0.944:5e-09)0.990:0.120305493,((((28d98ce1f24ed7dc7b7f29de1189e177:5e-09,6317a01da6809900a2e0a5f569a77836:5e-09)0.656:0.007767208,((795c6849ff5bd2bccb312395c637e485:5e-09,(((c5492f88fb128d420ca3c953511d9f1a:0.007234991,16248a84daef3b27ffb7842a91186e3b:5e-09)0.000:6e-09,052602a35573471d4682c73b81e3d44c:5e-09)0.927:0.006748573,(((d86495a04a78dab07d42edf24be50050:5e-09,(5eba4eef8d25e079ad758a0923a29d4b:5e-09,675a6d85e4acb4aa36e354687d22f1eb:5e-09)0.997:5e-09)0.990:5e-09,28bf11787fc9af209909b491dfc5f11c:5e-09)0.957:5e-09,d683a5e1b69f021c7e004a71cd8b2b87:5e-09)0.000:5e-09)0.000:5e-09)0.000:5e-09,ae120e523d4fcdcd979502bc09d2823b:5e-09)0.709:0.011930668)0.185:0.009608033,502388335c818498deb3c279eb5fbdfa:5e-09)0.000:5e-09,(3a519918aa596c38c8883b3d4f643d6a:5e-09,(326a8015ec19bc46124c750f3ce8577e:5e-09,(bc0ca7505f524357decbbba3316b0b69:5e-09,e4587d5e212e13e3b1ac7dc22b356003:5e-09)0.753:5e-09)0.512:5e-09)0.000:6e-09)0.886:0.061021453)0.276:0.053720179)0.878:0.120452903)0.948:0.141140233)0.649:0.090823529)0.664:0.034612967)0.220:0.053489117,((25d05497ad88f4edbfb836fa130ca481:0.003803276,1f525991f3a4c974b40971940d8807d3:0.002415829)0.939:0.083546344,(3834472e9cb5c617e6a590140f4a9a5a:0.032516563,94c6cf252db3d6a109235e4d811ce3f6:0.004770993)0.694:0.0486873)0.990:0.167168883)0.306:0.043131832,(5c62598c6c405fb5cf9cc03fe873aef1:0.242958979,(((0ded974c7fbc427556a5bcfd46861771:0.0,c496cdfbb7f0ec9aa3774c3cc9371c7e:0.0):0.024263579,53f018e60c7359593c84d66ad31ec7c8:5e-09)0.981:0.160334918,(((19b1447099854691e97fdfff4f2c8ac7:6e-09,6c5ef337e9ff5c67481a8ab8234dfb6e:5e-09)0.745:0.010280131,((8acce3406aa011d079bd03b37c9e2faa:5e-09,(33cfad166933fcce8a97bf6cfba136fe:5e-09,e397e25dcf671a169ce1c79adddcb96b:5e-09)0.000:5e-09)0.724:0.002419439,((fc83f70bb777df15b82ca7095dd574a2:0.0,9a4e3d2a5045f25463d55c983d727613:0.0):5e-09,db248b80ffe0f169dbfca64336a55312:5e-09)0.724:0.003352575)0.988:0.081537973)0.608:0.035900578,(2c7d92a0c34ca15833d3c49fadcb51fb:5e-09,(47057f4388e1b68d0f3eaf0a697cb536:5e-09,((a46a13b59a090a742ef3762514956c30:0.007160577,(((4b7dd61b3f5a56808a8609abb0407600:5e-09,a07d369747db4c119261170555f5b990:5e-09)0.902:6e-09,(1052e53a2308a5c2026e012297ae98e9:5e-09,b8d4c524ae89b8d110d864a35256e44d:6e-09)0.925:0.007160618)0.531:5e-09,(b0dfc66fb821650b3c6f08601fea8a06:0.0,827e07038e1ace5fd4279f75283e4dfa:0.0):5e-09)0.000:5e-09)0.433:5e-09,(9a3e3e5682f07ed62b812ae9b6624801:0.0,5ad8cc4f2eb9b43d5f21d5065d6ccf5b:0.0):5e-09)0.457:5e-09)0.444:5e-09)0.000:5e-09)0.876:0.080142434)0.863:0.100718241)0.929:0.141678141)0.737:0.033191516,((((d9b0deffe1fee8072fd9c4c035bac4fd:5e-09,4032143d2b478d8169ce212a2b00b43e:5e-09)0.999:0.386947,(53605b52f9bd32988ab0e0ddf1464438:0.173415461,(68055dc10836e35a63a90a4cfd07822f:0.095785958,(c54916352f1865def110e7f3fa86181c:0.079112922,((9461537da1b8b01b48f3d757a8d6722e:0.012425763,(63ac6b3c8bf2946646ee86008740c952:0.006196579,(f8e0236596c7f411921706e3eaf94d18:0.0061276,1e0579047e1dd6ccdd5cdd8a0263a6bb:0.012392555)0.772:0.006179123)0.783:0.006172426)0.539:0.021301484,(2721915e971c2eb1f1a83d63089583e4:0.014733738,(2b7aa9b59cb6bca8c266eca7d7a08103:5e-09,(c9b745fad7fa8c6baf5308f10bd86e1f:0.01232169,(531533abea2a83bc204d055b7bb895cc:0.012321227,145804500ca522746065c2307b72615a:0.006135661)0.763:0.006084837)0.183:0.006119199)0.927:0.029861909)0.834:0.018121514)0.906:0.058547394)0.413:0.063307905)0.893:0.100665154)0.783:0.088598546)0.712:0.072436929,5d1e76887301325614c85e35413e352e:0.141037058)0.611:0.056460408,((a692419a7115434365606f899f243ba8:5e-09,(324c66f78709406de76ee17ece8deb35:0.018216702,((5d074f52e5d084b8d195ddd33881c457:5e-09,(2057cace761df96131e28e0a03dd9e31:5e-09,(6cfebaf13f7917c0140334c8f9ae56b3:5e-09,(71bdf76c236c4017e3bfb29f66dcebb7:0.005743833,((f7b161299208c8fc0423abc2d31d3a1c:0.0,0018033272e4e45a31d8b6b8151c999d:0.0,8d0ea70f30d949455c6c0536f098f655:0.0,7b4f52bcce6e0678a591a94883d31673:0.0):5e-09,((f8bc9d52b3d28c27e95494337b0f59ab:0.005752607,ccabf84654b5d9900472c73fd44ba5c3:0.005752608)0.953:6e-09,(e5902658deb4741ccf0119eb0d4c96c3:0.005747538,754b3b12113aa811769b10e6c90976ae:0.005743838)0.882:5e-09)0.000:5e-09)0.000:5e-09)0.000:6e-09)0.617:6e-09)0.335:5e-09)0.465:5e-09,((2affdeee6a989ad533b0e5a550bec751:0.005743833,486f6fc64c77cf1a4c8f81a435dc8c59:5e-09)1.000:5e-09,45e7e58009dafdaf3292adc598c423f5:5e-09)0.928:0.005326369)0.366:5e-09)0.985:0.052548672)1.000:0.391252526,(((288c5e6a27fbb4bc6f29f995e48a8ff3:0.19217408,c001ab5999d43d5bb42542a93f6c0bd4:0.057331693)0.807:0.096090597,154be8bfa267da84f75a4973e8f71e0c:0.416466078)0.636:0.059308677,((3725381d55610bb8b9b7b15735f40ed8:5e-09,8196d7abb837e651223d64db7a5b1928:0.006798696)0.000:5e-09,(e65e4695df314f98ea55b44b387e8892:0.006618758,(0fa8aecc24742ef59116829c13ef6a69:5e-09,f42fbb2fba132d19ef364bd508a02c4d:5e-09)0.907:5e-09)0.729:0.027079571)0.998:0.316114392)0.554:0.039739553)0.873:0.111901676)0.436:0.037119042)0.904:0.063509634)0.853:0.048746115)0.119:0.032568113)0.825:0.053808237,((dad0557e5268511282fddbf7822b64bf:0.019825055,(d1df779a023a6ea2da89d089b928f4ad:5e-09,23db4635300f64d08ce0aaa8297f9b19:5e-09)0.725:0.018870338)0.995:0.236074268,(17f6d416e11443b33858bb56e1356d1f:0.196908514,(74df9a475dea84c63ea2f646fd3da585:0.067058179,(a0c4c053fe2cbb5f12d54c8be64e72c7:5e-09,134ead398e043aaf37f28a2c9494e168:5e-09)0.922:0.088526472)0.915:0.112667675)0.241:0.050741611)0.974:0.164189074)0.728:0.0271798,((((((c9d097d7e286cc3b280da855f3d1e8a9:5e-09,(3e6afbe1e8237fbf1b863b68a17e6194:0.006946492,6ed04694eafe59dde40bdd382a890182:5e-09)0.902:0.013989809)0.766:0.008460377,(350e63c370551c6404e563258ab1210d:5e-09,06c6703e2f2b998022a1e0a4a575463e:0.014541184)0.720:0.006400465)0.918:0.094721833,((785ea078f51083d83bc5f8af017b9170:5e-09,843bbdf60c6e5cdba57bef362ffa4e48:0.023384253)0.892:0.052494306,(53122725d58b184c87bc5c00db4147a5:0.065493136,246d3aa3e1d365beabd71e7e2c889476:0.06416601)0.967:0.102665625)0.910:0.097155613)0.902:0.205337093,(5d4c03d1216ac147d8cf2e1ff48d6b05:0.176546756,(a93b3d6a447134d671b08b53e480663c:0.015336563,(8968d87cd7fa07a475f4330d95fa2062:0.00268921,((f66b4b8c5ba269f966044f78f31513fb:5e-09,48e064dddeb938d54e01002e703d7c55:0.006810865)0.845:0.006823267,((36bcf37c147413ec5391a7f315e17543:0.0,d1f0ed03ba80b10a641b94e14ff03b5b:0.0):5e-09,7fac6bcdd5385b1d70fff1a14a05be84:0.006810876)0.167:5e-09)0.748:0.004181007)0.952:0.087358671)0.930:0.151634443)0.925:0.141520447)0.812:0.136938981,((abb2350df4b929e47479fc531d16daea:6e-09,(e02d126925c987ff4909d9ae44126c39:5e-09,762c12a033c23c19da51ab0b13c1a0eb:0.006621223)0.565:0.006630497)0.994:0.325705683,(c051a1162347ad5e2833c14bbe1e9375:0.053402229,ecf092fc043081d9f69647ef2c044747:0.039831724)0.998:0.447982344)0.000:5e-09)0.580:0.060298227,((((4d02482fdf6d2fe6a64360a41a6a8bb1:5e-09,f93ed9b12323673933df34f638c6545d:6e-09)0.903:0.069844758,(3063fd3c7959eb58122379e122dbb126:0.108381747,((48a8161ada385c5f861ca1a9d284a27e:0.0,416dfef23663bd1ad36596d182865cff:0.0):5e-09,4ebc327bc5f87343be98efbbe9106522:5e-09)0.961:0.075651653)0.513:0.055087066)0.992:0.269701738,((d53c35e043534c8d3aabd552bb58fc4e:0.037428276,(d7f16c5968a670c5da60da29919a0e3f:0.057066064,3e2590e7ac8a16e18530fdf80c33096b:0.007514943)0.596:5e-09)0.903:0.129733683,((d4c9aa81f4f168eef2b09980c64d48bb:5e-09,(41fae899124c74c5e740c7d1f8a39f90:0.016897926,a2d774da650f14db4a8424d899f074db:0.050276544)0.598:0.007119201)0.999:0.301925444,(742c94adf994052f6827d24683b21cf7:0.008958104,(05934fa830edae975aba9ca3413b87fc:5e-09,7551ff7c77bdab95d21d4ceb7caee7bb:0.006744705)0.993:0.081401479)0.820:0.063128324)0.791:0.099492495)0.994:0.336085332)0.000:5e-09,((75abe1d2488b1bae505fadb64716eee1:5e-09,8e74b460a75feb1dfbb931010ec25fb7:0.021838645)0.863:0.176666165,da930d042640c13bc8db43550559738d:0.649467248)0.560:0.050322918)0.914:0.127286914)0.689:0.028930344)0.858:0.037169722,((((((cb1541a93904ce28a604c864ffa88cf6:0.29925522,57e05a6db07497ecadc913a0733b538d:0.259667194)0.912:0.167978043,((((838170b30fe3959c60503bd917660892:5e-09,(0a2ad07a644128f9668321721152f357:5e-09,a7541e039d2ce4e145abea553345f367:0.00692235)0.362:5e-09)0.833:0.006866356,e94c23393e74ebd02874f1abc26e66ac:5e-09)0.999:0.226545694,((0c346ea32bc782a730df7b96ce07cb47:0.0,84dc9c3ba0c448c8aad719c256104d68:0.0):0.028755667,(8c86be9735423de81f177d1d4bee41b4:5e-09,905ee649418314e63514e8b4e94130a4:0.084929961)0.874:0.033614716)0.892:0.05980291)0.872:0.068424547,((((100e31af0754f04d08f66d437ce75c46:0.262082906,(1f04060f4e628e48046e404c984c8399:0.091930362,228b3dad3c657edf710325aadedd8155:0.092230993)0.409:0.038507866)0.851:0.048273659,f171529fe8ee943d769b9c505ffb3b04:0.120290996)0.681:0.048899476,(fa630caf7b2064902a0e94c65df4ee78:0.074937756,((f5d8bd652d81ba1ceaa4672ef723e5d6:0.005772766,05b215e2ad9407f12280f77e7ab01114:0.00861793)0.882:0.039572548,(fe14d9a810becd090bc0f6ce50e3a880:5e-09,9e89ac0312a1d90b6800374795977178:0.007098935)0.775:0.022689143)0.996:0.143434025)0.815:0.029522239)0.629:0.025428186,(d0036bbfdb8e63f293d52ff4a88952d3:0.013982469,(((c77da5ca74d11aa2d4dba430faf4a160:0.0,5910d61712c8e4ad352148377c65aa99:0.0,bdfd76b639174baa66a6306ce9f8b61b:0.0):5e-09,(607980ee54d1de351794793aab35d7be:0.006961658,(((c17a0ec30fd6ee24d93579759ed0c8fc:0.0,948bca9d6e14089f648b761eee67528a:0.0):0.006963812,bc6c81e20d0f6b5e21b94c67a70f4d67:5e-09)0.927:0.014013588,0cb5ba21910c0eddc3fdbadb65a30307:0.006983996)0.823:6e-09)0.901:5e-09)0.771:5e-09,(b1d8c8d8b13b82bc7e0005bf06488f9f:0.006970778,5dd957523708e87d7bab488b2e8be864:0.006983947)0.899:5e-09)0.000:5e-09)0.978:0.078651857)0.864:0.041014683)0.000:0.033687171)0.808:0.043177683,((9cbab56c8c63d82ffc68ac3a43d21de9:0.04969248,8ab99b1c46118f2b14f2dd2cceb7b35c:5e-09)0.947:0.072473794,(((86ec1c49b4a0e331d197ba6adb995b2f:5e-09,(2ffc941df9ce3c0e390789f423252278:5e-09,(065005c65bb2481520baa7236c6167a7:0.00663076,(((1ac91d31776179877ec7fde051bab41a:5e-09,(a3a2a417b424be1ef54c9b5c4b1cd7b0:0.0,40c61572934a7c9ffd117683e429674a:0.0):5e-09)0.409:5e-09,bd953bd4a1c5232e42898fc0fbc71662:0.00663568)0.000:5e-09,(0878946551a26c77d6152405c4b18ba7:0.0,3600463b12bbfcab7aabe12a7e9cc6b6:0.0,ae7d28aa4f3e7dc45e3af9a3f5480c34:0.0):5e-09)0.000:5e-09)0.595:5e-09)0.399:5e-09)0.586:0.014110693,(c8af2947e2b40e9ee85e96bf83c246f6:0.00678329,(ab1c1a9c6481bb6940016e2e344031fa:0.034755601,da3c05f2d3162de312be4e47cb446745:0.009249157)0.901:0.029397736)0.746:0.008585099)0.955:0.098483289,((7cc43da978d14557792a2f171c269eb7:0.267007003,(b1eb65c4b1b64106f01123aac692ea29:0.009217054,c9e70eca7a2cf233e403e8d4205c91f0:0.004894075)0.853:0.134749764)0.663:0.1070336,(7749b6d5d2a87e75d8b4b90a85799f54:0.004427616,ba5c92c7a6fd0d0f4c8515a8380636b6:0.025638378)0.994:0.343686299)0.436:0.062164514)0.748:0.061317719)0.670:0.015451734)0.833:0.032969966,((dee8d6082e133ad4fdec33a60be8003f:5e-09,874b86bbba65d2975fbe6c31a0be36a4:0.072250312)0.789:0.017649749,(1b8953d5277df2ca5cc00bcde95b5747:0.078989913,5271e5d43b7a1db5b3297324373abd4b:0.144482575)0.351:0.016067552)0.962:0.08955714)0.927:0.123470264,((((9d4e0baa42c1eddd88ad3bfd8d089a6f:0.0,9204ca19a1acd4f5a453bf793289498c:0.0):6e-09,28981a46c17cc1315e2b92aadd050100:0.007522842)0.884:0.157734763,(b41eee5ff2c256d49dc2408c806d4d26:0.231251379,(((0121bf96578bb5f63b81cdaf96b69868:0.0,a9dc1ad069a79d0e780a8f0dba38a217:0.0):0.006749187,8b0600d9029e81cbc38996729cf9aebc:5e-09)0.962:0.237380589,(0dbe50e3b5654d707def8b89859bf038:5e-09,5a18ed278734aa47e68ea9b23f16d721:5e-09)0.853:0.115707944)0.946:0.204777268)0.803:0.149050223)0.820:0.12358281,(2c24ec68dcfd739e552023e49c9c3ecf:5e-09,(7d12f9bb97bb585105fb4a59cac05c2d:0.006986196,e075d1f98d07f278d050d58db6d8ab36:6e-09)0.841:0.007000772)0.995:0.262096373)0.368:0.088857398)0.720:0.075758507,(((12d186770f4e4e9b3e26b3cb059547f6:0.034649233,4b3e1fa8dcf6281ae35674adedac9603:0.293130921)0.962:0.238281617,5e703fde64deb746d8ce8ebf6e86805a:0.293057918)0.790:0.210632608,((((a56bd12b1c9307fcffea4c24dbe8c881:0.0,32fdfab20f12988b4e0cd4cd7cc4425b:0.0):0.067981545,f9951633d20bb3f1472e52d05fcba3f2:0.03731597)1.000:0.245253209,(((((d7367905c5ac4ce9a992ff69246006a4:0.307918974,(fe3aa1f294235132537881f20a7932dc:0.084426919,b82b38114fe4817d83cb720b7c68e23b:0.100098742)0.922:0.175581482)0.123:0.010463019,(76b5765f64fd49849b29749d68462870:0.259760836,39e9629d76fad628b8abd144b4cd1102:0.250635567)0.960:0.255102765)0.151:0.115098088,((((195fade1504eab8bffae8d0d877a7c25:0.027236977,(b6e8f9ba0641f4120af0ce4d48bdd26f:5e-09,dd5b87a6fd0b2158c28becd1c862acc4:0.006768178)0.921:0.046328646)0.981:0.09314068,(74d5757dae5b7f5ec4dd7b18426d07fa:0.040611548,9a89507950bbd04dc9747548acbd55ee:0.109484844)0.899:0.043721606)0.145:0.00438451,((25ea61aad82552d418639932a05d0030:0.041951477,(f33591b7fac10e5693d30de5fb7e59df:0.037517756,(49753574ac1ade8a76f5892fb75b0d8c:0.011646773,(4881573eb78d0a8327a19065efe3fef8:5e-09,(0dab2b454074511392d0d12138e89776:0.006340316,(6c66d203b6410b55726f725ec607fe18:5e-09,1388805e9e4be5e0f45cfdba5b30002f:0.006386251)0.880:0.013047317)0.963:0.026554628)0.319:0.007691494)0.953:0.053871107)0.989:0.090990415)0.436:0.030368812,fba7b3ad21e85268a5df9bcf52681c17:0.038684426)0.867:0.0505186)0.656:0.061625319,(65c784be26e99689a5fa8b27696c2430:0.226402295,((19779c7add6f1c6abb8e160bf59d55a4:0.11263883,(452495573a8c1f11193a29bde69f1969:0.11523676,9f7eafc76c2e8d16a47de595d78fda0e:0.047821479)0.542:0.034991743)0.930:0.091717635,(5cabd88a552821ac498e3be805a9c33d:0.089973803,(((1fe6a2814793a559364b2486aa0bb77a:5e-09,(((6d2435990fbac29402f7f3bbfb8aee20:5e-09,2c44f77c8a12ece56287bd8277f67cc0:0.006417237)0.875:0.00640895,5f90d7eb314af5f8b96247cfee21c95f:6e-09)0.463:6e-09,5eeb03dbe44815181709bf9160efe496:0.006417398)0.948:0.012898337)0.955:0.01553068,(ca76d458b5fe1f149739899e096d6506:0.011601682,(ae978c63247b404e168649e30c38bc80:5e-09,(596f77041029ec4ab58138c384dff519:5e-09,((ad86eaa3c5bee6a685b5ecca858d8559:5e-09,(5cf6c4e413315dc67f4dae663a836152:0.006411174,(162b2cbd2e5516ffc4f35e0412c47e35:5e-09,((43f32acf90d46aade3957d5997e4fab3:0.006406238,95a9edc72e82b97dd87ce36598d66d23:5e-09)0.862:0.006410874,efb60188a142376d730ec25ea4c9f0c3:0.006410877)0.904:5e-09)0.888:5e-09)0.892:0.006410881)0.860:0.006410873,7f41b021bac041ffc0cf9181bd2c2a82:0.006419736)0.914:5e-09)0.912:5e-09)0.871:0.011514167)0.489:5e-09)1.000:0.166176287,f248fcadfe50556162a113aa30992b1c:0.045408568)0.813:0.030295804)0.914:0.064682952)0.458:0.031244274)0.065:0.032114053)0.965:0.180442176)0.829:0.084121997,(((9993e569ad352f2504ce57992d6c7ca6:0.0,a1379a6af634f4144f454a838657963a:0.0):0.006969377,0bc38b642a8aa05da8f4905ba1ef9c62:0.007530343)1.000:0.250026088,((((fe9c63d74897ce64f985ceeb2edbb600:5e-09,(0e2270e38ed24c781b9a17925c6c4ed1:0.038836059,((922a00d516edc1ae4cb8618afa028030:0.0,feb9364d40c3632f45e6e04e4ff0eb1e:0.0):0.017434321,30a610ffddf443e1c0b11f61c7ac3b29:0.016199252)1.000:0.249765704)0.795:0.03048964)0.701:0.04216622,03aa5ec52fab73b543eaf94eef688da4:0.139537011)1.000:0.548911474,((1ab9d1053db3f14d27c743f882d8f328:0.105278293,(e794b9d13c67b7c93dcc467da1ea2696:0.103386167,(681b109019cf5e658b5a12cca2512491:5e-09,267e82b6cdb7259c2fc0c06eacd2063b:0.020502309)0.165:0.046722959)0.975:0.093946371)0.889:0.061479585,((43e6e850e3eb89c56197573775f1de43:0.014850053,(6f7f1c0d491899841e41821260ec520c:5e-09,((f3c94b89d68f3cd13e5467e9cf64cc28:0.006704106,(22ed5d4113bbc2be7fed8a16ec00a643:0.006695394,((f12399c29ef2a9e7e51f529f430b2133:5e-09,(ae22d49bc04b5fa10676e4e8077ec487:5e-09,(f3e5215d79b5dc23031e332960c8b88e:5e-09,((321a4b3c74a5cd05dc06314f1bf50730:0.006704103,2ae43bb7b34af6ae4cf7716c3f490207:0.006710996)0.939:5e-09,((405a26348b1458649eeab4a96c25232d:0.006710996,2269de4c95bcdd982b070901523a043f:0.020464876)0.000:5e-09,40c0d58cd7828fe4048b8856d0604f78:0.006710997)0.884:5e-09)0.904:5e-09)0.895:6e-09)0.523:0.020037481)0.906:6e-09,77ee2371f1099f6a99a0d78f93a8b32c:5e-09)0.000:5e-09)0.236:5e-09)0.000:5e-09,09ac4c7e1d07796fc8baa8c57256b8aa:0.013545337)0.888:0.006874019)0.962:0.057536184)0.783:0.069309965,(f4d3c073f027cd3c55c145f216a03c92:0.116454794,(b82c6174ca3ba20118e36f04c422d9eb:0.013598218,((52cae7a6e28d81a0d4ea22e77e696a02:0.0,88ebdec479ed6b494fb46164a98ef3ab:0.0):5e-09,245b73b2734eadbf22aeed7ba08f2bfc:0.006733965)0.000:5e-09)0.727:0.04677773)0.990:0.117084655)0.808:0.033791777)0.711:0.081500871)0.632:0.010995754,(((((((((009db0129a84ffb043b5f3d22cfbf19a:0.019273019,9743a2a3f9bccb48af01e80bdc374e75:0.040218717)0.994:0.073889647,(((((((7abfe06a62f6d24579308fa23ad520fc:0.024027884,(22138213b954273620e535dc2b499d09:0.013595857,c6e862643cca709319ae070d53704987:0.02196263)0.975:0.040596938)0.950:0.036550293,((8e16adbbc547d31a5397684e9bd42a3d:5e-09,(3ccd91707d9929858b0df9efee2b57d6:5e-09,f3f1e43ebf235dac71690d2e368f239c:0.023787499)0.914:0.011744434)0.996:0.057680194,(86984b48cf6ac9df8d74b96532685ab2:0.036806742,(258b888c6cf76634bc70fa77917003a5:0.054238825,(((54d0038169629b8a264a4bb7913896f5:5e-09,(e89555f75e772097dda721711792f185:0.005622983,(8952b1824a003f3b94bc0d572db62dac:5e-09,f14b4dcf06ac50d43aeb1f133af9a21e:5e-09)0.833:0.005672518)0.801:0.005604977)0.943:0.011230892,(8e353b8b371bdb79174bf437ef85dca7:5e-09,346cc091a07f80898b4f49622fdbcdc4:0.005678585)0.756:5e-09)0.771:0.005764396,((36e9713c91717da32bfd85a41afab302:0.0,17cb0e1244af0368b156a27638574e57:0.0):5e-09,(2628c11b31b7ea45dfce012c16ec2384:0.041549951,145d60aa1cbc441734eefadcb20d8f9d:5e-09)0.757:0.005909914)0.959:0.030775633)0.833:0.01964979)0.945:0.060422143)0.167:0.016381087)0.742:0.00909458)0.769:0.010421703,((dd586d7d9b3729a89c1ad09b92e48556:0.049630593,((592e168d8e2e3f85d8650720d8636156:0.0503155,((c0f50f2d82b067bc62d3f8054908271f:0.026560682,(c47e95d0ae10dba41b1fa038b15ef4ef:0.005808695,c16a1f97f0846d861c3dac6e238e2c64:5e-09)0.931:0.034569653)0.999:0.12438394,((ac486d844577cdc4e09157141a83d6b1:0.009834891,(20d8d8a58ac7e86a676c7fd9df810b26:0.064042201,(ca8d84967912f708810bb642ccfcd92f:5e-09,(9e39c9c9a62a79ed1238ed9c6c6dc28d:5e-09,e2408907892f1c70bc412170c3ba8ad5:0.005851955)0.858:0.005851952)0.989:0.074672199)0.760:0.016988432)0.899:0.032656449,(8143baa3691cefd6280f07642dc6b69b:0.07022415,(e300e1a0a300aaf06e151580c13292e1:0.060464356,(7d0c7d7f166c9ec04cdf2b90fd2fd7e6:0.028428723,(5d1f59d1bc0d286287d082cb8feb18f7:5e-09,71399c65e4cab0a8d66e6899bb36e1c3:0.00982177)0.793:0.0122664)0.877:0.041534081)0.917:0.069600522)0.953:0.074443633)0.806:0.036492039)0.121:0.022326742)0.919:0.047638992,(99a9dd156149bc5798ad3ad8539c4ade:5e-09,(8781adda4524def4c8c7c3d68217bafd:5e-09,(fc28b25066ee298e37092df0bd5cd4ef:0.0,553e1f773bc6e9aad2882c285bec06ff:0.0):0.005719252)0.730:0.005715431)0.883:0.03140404)0.779:0.013051058)0.974:0.054537669,(((e29728ebc43aba08d68e91310f9b14d5:5e-09,4b01cf408bcad3b72ece0a811e85177d:5e-09)0.477:5e-09,(8a2b80f4ce51f198013ddbaff45da510:5e-09,((3dcdb0f951a5e22ab98fa1fffb416567:0.078207142,(3ca38622ecaa7ed5456d768c01104317:5e-09,(df2a1a46f58bf30f1450f2627f3faf39:5e-09,04427fc3d999f6bc2048358116eed88d:5e-09)1.000:0.06619525)0.904:0.020752981)0.825:0.01754414,(c6079fc67b6fe8265d77333e0db31984:0.005725698,(2d523766d78a124f0eead988fbb0b152:0.0057045,91d90a10486c1e7bcbe7fa75012f764d:5e-09)0.792:5e-09)0.757:0.008771317)0.961:0.032333962)0.851:0.005700948)0.834:0.01376248,(7552dfa555fb1dda202ca4fc99c9a1d4:0.076047916,(bec81b036d09adb2e60e0871133efd9c:5e-09,eedef1efd9e21d61af9d54da5aba46c8:0.005711154)0.998:0.10989715)0.879:0.03195164)0.971:0.05185907)0.389:0.006961555)0.706:0.020012721,((9e7f849ac0d5735ddbbd9a89110ca8fa:0.00471429,(c747b212e66f7ab21b240546287bc971:0.019568748,(11653df65a8070367463de6efa597a3a:5e-09,(b6a9b3595badc5b6362a5aeca2d34b9a:0.00579318,b6578f6a76123a259a7dbb0fa2bccd77:5e-09)0.560:0.005805382)1.000:0.16006611)0.930:0.04933887)0.961:0.048160794,fff80bf746e1a9c2985ad93aea895006:0.061051047)0.754:0.02660306)0.792:0.016260812,((d6a4b95a59c97507ffd9ca43981e5948:0.005598664,(d973cbb91893cf2c6dfe7f5a487f9885:0.005595145,9629037d1e2d81e87ff81e96ebf378e9:5e-09)0.427:5e-09)0.981:0.058658153,(((84f3413a4f8f90a568a2641e6f7b5972:0.005238482,(((8dba7852e22e29fc356186e18e509422:5e-09,(((c8e81d3cec40261ab84035fcda1647dd:5e-09,((((2a3325df3e30c32d9fcf1431db87eb24:5e-09,45ebbc2c54f5cab4149cba98f1c4bb2e:5e-09)0.095:0.005598239,77b05ff4c783315207cd2eb677a3bab4:0.005724266)0.022:5.73e-06,a3c2bc92ff0752251cb8f75fd5d80bdb:0.011508715)0.767:6e-09,e095750ba69531bb80f80822a25781aa:5e-09)0.422:5e-09)0.932:0.010385986,9570387b4c10306fc99d3f49d33c6cc7:0.011501322)0.293:5e-09,c479cae966dc89003b04cce8f1157102:5e-09)0.917:0.009987101)0.505:5e-09,68b41b5af79069520941e181fec0e67d:5e-09)0.252:5e-09,5e9af1bd3e37daf2e61953e4c587c415:5e-09)0.560:5e-09)0.781:5e-09,(848cfe36092396b3193cd045ad7f362b:0.080906331,d14f15dd0299017636acfff005b31a0f:0.085180341)0.837:0.02894853)0.868:0.01732374,e98d3ac690342792eac0a990da59385e:0.05772415)0.875:0.029563665)0.956:0.040125061)0.006:0.005821602,(((d1f6feb593935704f7d6a5f3c05d1da9:0.043939064,(64a1c066072bb6f2bf3e38de0b1ac257:5e-09,(2ae1095036f262a107babde25cfdb9b7:5e-09,8de962cb7cebb8c0ea007183d0a5e9fc:5e-09)0.815:0.005738173)0.999:0.123231762)0.918:0.037275276,((1a5afba64739d4df9dfad065831156b1:0.0,c7144b6f9951adc852fac3150994badd:0.0):5e-09,370858bce14e81e8fe3fb5c29ae21099:0.011633623)0.952:0.023706692)0.841:0.013567579,7ea6315891b8ebb5c1a0e8cd6c633d49:0.027158371)0.862:0.015968634)0.593:0.002668821,(ef2925c2c222afcd9329d05b1e6cc69d:5e-09,f25b364175c5c2cd5febdc23168d52d5:5e-09)1.000:0.138496838)0.845:0.020844713)0.812:0.018120291,(((c65f0778e5b8b505fd7f53d1f25319af:0.157494502,(((4f0793f53b98af036a7b6d2ee03a068d:0.142944373,(256a3b895b7e2b789e8746ccc7ab3abd:5e-09,((a48ba83b7c13b72427d893da2be04366:0.0,75f75a28552e49d4262d17b70efa79ce:0.0):6e-09,40502e5f978ba09b72c6d99751e27128:5e-09)0.804:0.004943104)0.941:0.099345028)0.940:0.073482297,((7fc1ae31cbe47ed197545036ea96f565:0.07640741,((2453b2d8831275a1a75edabc1abdb506:0.005828759,(c5421e3adb8528c6518b1d89cc2f4785:5e-09,e3cd6e423bb001806eb4af52d63a2c66:5e-09)0.696:6e-09)0.912:0.023942874,(b011c5ab6ca44245d2def1d4ab908c13:0.01199511,(ccd36be278835a54dd53a1cda5a00a1d:0.01364538,(e8ff5b272621867204c5ab6fb78e2b44:0.014247372,(ff81d1406ac0817d76fc776d5c8fb304:0.005848343,00dddad2c276212ebe9bf31d267fc1e0:5e-09)0.913:0.02168231)0.187:0.006225003)0.693:0.015048248)0.340:5e-09)0.954:0.068664073)0.770:0.026603393,433548897448a456e783861fd5c4a806:0.026157071)0.720:0.01002476)0.805:0.024159326,d513a5197fce877085d2651cd4422541:0.079626943)0.383:0.020051777)0.807:0.01529994,(082a885c9074f0f870ff9f0aa75e1c29:0.0,3242d47c7eb48c376bcfab44aa9e7e0e:0.0):0.09964848)0.867:0.025323452,(((((a66c7a8cbff951663489a3d9d6045a91:0.066854919,((((c4ffd6f2b28415fe53c81afd39b0b42d:0.0,515fa5afd02d9043f87d96ffeb318792:0.0):0.044613541,a94908f4efd3dbf312a57fd64392bee3:0.020704828)0.391:0.011415879,(1d1de5c96aee685419e28fb136bf8497:0.050603651,(16289e1dfca822735c4b1147859fbe9f:0.017820725,5c65bcca1d27cf9b0fc0d9151771aee8:0.094486009)0.942:0.039194272)0.000:5e-09)0.904:0.021242333,(0a4f52eaed07d925c7e2ce1b1254024e:0.056830968,(9600ad1e5dd156ff14cb31fb4fe4a375:5e-09,eda2202357fc9ec1a6d518eadf6383e6:5e-09)0.829:0.017960248)0.248:0.010714355)0.916:0.024180742)0.848:0.016288335,(((ed86c7cfc16a94a0e3e77620f8574609:0.013554123,(915c3ede3f13a8f23a70586a3fb2c23f:5e-09,(12b4b2ee9fffc8e8f08746d5b28654a6:0.0,316bc34f973ab60760a9435e9995de88:0.0):0.029121167)0.638:0.029192982)0.875:0.020024351,(cbd90231aec98bedc800f0d44933ba1e:5e-09,(55ca99fd6e6a52d67772f9d7e48f40b8:0.047451778,7191e45b82dcb708bd4b2c396f65dd70:0.005736218)0.760:0.005589952)0.999:0.081029007)0.854:0.013420912,(((5dd5b32c45e3826f2a265bb2dc5ed31d:0.005950336,(6206c4d1dd2d9d247b79d505cf6acc5b:0.011689954,((8ea51d27d6ff8d0aae9ad4edea02d293:5e-09,f7b6854d916b1ec5848f0eeeef14c41a:5e-09)0.951:5e-09,(0ca38d5c5bdedd178ba4a43a7ac634f7:5e-09,7edebb45db275d0c0830521c78d0eb5d:5e-09)0.732:5e-09)0.951:0.022468933)0.868:0.010908223)0.915:0.017777375,((37649b434c012d1ccf5dbb20db2d601f:0.005602838,b5fc62f455051ac0c88a4558543d7ee9:0.005637906)0.932:0.022563206,(3e90340c55cffd3459e87cf864c18183:0.017155672,(3d4257e1e7a761620c8fb138719f6b51:0.028891769,9f87d3bde19f639774d3553408e8e933:5e-09)0.131:0.005636567)0.877:0.012052085)0.735:0.005470303)0.828:0.011932214,((c23253e0837be8c1e9284eece2006fff:0.038609452,(ec0f0ff2411ec419e84189d29b42aa78:6e-09,1087685fbde2ab8465bdfd6376d8bb4a:0.024145256)1.000:0.140805521)0.918:0.053918593,(8c841783cb41480662f2550782cb763a:0.0,bf4ffee426dd75b6311751a717ace30f:0.0):0.054600913)0.837:0.025210362)0.808:0.01060691)0.598:0.001403207)0.754:0.009281172,10f6009c84f4116495171ae3fb3109a7:0.035741519)0.680:0.00896169,((6a853e23a02055ba7cb9406e8dd5b275:5e-09,(e743557546205b4c05b0f3cc7d087387:5e-09,(101603f894dfe5c387d8b44702e768d5:5e-09,35864ebc390a6262553547f0af736bfb:0.006136551)0.965:0.018787216)0.389:0.005141368)0.784:0.016066904,d6c08392a5a5d3b0f820f2d1852d3b2b:0.058725674)1.000:0.123379483)0.759:0.005965254,fe487308fe345b4eceaa669609de254c:0.095032815)0.857:0.013313788)0.753:0.008600562)0.773:0.016298695,(((320f8f3e8f55570fca333d6f29991029:0.0,6eaa7e44d6d0e4db7511add3ed4a2a8b:0.0):0.203148808,((4ea2c465f2a964f2080c92e99860bead:0.126297985,(ca51ee976c8f4173d5ad20b48dd4e6e7:0.11718736,((((((1f8d2ebc6422725f657c8909e0d6a5ad:0.0,fd2594cb0505ce596c7856145426d6da:0.0):6e-09,(((e1188aaa821dbf6ec447c78b666b1bfe:0.006327185,(d79bda0be6cb8ac52b089094dc5aed83:0.006322658,7854def2edeb516a124118da48cad652:5e-09)0.438:5e-09)0.951:0.012702908,c9acaf2100ae1205787bc987c236c551:5e-09)0.865:0.006333435,65f2b4f5c40cf40c0a1beaf3759b886e:0.006327185)0.241:5e-09)0.912:0.006322651,7e4a9af69be33188fa16fe9f53b96355:5e-09)0.000:5e-09,(16ccd9e50454eadb013615e4e5f21c8d:0.02594734,a47403b2ce8c3bfa4374362d1b645c3a:0.006376545)0.592:0.006331641)0.992:0.058581727,17e01bc22af0c2709820be9008edc453:0.045175103)0.774:0.008761424,93d95c71ec179803a0ab3cae7811a91f:0.006903046)0.956:0.093853589)0.937:0.077945841)0.762:0.038509363,185320fd8c13bf2d213e411dd91d47a9:0.189517163)0.402:0.028068328)0.793:0.04475027,(((0322b3e721677f544f487a95531bb85d:0.062527731,(549ef0e86922b39081bb7f5381ba8d2b:0.078394094,((6557e440543efc478484681dbfee4f2d:0.0,c3041421df7e7998cdf2afdbd975afcd:0.0):0.009083526,(6e95539cdf3204b53f2a88de3d2c33b2:0.005503729,(8604c4b2e3207b3b8a64e48590a9e228:5e-09,6d2a03ad5eaf46554de4cc63b1a2eb2a:0.005503729)0.081:5e-09)0.770:0.007555491)0.915:0.053289189)0.729:0.062322664)0.987:0.127771726,((322dabe5a2fdfe5d7b7ed0fc369d9d2b:0.054923559,(590f15ed80b10f551e2c7686a454fe45:5e-09,ceec7d6c554e635bcc1998529171de43:0.005311882)0.743:0.018742109)0.927:0.179821238,(def75e987b8d0261aa5732dfd0960d03:0.125581197,a180a9708147a8777f067ae89a122ed8:0.302952528)0.949:0.2232022)0.721:0.10957142)0.621:0.035951579,(b7e5165d7953d43174166391a42d6113:0.125927578,(((4b2356ca3d2d25efde585d7e974d59e0:0.054097412,(188ad3fd58bb7f33e87f8256bcbf62a7:0.005594242,(6a7c5c5ba5265df641c5b940556034b8:6e-09,c51a596d3aa30046166f031ae0194fd9:5e-09)0.449:5e-09)0.951:0.028983737)0.875:0.021699622,((176cba4adcea093c487234c6bab4a277:0.046402954,((1aab3ace277a94d4d3c9261a0c1c9006:5e-09,(5c2832c5d61ce48318a3c27640ebca51:0.011306614,8392cde31fe414151e4044980ffc7967:0.011265775)0.470:5e-09)0.778:0.005820207,((424133e5f8b6d3205a87668fa157afbc:0.011291513,(((80fbe0509c6b7dda489a09c169776a0d:0.014318129,2edc725f32d9048de805cb8e4a2b2f70:0.014327043)0.977:0.040963897,(a7c16bd2a4d73dccb37791f3115774c7:0.022513036,(04e9a31ead714b9ca1f04378e170bc69:0.010981454,(b2ecdde391866447b3549b9e26e88e82:0.021974887,(c58d50ffe63d847486e0ab5e81d406f7:0.056417384,6d5c3f0c11f1bc51f1c65f7c042434a5:0.046824991)0.887:0.028146877)0.749:0.005899341)0.665:0.01100413)0.856:5e-09)0.709:0.010578844,(((2ce7f86478d0611a65604707034e0f00:5e-09,(85b6d3d26ea3f10950d8e05148b13841:5e-09,388394e2742a873706d760f8ea7b0e5f:0.005608742)0.876:0.005608746)0.972:0.022869786,((78021edd4cb02d9dc3661f495f1a9680:5e-09,(((ae13ff5958527d9b502b63988e260bd9:0.011275462,(96002dc09758391283dd5ef343f2fd9f:5e-09,((17ac2142e1a1f24a0a4dc1e67cc382fb:5e-09,b929abfe8572d845652a71fddda2096f:0.005603922)0.945:0.022847083,8ea78be950e137f2902ebda0e1a2c5e2:0.005603922)0.000:5e-09)0.930:0.005603922)0.868:5e-09,(((df0c86aee059ec6f4738c41acb2e2bae:0.0,0a1fffa9f2d929d0517a7b24ecb46f6f:0.0):0.011378224,8314ccd29d54ee66a71ad2e84770f80e:0.00557655)0.447:0.011378124,3d09d0fa9f79fa86bf9dbf4d20c8e9ad:0.005603918)0.904:5e-09)0.363:5e-09,(((a0a9cc7e3e265205a3df7f4203522b7b:5e-09,6897547849cc273b922b66c575449dfa:0.005603921)0.251:5e-09,((ce9767e9d64ac358951219406da6b4aa:0.005597826,(75a6597f5ef014814ee16ce205086aeb:5e-09,(e7f6f443e91b244313ae46488515a4e8:0.005603922,de5af68d682f5ce7916f8de2d3c5a16b:0.005603922)0.947:5e-09)0.843:5e-09)0.561:5e-09,(9c5e0be047e0731e863c50cbebbc3deb:0.005603922,((1698ed714cc3d6ade76661d6c651512e:0.0,3c070f1c5bb9701005cb4f1258ae5fbd:0.0):5e-09,b02cbf53a5f73aa91edd157320085e37:0.005600399)0.250:5e-09)0.896:0.005615348)0.157:0.005608742)0.883:0.005615345,((420be5fa2d08b9bb5b20ba0f04b46af7:5e-09,(a079aef8208ce17bdbd3a0f3bda58acb:5e-09,de39195f3c23806359052a6ffce7e026:0.005608744)0.906:0.005603918)0.930:0.017120936,(f0fa13ecd113c1483d01c577b4db180f:0.005608744,(eb57487db975db7b450fd58f8f63cf66:0.005597828,(08ded3407afae0ad1a2d08e606fc4db4:5e-09,(f423dafccf5840f88f3bea5f35e8306a:0.005600399,f2b3728ea4b06055565eb97db178faeb:0.005603922)0.914:5e-09)0.876:5e-09)0.748:5e-09)0.935:0.017141921)0.748:0.005498821)0.925:5e-09)0.000:5e-09)0.647:5e-09,(1556acfbe6900d87e73a2e893e8ce8e3:5e-09,((53d6d9aeb2ff75142584d86cd5970259:5e-09,((a5a7f006b3e8ef8d8c2b6dfa2cbffe80:5e-09,dbe975e5a662872bde728194bfd2b749:5e-09)0.997:6e-09,(5178283997f8bcfce9f0e25e2e0baf88:5e-09,(8506af2deff0b0ac90f8abb31be60177:0.005600397,((03f3c5505a415bb3461f0d904509bdae:5e-09,(905865ec8d812a9621863eafc3e62d0f:0.005603921,a93a4b7c727ea6b6421b99384b42ac54:0.005167486)0.448:5e-09)0.088:5e-09,88aab17dbb865d09dc65901cdbed9d59:5e-09)0.393:6e-09)0.001:0.005165886)0.743:5e-09)0.971:0.015414532)0.922:5e-09,f9c0cf258f7b33d7ad65c0db530b82ed:5e-09)0.198:5e-09)0.523:5e-09)0.838:5e-09)0.335:0.00892741,(8751c7ab6bd4671ed925f1e78799f8f1:6e-09,(c6c099bfffc6b5ec32e17acf1141ed6d:0.005608746,(2d64019292476b42c6f199c73f7d9649:5e-09,ffa85fdfd0c8da519fc09d682b6970b8:0.005603921)0.465:5e-09)0.867:0.005608745)0.788:0.009212356)0.851:0.013445154)0.895:0.0182037)0.000:5e-09,(62f46e2e10e12e6f6982ad689cbcb238:0.005565171,(411273a3bb3357caae2e64b80762d2f4:0.005623011,(f5f17e6d24097ef1a711319486c01c8c:5e-09,b3ccf1e7ffa3c925c00661e4ffe6f165:5e-09)0.539:5e-09)0.876:0.013216972)0.970:0.026494233)0.794:0.006208813)0.866:0.013311257)0.849:0.015029246,((64b5cc540b3ed174dc0fbd62516a40e5:5e-09,(6a01be928315e6417f2d370261c4ac1c:5e-09,d601d04a45834e72c36112bae2671cd0:0.003689281)0.861:0.003692908)0.992:0.120447384,(2aded7aae594ed7d9907765f14110926:0.073777223,(3fe5296e33d2faf4a242d6f337390448:0.002681702,(40c02fc2c5c0ffc5ad3062694764cc67:5e-09,761a3dcaf3371aedf164fd6a8b4ed15f:0.005165011)0.990:0.040314132)0.220:0.025383823)0.979:0.076370907)0.938:0.056542897)0.002:6.5261e-05)0.970:0.046347309,((8b6b95fd29be2a3633820ea81424a9cc:0.005372132,((a82b02db697bdbe5fdaf7a74aec6497e:0.026166123,(f823e5f08874b82a3ee763f7d1bd3389:5e-09,(36cb67247b5083452f65b08aa3a15a5b:0.005448221,(6261758ad29160fa2514a3d647619ac8:0.005434142,(074bf66d93a410d2d5c219f50a32db84:5e-09,(675317512b4f09783a4065606593351f:0.005437464,748279944c54b8b8fb7ee05a1f019090:0.005434146)0.910:5e-09)0.850:6e-09)0.251:5e-09)0.766:0.005437463)0.828:0.020732574)0.925:0.073460159,((((9eb7c7dc83c9949b70f4d1341c9715d8:0.0,39d8ba33e3903bde31255f5ebd5854a3:0.0):5e-09,(6152c4b4431eef52233378db9d9f8d4d:6e-09,853b485807193b5a02999005947d72e1:5e-09)0.629:5e-09)0.487:5e-09,(75e73e366384bfa5cdb644015aa724d3:5e-09,f5e238081a87075817a7fbec7e16b9ed:0.004906446)0.849:0.004910148)0.862:0.037736221,(985f654876307cd1fd4ccf2eb82b5cea:5e-09,05cfc05691041a1fa0d3193cb0e311a6:5e-09)0.954:0.055597415)0.983:0.097925367)0.864:0.048122474)0.970:0.0443161,(46b5ab5dc211ef1ff82b5d481fcfdf49:5e-09,(291a2ee0ebac5e91b97af15dd322f618:0.083390289,(36b6de9f8b88bc8dd07f7de9b9512f7e:0.012799618,(a37bb3762db9b761ad62805e715fab67:5e-09,4a8cc1cee3bc16d697247f4a76241c08:0.005680644)0.958:0.031611836)0.683:0.021021537)0.953:0.051080799)0.939:0.040488565)0.956:0.047215246)0.000:5e-09)0.971:0.068685182)0.617:0.026220588)0.387:0.014390042)0.734:0.011476047,(((91ecb07a993c11f365ead318c1688c00:6e-09,46400d56f3734c479fc2487fc53db4b3:0.063392007)0.997:0.175782051,((66fdf52709590ab51b08118be953a4f7:0.074780474,(932b528acd22ec1fbaef4427aa277238:0.085301402,(17e1cd8f7a31f44f90acd88c2c7ff8c1:0.034578182,b533b6d4a11f8c1b29eae3ab2dcdfbcb:0.040516929)0.920:0.036149206)0.705:0.012605517)0.218:0.031835863,(554104efbad823f9eecc44fb04dd2faf:0.109693252,(be2e53da4b50fbf416ea63bd141f2d3e:5e-09,761cd61176b5ff4446b33d17d035c091:0.005528299)0.998:0.168279273)0.800:0.035392653)0.969:0.11616379)0.768:0.053614774,(e1d0e66ad53bace2607d800197f976ef:0.277020645,5996a165bf4bb31696ed8a5b504725c5:0.093917555)0.937:0.113841543)0.873:0.054226537)0.873:0.047377151,fb63a1c07a843b8d8740c15b425c52fb:0.241274212)0.624:0.008427701,((((((((((03470ab5058a526fcef186b3b4fdb7a9:0.081311232,(d4e923ba1bee358fbb976d87889c4c08:0.025105178,fcea7820c7a0737f6ac2204f750c3136:5e-09)0.979:0.092814403)0.261:0.037158032,(((f4adc548b951a569048676767a90c34e:0.033764224,(0ae311ceb50fa4de3a5ddc161c444ece:6e-09,4d65479e4472646d00c85dbc825312bd:0.00523306)0.958:0.043773379)0.867:0.034926248,(1e3bcf2174d819745b0bc7e2d60c4e98:0.036990371,(1c7c813c98294782a2c797b90963c35b:0.051909862,86e2ad8effc6df6fcd1c6cace8708472:0.052444345)0.431:0.024342404)0.848:0.040815804)0.886:0.044198553,(2f2918ae53d8684ac365dff5d5ffd398:0.055869311,((1ce4fc6b3d20f530a0cc45d8d1fbdad0:0.011919457,(3443effaf4fe59e3b529cfc0941e715f:0.059444211,26a2367b3d9b2d2e5662e957857ddf0b:0.031727305)0.492:0.011207779)0.968:0.063560939,(((((07eade7a7c50cd7937052b393a596e3c:0.047816865,7fc2fc532bebe4fb77b6ef9c97401933:0.033309209)0.999:0.123614487,((751264ae80c21f6d544262721e3a3cc5:0.070910152,(b145b0c14cb735bb857ffac788440e53:5e-09,68fdcb90b27096941d57aa785bdf4bdb:0.005835528)0.999:0.13388685)0.823:0.035549131,((85846ea22582a85b31ffec0c75752b4f:0.005097265,804c49ff3af7c90f9b9175f7ed477dfa:5e-09)0.982:0.078908312,((59c429023fee3b9562dbccdebd320ae1:0.005608999,18558de33c129edaf9051852319177e4:5e-09)0.943:0.029322519,(c59660237a0ab9d34a6f93fee980dd30:0.032905149,c18f1d0dc8ca65dc5435b2fbed5ab64c:0.008860736)0.950:0.037830728)0.707:0.014128282)0.974:0.071032567)0.746:0.017631086)0.897:0.056317233,(12eef95de4dcb5d2dfa259e0273bd7e3:0.043595022,4c2f5cabfb7bf33767f131617bc50ac0:0.094866167)0.912:0.037461307)0.391:0.017438762,((025379523cff48868fcc2e6ca2fb5eb6:0.144103019,(e4c0f2472a7b5bad745b14ff61c04240:0.013013807,(56bac34c379577acf8863ef20ae9eaa3:0.005723083,1b95eaa321397001133a348fadf619a0:5e-09)0.745:0.00546736)0.997:0.11703029)0.120:0.009014868,(c9e0d263f2d370ef60708d61e428df9e:0.015110518,85edef3f2e695649493298bd67996752:0.08074962)0.918:0.03831212)0.921:0.038604951)0.805:0.025581534,2f499055f36e72eba88ff51349b3a623:0.102985483)0.056:0.019411484)0.063:0.031418165)0.878:0.042244883)0.877:0.041919874)0.629:0.02317278,(18e00cf0201b25d8058e44ba7977ba33:0.102706182,(a6d8f2f95e55f961851dd2e242f232da:0.041036773,(fc88fe3973563e646e1644c29ad34ba3:0.053729732,5345987c161f591a67de3fc2adb850f1:0.047812635)0.770:0.024177961)0.991:0.117808453)0.869:0.046004976)0.660:0.012922544,((((((d075db7fc1072672f4e00cae440e7de3:0.002497711,e140d8a053199d4691112966b58eede8:0.002796931)0.906:0.022441143,(((679aff4727d19c56ac3f8e3a15a777d6:0.0,b6a1650f3ea4bfda4258aeafe485a609:0.0):5e-09,(0afc9afb580d2f1cf7f977476522eb83:5e-09,((fd55cd70d08eb2b19adeb416da641933:0.0,a80a3eed88590f97b4a54ebeef493d16:0.0):5e-09,(793911a5a5e1074e732622c4d1288bed:0.005183989,ea9683a184d42263b92d3cfd37b5eb6c:0.005183988)0.953:5e-09)0.999:5e-09)0.830:5e-09)0.851:0.004973895,(0ed2c8fe835702a0c6ddb0f592140a94:5e-09,2b83917a4c3621b36669173cc95048fe:0.015860608)0.000:5e-09)0.819:0.009820415)0.910:0.045028434,(8dff1e8bfe93216c9e25fc50f58a98d4:0.03672425,(((04e62730117ff8e77eeb659adad16572:5e-09,(68c04dc1fc06d873aa3444ab5029e542:5e-09,(495afb26c03d989a23f3bc2ebe8675cb:0.009416252,(a47296a8724f9d053ca97d2ef9893e7a:5e-09,((7e8763583a2190aaec2cd3d9054ffa14:0.0,444bc58de93f18ae1726c2a09ffe957a:0.0):5e-09,(26af5b24cb4e5271cb00767233adf04b:5e-09,858749ae4272424e239c3975378a30dc:5e-09)0.412:5e-09)0.475:5e-09)0.000:5e-09)0.978:0.024928039)0.000:5e-09)0.606:6e-09,302c31c758b1799c64a9f48e4aff5676:5e-09)0.757:0.006888709,(3930df310417914e984fdc84ba257320:0.031217393,cfccdd7b7b9355d0b4fe74360d0b0b96:0.089149179)0.908:0.024192423)0.926:0.029486028)0.870:0.033764196)0.767:0.045949636,(72772cc7a0253216d7fbb78ebd014042:0.035858067,6c5d784c76119eb56ec58a697d9cebdc:0.069124351)0.999:0.165032836)0.605:0.042828065,578b416e922d47fe6018fa90739f1c9f:0.155563961)0.173:0.039832396,4bf31e9a3b757976c779ea06668b43a9:0.150119257)0.705:0.034361144)0.934:0.053509579,((((c8f876a63a69c243a4068743a82462ba:0.083479565,((5dcedcdd4d3b4546758d2265efdd73a5:0.0,ab34b69d69309b16fe9e1d5980b95c94:0.0):0.042940426,932f8e8dbfe91169176fd6be276809f4:0.096771764)0.450:0.016932638)0.758:0.029706023,(ea8af049be47c6505e6a17f7067ccc82:0.007350404,9ce94a396cf24083a60fa311870c2f43:0.022863129)0.905:0.038214521)0.997:0.109016326,((((((278332b442c65811455e8b53456b156f:0.028323378,2c2438582b532343f4c390b2bc45318f:0.013588684)0.591:0.015023028,(1dbc23918c9e0170d4ea71c160f70349:0.014995862,(ab6302e104ed8521b4fd7f97ed8150a0:0.075185539,(32cd7faea2fe8187a92d70c6cf8e6580:0.011801598,0acbac44fe9555ac984218fd63ca56e5:0.013204169)0.898:0.029557728)0.670:0.030183246)0.786:0.042614346)0.997:0.109090107,(44b745c1ba58bd3ce44a8bbd3ed1d7a0:0.044026867,((a789c6c94095fd2281205cad50472c5e:0.005459704,dac5f5d3bdf54caab63dc3cafe53dc28:0.005590084)0.946:0.068174832,(2aff8262102e19354ff80035667c57b6:0.096853991,(2410f1cf80a69b988db99f600f46af74:0.272546142,13f759c1ee3c786dfca72f6d6086f545:0.005572566)0.734:0.017041036)0.857:0.031062525)0.993:0.106299117)0.960:0.082201799)0.555:0.008079505,(70d888392bbfc2a8f98a5611d3132cc1:0.003155775,f3d63a12595006e39c2205f71af59253:0.009302621)1.000:0.207804868)0.764:0.031259621,(((5d30b5d469d74fb8e64fdf86ee934acb:0.088676508,(1e17f8929897d5dc5327ff2efe77e170:0.025248548,((745894fae556e82c52d004c65f051fdc:0.0,8fa0877b79da06fb4ada55d4e9cf2509:0.0):0.043020822,(8c3132c76b6e7cc6e812635e6780ad13:0.017650698,(f4974c758ce40168eaeb7a56ed03ea96:0.023974096,5b95cddf4d744d8080b340109787716a:0.081865724)0.556:0.000996077)0.797:0.011274204)0.901:0.029383396)0.936:0.054953783)0.931:0.072869974,(b74eb5eeefc3d1895fe094ab16e0f855:0.176730012,f03976de17d3e689f5d9e252735a2df7:0.174210321)0.644:0.050297495)0.796:0.028634734,(45d419ba3f83a634e496e185e649e739:0.10077764,(((56b2a8108d8a2865cdcdaeeaab334d8b:0.0,6ed7c3a500004c5b9e7e797514ef99b4:0.0):5e-09,(c6d2381dfa1af35b4240a772a12d1ef4:5e-09,3ab0560d6c7adf680e1f09fa8f57cbbd:5e-09)0.409:5e-09)0.999:0.255519452,(13606a29e70909a7724021695991d211:0.006559753,0c869a2b777381121ecb340e236c80ab:5e-09)0.719:0.03852142)0.747:0.038022199)0.962:0.081873061)0.021:0.029038222)0.620:0.003271983,(53ac2243323515b6aaf5db2107b70ab3:0.129439329,(7783261bede33c512d0193e357c78449:0.110848052,b813aefbc1c354b3ee51bf30b9a6dc9a:0.089027737)0.997:0.144068619)0.000:5e-09)0.924:0.034077335)0.691:0.008380696,(((1db69c170e9ed4a0c6bc081698256cb3:0.089092246,(26a89e7d55d5f9a26ec173ec531b3d38:0.006114912,f9b8a91b1e31b80fae520b895937015c:0.54620818)0.372:0.146646977)0.900:0.064869919,(b651c75b1bca16f21bf3ae3317213ea0:0.190398931,(c156cd5f3f44b330ba4cab51fcac0437:0.00465033,ecb56f6fc41da39740a3cf43b4994aa9:0.024775717)0.990:0.157508022)0.757:0.038945057)0.901:0.072857338,(1d4f161af105960a9f745d36d30e187f:0.19653622,(3e86964997b96afebe6d3d27cb2f7679:0.14147248,(0b2bdaf1a4eb79b991db430309bfe660:0.112782302,4ac2106bc5ca5b31f69e8e11dc568067:0.098903482)0.924:0.071603491)0.172:0.026868623)0.940:0.078648445)0.361:0.007286242)0.925:0.050153477)0.477:0.032052652,(((e4af93bae215f30ed4a52e3fbe6ade24:0.040108348,(0cd429857549e84b9f851db9e647b7f2:0.033344706,(1bc64d269c635851fa0be630e7ef467b:0.026358255,34528f38427f2d06bc8e8bd986b870fb:0.012538628)0.553:0.042946976)0.926:0.067567241)0.999:0.17628723,(6949a47ff58dc69035433185ecb70962:0.096957823,79105c55284f5bc5ec694a27afc0a3c0:0.107523467)0.887:0.057319845)0.000:5e-09,(09409158cd6aac3ad7e80245c711ce7f:0.138971853,ed6a0cfa62c3dee77f254a4c0d9f8ba1:0.214166633)0.637:0.003802524)0.615:0.004217559)0.890:0.052797762,451e9c16a0da7f4bcb6913ec4dd4754e:0.142410195)0.623:0.007873945,(bd2a5725ad340ea52ff1e20e570d1eb6:0.217105185,((f5153b4410bf53320d93129bd36d7b84:0.043485618,366cfcc1b57c0c4cd99756a3aa162f85:0.179990092)0.562:0.0338576,(((23c846ae302ab61d0fff87a2d106bbbb:0.00614731,2333711988202c9742cbadea8aaf415b:5e-09)0.868:0.039525536,((027353a3fc24af352363c9ebbfdf3821:0.0,53696c39a01f44b642e4d4da103cf367:0.0):0.050172918,(5f487db6f99908c59bfa8ee57402804b:0.012260746,(d3ef4cad99238b6529ed108faa30e884:0.005816188,9724b6dbd8e1e7123d306b774a72965e:5e-09)0.966:0.0406694)0.988:0.089421097)0.996:0.141155962)0.740:0.019075798,((efddd1cd271a148898a73883b6547def:5e-09,375d69489239f73093bb3a30981e4f38:5e-09)0.565:6e-09,(f27659da668f7ff3b8a29a4b034a84c6:0.006687347,dda6808d8febc15eb5291ee4beb5ee68:5e-09)0.998:0.116346716)0.546:0.013071785)0.865:0.055992265)0.750:0.020253922)0.804:0.042132471)0.934:0.055420741,(((8054d5be232d53fdb36d33eeb0a0e94c:0.044392011,(74713aa3f8068826c67d929aee224c3f:6e-09,a45c71f7fe6eacefc5d71286eff2a6b0:5e-09)0.792:0.021324032)0.915:0.105195527,(0712cbd5b664eee22bb7ef52ef40bc63:0.040236921,43fecddddee438f867a950d2cee2e781:0.178438182)0.944:0.117606829)0.961:0.132926212,((a586216a9c91432180f0f41324c8db78:0.06090288,(8d21d53e0e4f7a3a0ef7a0b8d22f57ba:0.0323034,36eb21108be922d375a2c13412649f05:0.045441468)0.996:0.125274636)0.422:0.033215632,((d4f32ee481e7f8c5b8603a3fe15687d3:0.003089038,5656c3a7e2272e9f7135455e06652fa1:0.003302267)0.999:0.297323963,(8e999dfaa2d3a5ca72225a86f9a1d03d:0.136803551,(40a28c45a593768979d2a8db4f0f1aee:5e-09,(ea761779d3f49c061cb74d272504fc02:5e-09,b8b267436056ac32d021c8fb4ddff6c3:0.006164689)0.967:0.012422036)0.935:0.060978184)0.816:0.054162491)0.873:0.086388409)0.893:0.067950194)0.989:0.145449765)0.856:0.040238645,(4f7cdbc4e3fe103d4ee117f6268aae72:0.298725148,(df01a4ad92545971ac5bb97a765ad847:0.138608282,(0b8802216743ad73c18391c26c74bbaa:0.21097141,289f9d3d030ca548ee9e11f78c8b8593:0.115637025)0.876:0.127604512)0.323:0.026603052)0.905:0.189742788)0.703:0.018827342)0.912:0.060360598,(((((739e1192193f1b94a060ab24f4f5e88b:0.083369827,4a477acfc9b71b08c68dd8b7d8aaee10:0.138564202)0.934:0.121119288,(1994959295cc272a3652ed7b009607d1:0.136977019,d3c73a7f893706b6a84cf01b6a418dcd:0.17201268)0.578:0.065450765)0.075:0.046843533,((dd26a1fd4eecdc5a678d80e7c5ced141:0.323693325,(647b5590d479a7a4909d5d25474ae81b:0.107514301,(5b6cff1427ae29a44b8e510d02a72313:0.007743132,68682130142c7c6b1ff986663ab48085:6e-09)0.994:0.4694393)0.961:0.281316344)0.857:0.177726546,(515ff8a69938f7ee9bbda65f928a002e:0.017281095,fbb4ac443aad47475bc1aa4976da53cc:0.025648057)0.465:0.061106923)0.369:0.11096973)0.992:0.220052415,(((83846971acd94b48684a817d6de72aa7:0.327507056,(c9ebe268ac4548f1256af7ca480262de:5e-09,(5a10667ccef4e063363777c8a58157cd:5e-09,(fa15f1fa8fd12bb263fe5dc652a32af8:0.080959832,aef13d908c208f104c21920a439e5487:0.005558477)1.000:0.243472767)1.000:0.590823123)0.830:0.107528894)0.974:0.244990437,((2328b1d5f1d294bc195ab570f118166a:0.062954165,aaaab903549d7c1489ad6d8d419dcafe:0.051999694)0.956:0.142645411,(0760f9fd5a06ec429af656422f978ef3:0.170504208,(674125cc7f1a6b89518a8b1482d54579:0.017704503,755500a5a1269a9a2135766707e8fa46:5e-09)0.896:0.094936035)0.947:0.115215909)0.688:0.050037832)0.936:0.159388628,((394a2baea6f324feab46e78ea160e82b:5e-09,(1ce3d9cccbe773c4f5b49dd3f7bec52b:0.009418457,(6869a94f2655fa8d5db8321e55d93a4d:5e-09,1b9e8fd12d37e454a6201e7edf4513c4:0.004672676)0.755:0.004675873)0.843:0.004687435)0.978:0.101365047,((261256e4eb40fda56093dcbe568e9312:0.004240332,(5bf0d616e4fb6b434cbf90e4cb222660:5e-09,c9d3f4dec459dd5a67b11974ed80e03a:0.004235549)0.724:5e-09)1.000:0.203235664,c506c5ee861f57bf74b4c46e9d06f93a:0.152641173)0.312:0.022887247)0.962:0.120682444)0.579:0.013954199)0.867:0.052876308,((((93fda50c4423fe0c44f1cce90f70246a:5e-09,(((42daee4ad1a23a1b1250404f2975086d:0.0,54bc2f364ac05af67bd959f715d059bd:0.0):0.015748771,((354e1ff4d49bfd1a08139a79bc05237f:0.00773233,73e48079e6e4cddcd1c2dc92e9710d3f:0.031886682)0.846:0.015773443,((60bc647cf6341e8b33087f00ea0fe182:0.0,e07d073307b1c45c86590c78105382fc:0.0):5e-09,(51241f1f7cba421995ad6276f434b548:5e-09,((ad53dbe904886b09a27083186c18af63:0.0,a3a02bb54892684bcdf6df7aceefd33b:0.0):5e-09,54b47264e5ac686d7788886af018937c:0.007765208)0.913:0.015690667)0.921:0.023615649)0.764:5e-09)0.864:0.02387396)0.879:0.016100211,551b9fe379faa1e35b89882893dff4d7:0.066044217)0.794:0.007570787)0.999:0.420672341,((d7364677ef99c5eac7a603529c1d2312:0.09080873,dd245db4b893e5f59237cacb41b05938:0.027634178)0.917:0.180183382,64f989fa9dfcbac16359a3059b11f3b1:0.349959571)0.388:0.076560511)0.000:5e-09,(bb5259b7329d5a6dc9bd2c7cb3e03bfb:0.156278095,e32a705db831dcc63ccc47aa28974b39:0.195317853)0.970:0.204666264)0.865:0.109398048,(((bffda11e1c91964d75def6887179cad6:0.405156579,0811e0a6cefb498eb2acfd8754e8f51d:0.5623579)0.666:0.098382658,06ab88b9623010d28c41fbc860b07f31:0.207122416)0.765:0.107195001,((c763331430095d32aab353993285ca1c:0.06834252,(a54b14ca07479d11aecf4a31e0b4bba0:0.088399551,(8f892a694323cde43e547907c419a4c5:0.011383722,777c5fd03447c8aa2e92b5d43c3c370f:5e-09)0.759:0.013572525)0.920:0.090654846)0.915:0.186227862,(317903709c77cb9da7ce91d29fe7c9b6:0.066396986,857a4bfdd8544271472595602292d423:0.088254734)0.957:0.223073045)0.890:0.154208842)0.911:0.148690248)0.443:0.043155989)0.806:0.042050863)0.843:0.048953089,((474f2a5bf5e8c991e89a7f3e8f7ac40e:0.045199609,((d460dc15037720b0c4219e2df8d62373:0.030364077,8c2eb7a20a90b90da6019dfdb5766d31:0.076157928)0.999:0.350574844,(9a62790ac4d91ed414fb3d7df0b962ce:5e-09,71bddc7a68f69cfdf1a8d91ab98618d9:5e-09)0.949:0.178690369)0.110:0.057668819)0.901:0.048799772,((((3ead51f4fcafd0c8151172560cd146fb:0.013801766,d418e21799d6470ded95dff21d45ce57:0.007264751)1.000:0.215017242,(5a8377e4624b9cd13cc4efd477b0f31d:0.119438902,0a1a09914c25b05d56cdacdae860d619:0.025572108)0.881:0.039382984)0.233:0.004563798,(((f5055d861b19773cccec355849c4d393:0.0,0e3cf2de990d209e877e3fe61aea6798:0.0):0.081847904,((fa1e447cd51e4acd334a95e0ecd689d3:0.007417302,((((0e2661615599d159ea034c0c49059c92:5e-09,(f0e5d5c84c61f0d71f65f98654d8b747:6e-09,81ba614bd89372d44a7dceeaddc61392:0.028418175)0.970:5e-09)0.831:0.005158682,((6b513546549799e145a7c69db860fd21:5e-09,((4b7e4354e7e2f73b479da8271af695e9:0.01695286,((9de1b9234d9a8475df5320e0c58e3158:5e-09,(((0fcdc017b88fb362b05aa7d887eefb27:0.022904353,((((61ec2fb689a5f3314e90d725693d86f9:5e-09,(86ddca3f2704cda809f7f6efa182d470:5e-09,(b9bdababd3566d794ed156be140fc53a:5e-09,4c6109868ad2c70fb0d01475f2a6adc1:0.005605748)0.999:5e-09)0.997:6e-09)0.894:0.01033362,((((3f0b5ea016d45a8a784b2f2dc0f14ed6:0.005614098,(e11b42a3e8c8dfca56d9f1b3fae24269:0.004804438,18942eb9d1be74d060e9a4f5ae5e8584:0.005613742)0.118:0.000394771)0.401:5e-09,(94f73bce22b41b769716b298eb502711:0.0,b1b6dec84a028250ba9f523aec7fdef2:0.0):5e-09)0.772:5e-09,accb0c7bc54dae4a388c6b2cc15d9f67:5e-09)0.908:5e-09,(5ae13c842c48d934a366923edee4f398:5e-09,f258b4e7fafc3f6d1e04722086ca13c5:0.015675926)0.748:5e-09)0.457:0.005048257)0.896:0.012720817,440e46c7685176e24cda5a9762ce708f:5e-09)0.875:0.006260584,314ed076552d84b5a8aef43c4850c23b:5e-09)0.747:0.006366866)0.938:0.025625185,(2f7a764853a89c7379f3b0752cadf401:0.058898142,7177be29574721a32e9f331941cf736e:0.014114888)0.895:0.021271621)0.754:0.006810302,0879f0f8f97e4d3ef378f43a6d602b21:0.005567078)0.444:5e-09)0.843:5e-09,2dc1f0a9ab1681310f8e8deadef0ee7a:5e-09)0.774:0.005679202)0.796:0.005679519,cc635925d6c3039aa47bfd44599aeb76:0.011201695)0.487:5e-09)0.192:5e-09,1318312f896dfe76aaf2459354bb0109:0.005567086)0.446:5e-09)0.781:0.005588983,3ee2ed5a056fee123857c284fbb1eec0:0.058899533)0.759:0.008465829,((d1e58b0d2c49c1ac8e593333f42dd8e5:5e-09,f9c8a322b7266f3fe70de06801baf454:0.005620708)0.000:5e-09,(7256ff6634994fc0d8a91718124fd03a:5e-09,((f3b51723ccf558750946370f467a23ee:5e-09,(be7ff73012a42de3d224c2576d5407c3:0.005668647,28376b0fee76991e9cb43d9f2752ddfa:5e-09)0.738:5e-09)0.737:5e-09,0cc305482ccb8242828b4ffc8e85b378:6e-09)0.999:5e-09)0.838:0.005194176)0.937:0.018785942)0.726:0.012777564)0.780:0.007295682,(44a2d45130021ad0e1658a5746dbd9d3:5e-09,8b2b7ddc0e1d089274651e56b84f9774:5e-09)0.832:0.007143341)0.707:0.005991607)0.550:0.012642877,((59d53662acff7ace2fc7a0618147baea:0.060992117,6f68d30a43fdf8a6966c476f5aaac838:0.05250701)0.825:0.023856551,4488ce5aaa5f7b4cbbdf32b69803bfc8:0.031164032)0.912:0.027670947)0.692:0.025282597)0.892:0.036198259,((375ff54448a45caf9af8d67324207459:0.036474067,e875051293acffef10ac77f0e2655355:0.00999564)0.979:0.086786338,((69597797aa104bb24f2c6a896f9b37ad:0.045302471,e7a34f4a1ae143b4f758fe5d7779a346:0.085571577)0.841:0.023290824,((3bc653c79666c441af8de7098b76c852:0.075022083,((c14996370921bc5634b5a8298fd243fb:0.005622521,((0fbd886d3912682f180431a6b00fa231:0.0,8b936934b49c400a6dc73213c6fab185:0.0):5e-09,(9c533659b944d523aa31653e97ab7496:0.011319917,c6539e0f07c4fc30388f498640405ad8:0.005595582)0.557:5e-09)0.785:0.005560472)0.835:0.019165519,(73419e15aeeb0b75a6c4f3ff41982c9c:0.005415004,(21f8ec1ecd15c50f4da339f8e9ed92e2:5e-09,147f0ce0bbda2ebf54ee6862666d4411:5e-09)0.771:0.005725892)0.992:0.067887742)0.832:0.024149182)0.520:0.016544327,5a1718471faf67a7e8962dbb743b5d70:0.077953088)0.786:0.020615275)0.976:0.068972046)0.843:0.041208802)0.757:0.016974465)0.890:0.049581344)0.758:0.023016434)0.816:0.073144422)0.083:0.032087809)0.228:0.017290043,((dd913a42ae277a8bff2e5180369be447:0.258705753,((7ab23aae3f72cc35a71e79aac5385fe6:0.0,2e013be0c1bb6ff5e2a9755b46e27fe2:0.0):5e-09,df20525ba1e6828a814750546b6c0b04:0.006691064)0.989:0.303395541)0.088:0.085022639,((a879755662a9b5926704a8437876b0c2:0.267980394,aea5bdaf4a13458f55e6d0b00089f633:0.206076137)0.990:0.284601233,(66ea4b7fa594d3f87e6d4f4472bf1441:0.01805299,be431c21b1bafb9e368397deec01e536:0.018701928)0.989:0.235260111)0.000:5e-09)0.924:0.126163713)0.000:0.000627237)0.000:0.02598583,((39b9dfd961f1c464afefa50067cf2dfd:5e-09,4d2fc45fa7ba585299fcaab5a878661c:0.006804992)1.000:0.36995989,((((9e1b9c0cc6251aa18ff0fb95ac6f43e5:0.02054853,(((266282f09b17cf2cd605562f111fc5e6:5e-09,6ff0d7c0acba4574be9cc97698aeaf10:0.006727483)0.245:5e-09,(de2b99b173b882f240afede4605649d8:5e-09,(975a7794a804c22955cda342bc772743:0.00676767,(102f47548cc0304772e754a758b0781f:0.0,5996e90dcf96d63b146eeb359796c1ce:0.0):0.006762689)0.805:0.006764089)0.266:0.006731197)0.869:0.006743249,cd38ef2bc248dffb1c6bd16bf27a8fdf:5e-09)0.821:0.006781486)0.757:5e-09,(((((5943800cbe687b69e1e996859f181361:0.0,e2198a76c594b34666709e02b8cb0729:0.0):0.006874987,b396e715b7173b4c57066bdd23f6c35c:0.006873245)0.898:0.014008034,(a71050094aed7ff389adbb43a18ab39b:5e-09,74af91a2cfbb456bfd870ee685396d41:0.013719464)0.763:0.006873886)0.780:0.006873353,(c18888309789848d27e5cc47bb46ef04:0.006811998,((f5bbb1922442f9e34702524394bfb63a:0.006820334,(f9af91dc7ebbf1613cc79bafdc714562:0.0,60dfa73a277cbecf62003da84a164835:0.0):5e-09)0.860:0.006820329,((4cb22fd3e16a1a4d2e7e1b26b2808b25:0.0,6985db5f14c54aecc9c2603b8a62978f:0.0,5b0cca5120ceb7b31c59f26c780db531:0.0):5e-09,(c32a8bf56447851df692685add5bb975:0.00682747,468d95cefe896c77f9bb9647e35abae6:0.013733776)0.906:5e-09)0.892:5e-09)0.833:0.006820779)0.785:5e-09)0.866:0.013895934,(4371e911f9108427bd6fd3ee6bb6cecd:0.019373125,d02410e5273240a2048cfd8a1fe04a3c:0.002316194)0.916:0.02717074)0.384:0.013693128)0.831:0.006708726,(57b5ac4e1572a0cc6d6def66c24ce39f:5e-09,3b3e1c200e9f655db87f4d425dea71ca:5e-09)0.000:5e-09)0.844:0.027754199,((((ab8da8249a25b4a9378c5efba22d12d3:5e-09,((2c8e54cb1ca05d05ca0c83cec53d496a:0.006873114,4c8e9122a684793202704787d872b4d7:5e-09)0.881:5e-09,(5613a168610460b951dc9c56dc3c8de5:0.006850444,(6f0970a7221eba6064970a5d7ded3c12:5e-09,(14781de46373f417a7f3e13de1398071:0.006873114,25c8943db104e6dbfd9d4f2383c5f0fc:0.006860594)0.898:5e-09)0.280:6e-09)0.889:0.006738233)0.926:0.006750407)0.904:0.013647362,(02d8a4f3db74fe834d69c3a7c827e3bb:0.021061906,((d6ac47f9d4e55de69eed08d8b00804a8:5e-09,(30032aab6348caa21d747da8dc981945:0.006791054,(1b3a4ea2d7574d581334458c56b4593b:5e-09,bf1c7fca9e4130346c380736adfa16cd:0.006780099)0.778:0.006795023)0.899:0.013686321)0.914:0.017310766,((020562c75fff2275804525e6525350fb:5e-09,eee381a955b02997e2e6380d8383326e:0.006895503)0.945:5e-09,(24a789e2d978b1146830c80e5ce300f1:5e-09,(7fcccd2e96d4e336665c0fb53e96b87d:0.006502349,(9e1485f21a4a56686b5e42ecec26c77d:5e-09,5008f828d0e183e54cb9a91a02c8f72a:0.034381515)0.948:0.02100999)0.990:0.042812294)0.859:0.006777792)0.774:0.006770626)0.758:0.008384135)0.772:0.008241354)0.771:0.007166937,((fb7c3b9ed58c1a35f84af3e0a894c4ca:0.103855034,(278b184d5a4a75b1154d6e26a8c69ead:0.007579986,(57495c28191f2c75b9d8a3e5d8ea6695:0.049489621,78f83e71ba5f019f55899513c348302f:0.029340455)0.178:0.006791683)0.854:0.030385589)0.865:0.041006536,((08ee964b8035c610f0a5aec66163f678:0.140262148,30434d50002ff2d61cfd40c8f273e9f0:0.143680884)0.710:0.06583442,(da33b61344a59d39c1be02dfefd079db:0.049946842,21d4c76b4dce7cd3f8d2e2d148c66551:5e-09)0.817:0.040000999)0.752:0.047889135)0.848:0.020519633)0.824:0.01818788,(((718198714e4cb69da857c64a2e5896e6:5e-09,2a521258a6bfbe0dcfcd41aa601da7aa:0.006810506)0.962:0.07221158,((02c3e75bbf1b5f725ad883f5e649165d:0.006862949,(d0f70364684b8d32bc0f35b2ff778cbc:6e-09,(27bc20c291c5200b76f418914f139547:5e-09,(addc7a99f0783a428da2ba25999d50a0:5e-09,4d7acdd9c1455ee601d3ba444ec89543:0.014703632)0.000:5e-09)0.928:0.007160616)0.000:5e-09)0.803:0.048998379,2c47fa5053f0f0582c2061298924a420:0.119247375)0.348:0.024204744)0.322:0.015625563,(((4b6dbc4c10eed88c11ea9ca48034d904:0.006902801,8bb019f4782931f3426763538195f776:5e-09)0.770:0.006923014,(c64ff06b147ac9acb33b758c64cb3ecd:5e-09,(66e65beefa17ad8fb040e1c27f621bc4:5e-09,((87594370dd75f238a9bc293b20cef2d0:5e-09,de411c91a85fef367608b8615d99605a:0.006881366)0.839:0.006886281,25a2bfa8ec4457da6151de76c603cfc8:0.006895504)0.921:5e-09)0.891:5e-09)0.781:0.006914246)0.927:0.027029918,(73b6568a46413816c8ea1555a2479b96:5e-09,((((((2f14b2d978440b608a7b4ce5907bf9e5:5e-09,(5186b645d23e35a5f234281381418054:5e-09,4aa54f90c9aa0a5806ac42a73b83f352:0.006858303)0.920:0.00687081)0.863:0.013840841,c9a76443a01d206dac1ac01b88d4b8d9:0.155588711)0.760:5e-09,0a26c15d4939bc2603cea28086fd7c54:5e-09)0.939:0.01282519,(7a07fa3c6c4498a326428d9500114bc4:6e-09,4a4e80badbe4ee5c1895fee34979b993:0.006858302)1.000:5e-09)0.897:0.006408144,((((69d0c8c354271df8518621485eae2532:5e-09,b236027a5f8fabf498d3f36b70f588af:0.006863586)0.841:0.006870814,9a3513f507b0d96463447617007e7c7d:0.006880703)0.937:5e-09,2d8ed50ced0e0ca18bfb972aa8884bd7:6e-09)0.974:5e-09,((((cc92471abc443635eb91c0ca0e936d17:0.006857197,253682ec52754614c415ff1b42355440:0.006857197)0.463:5e-09,(453674086726e67b6247b25fbadcfd5c:5e-09,7e4eab788e0e225a4a3e2e624ccb6e08:0.006849996)0.859:0.006849995)0.960:6e-09,(6e15a64cfc6a0e45abc0b85d3616963b:0.006844736,(9b14f202d1f2746b2dea17e7d313cab0:0.0,dd03c7d7945a258577627002c64029f0:0.0):5e-09)0.000:5e-09)0.000:5e-09,28316fe4ee0626ac6013573e9bf79296:0.006857197)0.906:5e-09)1.000:5e-09)0.884:0.006420082,((((e32cade14e88471aa7af6306869bccb4:5e-09,1a4aa06d8cfb1a2183fdb0ffd30c59fc:0.00683604)0.786:6e-09,913c77c663c0b838e130d5565d671324:5e-09)0.864:0.00676652,(ff075b2f7f9f2fffc7e98c26c74ec32c:6e-09,5d632b69fd5246b648a0e93e8f902e37:0.00684958)0.983:5e-09)0.845:0.006741145,(((d4ec483decf20d69bb38e6e3a1fa2b4e:5e-09,(f6c29c3c6b80dd9da3ab9ac8a46e7aff:5e-09,dcb606b72d6a69b46addb6572443625c:0.013760051)0.830:0.006863586)0.854:0.006863582,(5017d731179d6f4ed32ec49e60924ba7:0.006870812,((1320d353760592cc0b6f4f21ab98dcea:5e-09,2d296293b27401594903e6a597990e71:0.006854447)0.850:0.006858304,(3df59209f53806345f2de3adc4164ca4:5e-09,((27f34c1e48c106a265daaa39b5bc7696:0.006863585,10cac8d3e1dc2f695bdcd0f7e7c89ab8:0.006858304)0.883:5e-09,(9a47942ce75275e3b946d8a1ff3cad40:0.006870813,(ad8ae9451b0cbaaec1492779a57cc8b8:5e-09,a803d266eb5645855f07ac3af5b0a319:0.006863585)0.862:0.006870813)0.928:5e-09)0.000:5e-09)0.914:5e-09)0.843:0.006870812)0.479:5e-09)0.949:6e-09,((6be0821aec3387fcf546f5ba3c2ee59d:0.006863585,(fc48ba642d9f7415b279b691bd031e4d:5e-09,1a87f349b0e5cd66fef4a603f64af991:5e-09)0.973:0.020797194)0.903:5e-09,(180caaa0187c00ab52f5cd11143cc5be:5e-09,(500d196bf0688d6fb060e52883d6bf34:0.006863587,(645aaec83efbed068d8f87aa71ce26f0:0.006870814,(((42d82f46a2091f9e4764a769446256e8:0.006863587,((b9e2dd53a53c217a0a545406f7a729cd:0.0,e47209070cf89ca40bf5cef7d9b43187:0.0):5e-09,(aeede6c2c33cf0f4e98f0049a69d0af9:0.013827074,(a95738064bb04ce1a0e165fffc9de653:0.006873246,029632b6d282a13390efe553e4d2dd8a:0.013837861)0.210:0.006879831)0.921:5e-09)0.896:5e-09)0.840:0.006870812,83695dc587785de539a98b9e96b86ac9:5e-09)0.112:0.006863585,b3791a2092ed8cd65a950aa0e89bd020:5e-09)0.852:0.006870814)0.476:5e-09)0.944:5e-09)0.000:6e-09)0.000:6e-09)0.977:5e-09)1.000:5e-09)0.779:0.006401372)0.981:0.054159146)0.776:0.013187199)0.800:0.013063221)0.748:0.012069632)0.913:0.065252838)0.841:0.045481519)0.287:0.023002795)0.712:0.039372412)0.754:0.022493655)0.919:0.068790708)0.653:0.021164597):0.008761965999999587)root;
